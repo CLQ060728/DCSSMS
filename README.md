@@ -24,7 +24,7 @@ To train the DCSSMS embedding network, follow the steps as shown below:
    - "--use_momentum", specify whether to use the Stop-gradient mechanism for the "Target" network.
    - "\[> _"specify your own log file path"_ 2>&1 &\]", specify whether to run the script in background, redirect stdout, stderr to log file, e.g., "> ./training512_10_3_true.log 2>&1 &".
 
-# DCSSMS Linear Evaluation
+# DCSSMS Linear Evaluation Training
 To fine-tune the DCSSMS embedding network according to the linear evaluation protocol, follow the steps as shown below:
 1. clone the DCSSMS GitHub repository, (if you have already cloned it, directly go to next step).
 1. in CLI, change current path to **"DCSSMS/"**, (if you have already done it, directly go to next step).
@@ -32,15 +32,21 @@ To fine-tune the DCSSMS embedding network according to the linear evaluation pro
 1. use the following python script to start fine-tuning:<br/>
    python ./Framework/LinearEvaluation.py --gpu_id \[0\] --data_dir "./DATA/Linear_Evaluation/" --embedding_dir ./Embedding/best_model_8192_10_3_True.pth --init_lr \[0.03\] --weight_decay \[1e-4\] --batch_size \[128\] --num_layers \[3\] --out_sizes \[256 512 1024\] --output_dir \[_"specify your own directory"_\] \[> _"specify your own log file path"_ 2>&1 &\]
    - "--gpu_id", specify the gpu id.
-   - "--data_dir", specify the directory of the embedding training dataset.
+   - "--data_dir", specify the directory of the fine-tuning dataset.
    - "--embedding_dir", specify the directory to store the best pre-trained embedding model.
-   - "--init_lr", specify the initial learning rate for the OneCycle learning rate scheduler.
-   - "--weight_decay", specify the weight decay value to regulate the fine-tuning network.
+   - "--init_lr", specify the constant learning rate for the fine-tuning.
+   - "--weight_decay", specify the constant weight decay value to regulate the fine-tuning network.
    - "--batch_size", specify the batch size for the DCSSMS fine-tuning.
    - "--num_layers", specify the number of layers for the Over-complete encoder network (here using this option to keep consistent with the pre-trained embedding model).
    - "--out_sizes", specify the sizes of the hidden layers for the Over-complete encoder network, e.g., 256 512 1024 for 3 layers, 256 512 1024 2048 for 4 layers Over-complete encoder network, etc. (here using this option to keep consistent with the pre-trained embedding model)
    - "--output_dir", specify the output directory for the best fine-tuned model.
    - "\[> _"specify your own log file path"_ 2>&1 &\]", specify whether to run the script in background, redirect stdout, stderr to log file, e.g., "> ./training512_10_3_true.log 2>&1 &".
-   
-
-
+1. to test fine-tuned linear evaluation model, use the following python script:<br/>
+   python ./Framework/LinearClassifier.py --gpu_id \[0\] --data_dir "./DATA/Linear_Evaluation/" --linear_model_dir ./Embedding/best_model_8192_10_3_True.pth --batch_size \[128\] --num_layers \[3\] --out_sizes \[256 512 1024\] \[> _"specify your own log file path"_ 2>&1 &\]
+   - "--gpu_id", specify the gpu id.
+   - "--data_dir", specify the directory of the test dataset.
+   - "--linear_model_dir", specify the directory to store the best fine-tuned models.
+   - "--batch_size", specify the batch size to test the fine-tuned model.
+   - "--num_layers", specify the number of layers for the Over-complete encoder network (here using this option to keep consistent with the pre-trained embedding model).
+   - "--out_sizes", specify the sizes of the hidden layers for the Over-complete encoder network, e.g., 256 512 1024 for 3 layers, 256 512 1024 2048 for 4 layers Over-complete encoder network, etc. (here using this option to keep consistent with the pre-trained embedding model)
+   - "\[> _"specify your own log file path"_ 2>&1 &\]", specify whether to run the script in background, redirect stdout, stderr to log file, e.g., "> ./training512_10_3_true.log 2>&1 &".
