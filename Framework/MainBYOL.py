@@ -10,7 +10,7 @@ def get_args_parser():
     parser.add_argument('--gpu_id', default="0", type=str, help="""Define GPU id.""")
     parser.add_argument('--data_dir', default="", type=str, help="""Path to dataset.""")
     parser.add_argument('--suffix', default="10", type=str, help="""Specify training data set suffix""")
-    parser.add_argument('--add_neg_set', default=False, type=bool, help="""Specify whether to add negtive samples (out of top # samples)""")
+    # parser.add_argument('--add_neg_set', default=False, type=bool, help="""Specify whether to add negtive samples (out of top # samples)""")
     parser.add_argument('--batch_size', default=256, type=int, help="""Training mini-batch size.""")
     parser.add_argument('--init_lr', default=1e-7, type=float, help="""Initial learning rate.""")
     parser.add_argument('--max_lr', default=0.05, type=float, help="""Max learning rate in OneCycle.""")
@@ -27,7 +27,7 @@ def get_args_parser():
 
 
 def prepare_data_loader(args):
-    dataset_train = DataSet_Uns(args.data_dir, args.suffix, args.add_neg_set)
+    dataset_train = DataSet_Uns(args.data_dir, args.suffix)
     train_loader = DataLoader(dataset_train, batch_size=args.batch_size, shuffle=True, num_workers=0, pin_memory=True)
     
     return train_loader
@@ -36,8 +36,7 @@ def prepare_data_loader(args):
 def prepare_training_objects(args, device, total_num_train_steps):
     in_feature_size = 181
     out_sizes = T.tensor(args.out_sizes).to(device)
-    cmdhmsbyol_net = CMDHMSBYOL(in_feature_size, args.num_layers, out_sizes, projection_size=512, projection_hidden_size1 = 4096,
-                                projection_hidden_size2 = 4096, predictor_hidden_size1 = 4096, predictor_hidden_size2 = 4096,
+    cmdhmsbyol_net = CMDHMSBYOL(in_feature_size, args.num_layers, out_sizes, projection_size=512,
                                 moving_average_decay = args.tau, use_momentum = args.use_momentum).to(device)
     cmdhmsbyol_net.to_device(device)
     optimizer = T.optim.AdamW(cmdhmsbyol_net.online_net.parameters(), lr=args.init_lr, weight_decay=args.weight_decay)
@@ -50,7 +49,7 @@ def prepare_training_objects(args, device, total_num_train_steps):
 def run_epoch(args, train_loader, cmdhmsbyol_net, optimizer, byol_loss, pi, total_num_train_steps, device):
     m_Loss = 0.0
     Loss = 0.0
-    for i, data in enumerate(train_loader, 0):
+    for i, data in enumerate(train_loader):
         X1 = data[:, 0, :]
         X2 = data[:, 1, :]
         X1 = X1.to(device, non_blocking=True, dtype=T.float32)
@@ -90,7 +89,7 @@ def train(args):
     neck = "OVER_SAMPLING"
     if args.out_sizes[-1] == 512:
         neck = "NECK"
-    output_full_path = args.output_dir + f"best_model_{args.batch_size}_{neck}_{args.suffix}_{args.num_layers}_{args.add_neg_set}.pth"
+    output_full_path = args.output_dir + f"best_model_{args.batch_size}_{neck}_{args.suffix}_{args.num_layers}.pth"
     print(f"total_num_train_steps: {total_num_train_steps}")
     print(f"momentum: {args.use_momentum}")
     cmdhmsbyol_net, optimizer, byol_loss, scheduler = prepare_training_objects(args, device, total_num_train_steps)

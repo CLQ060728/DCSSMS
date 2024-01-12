@@ -1,5 +1,3 @@
-import numpy as np
-
 from config import *
 import Classification_Pipeline as CP
 
@@ -149,20 +147,20 @@ class DataSetPreparation:
 
 
 class DataSet_Uns(Dataset):
-    def __init__(self, ds_path, suffix,  add_neg_set=False):
+    def __init__(self, ds_path, suffix):
         assert ds_path is not None and ds_path != "", "Please specify data set path"
         super(DataSet_Uns, self).__init__()
         
         pair_set_file_name = f"pair_set_limit{suffix}.pt"
         pair_set_path = os.path.join(ds_path, pair_set_file_name)
 
-        if add_neg_set:
-            neg_set_file_name = f"minority_negtive_limit{suffix}.pt"
-        else:
-            neg_set_file_name = f"minority_only_limit{suffix}.pt"
-        neg_set_path = os.path.join(ds_path, neg_set_file_name)
+        # if add_neg_set:
+        #     neg_set_file_name = f"minority_negtive_limit{suffix}.pt"
+        # else:
+        #     neg_set_file_name = f"minority_only_limit{suffix}.pt"
+        # neg_set_path = os.path.join(ds_path, neg_set_file_name)
         self.pair_set = T.load(pair_set_path)
-        self.neg_set = T.load(neg_set_path)
+        # self.neg_set = T.load(neg_set_path)
         
     
     def __len__(self):
@@ -190,10 +188,10 @@ class DataSet_S:
         self.test_set = T.load(test_path)
         self.clscodes = None
         self.classes = None
-        with open(clscodes_path, 'r') as clscodesjson:
+        with open(clscodes_path) as clscodesjson:
             self.clscodes = json.load(clscodesjson)
             self.clscodes = T.tensor(self.clscodes)
-        with open(classes_path, 'r') as classesjson:
+        with open(classes_path) as classesjson:
             self.classes = json.load(classesjson)
         
         self.val_set = None
