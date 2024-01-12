@@ -8,6 +8,7 @@ The structure of the directories:
 
 # DCSSMS embedding training
 To train the DCSSMS embedding network, use the following python script:
+
 python ./Framework/MainBYOL.py --gpu_id 0 --data_dir "./DATA/Self-supervised_Training/" --init_lr \[0.030280\] --max_lr \[1.287572\] --suffix \[10\] --batch_size \[512\] --num_layers \[3\] --out_sizes \[256 512 1024\] --output_dir ./ --use_momentum \[True/False\] \[> ./training512_10_3_true.log 2>&1 &\]
 - "--gpu_id", specify the gpu id; 
 - "--data_dir", specify the directory of the embedding training dataset;
