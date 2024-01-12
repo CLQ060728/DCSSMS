@@ -5,9 +5,9 @@ The structure of the directories:
 
 - **_"./DATA/"_**, all the dataset files for self-supervised training and linear evaluation training.
 	
-	+. **_"./DATA/Linear_Evaluation/\*.\*"_**, dataset files for linear evaluation fine-tuning.
+	- **_"./DATA/Linear_Evaluation/\*.\*"_**, dataset files for linear evaluation fine-tuning.
 		
-	+. **_"./DATA/Self-supervised_Training/\*.\*"_**, dataset files for DCSSMS embedding training.
+	- **_"./DATA/Self-supervised_Training/\*.\*"_**, dataset files for DCSSMS embedding training.
 		
 - **_"./Framework/"_**, all the code files for the DCSSMS framework training and fine-tuning.
 
