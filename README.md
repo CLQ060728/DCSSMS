@@ -5,7 +5,7 @@ The structure of the directories:
 	- **"./DATA/Linear_Evaluation/\*.\*"**, dataset files for linear evaluation fine-tuning.
 	- **"./DATA/Self-supervised_Training/\*.\*"**, dataset files for DCSSMS embedding training.
 - **"./Framework/"**, all the code files for the DCSSMS framework training and fine-tuning.
-- **"./Embedding/"**, the best pre-trained DCSSMS embedding.
+- **"./Embedding/"**, the best pre-trained DCSSMS embedding file.
 
 # DCSSMS Embedding Training
 To train the DCSSMS embedding network, follow the steps as shown below:
