@@ -39,7 +39,6 @@ To fine-tune the DCSSMS embedding network according to the linear evaluation pro
    - "--num_layers", specify the number of layers for the Over-complete encoder network (here using this option to keep consistent with the pre-trained embedding model).
    - "--out_sizes", specify the sizes of the hidden layers for the Over-complete encoder network, e.g., 256 512 1024 for 3 layers, 256 512 1024 2048 for 4 layers Over-complete encoder network, etc. (here using this option to keep consistent with the pre-trained embedding model)
    - "--output_dir", specify the output directory for the best fine-tuned model.
-   - "--use_momentum", specify whether to use the Stop-gradient mechanism for the "Target" network.
    - "\[> _"specify your own log file path"_ 2>&1 &\]", specify whether to run the script in background, redirect stdout, stderr to log file, e.g., "> ./training512_10_3_true.log 2>&1 &".
    
 
