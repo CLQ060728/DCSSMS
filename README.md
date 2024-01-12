@@ -5,6 +5,7 @@ The structure of the directories:
 	- **"./DATA/Linear_Evaluation/\*.\*"**, dataset files for linear evaluation fine-tuning.
 	- **"./DATA/Self-supervised_Training/\*.\*"**, dataset files for DCSSMS embedding training.
 - **"./Framework/"**, all the code files for the DCSSMS framework training and fine-tuning.
+- **"./Embedding/"**, the best pre-trained DCSSMS embedding.
 
 # DCSSMS Embedding Training
 To train the DCSSMS embedding network, follow the steps as shown below:
@@ -29,7 +30,7 @@ To fine-tune the DCSSMS embedding network according to the linear evaluation pro
 1. in CLI, change current path to **"DCSSMS/"**, (if you have already done it, directly go to next step).
 1. download the pretrained DCSSMS embedding model and put it into the **"./Embedding/"** folder.
 1. use the following python script to start fine-tuning:<br/>
-   python ./Framework/LinearEvaluation.py --gpu_id \[0\] --data_dir "./DATA/Linear_Evaluation/" --embedding_dir ./Embedding/best_model_8192_10_3_True.pth --init_lr \[0.003\] --weight_decay \[1e-4\] --batch_size \[128\] --num_layers \[3\] --out_sizes \[256 512 1024\] --output_dir \[_"specify your own directory"_\] \[> _"specify your own log file path"_ 2>&1 &\]
+   python ./Framework/LinearEvaluation.py --gpu_id \[0\] --data_dir "./DATA/Linear_Evaluation/" --embedding_dir ./Embedding/best_model_8192_10_3_True.pth --init_lr \[0.03\] --weight_decay \[1e-4\] --batch_size \[128\] --num_layers \[3\] --out_sizes \[256 512 1024\] --output_dir \[_"specify your own directory"_\] \[> _"specify your own log file path"_ 2>&1 &\]
    - "--gpu_id", specify the gpu id.
    - "--data_dir", specify the directory of the embedding training dataset.
    - "--embedding_dir", specify the directory to store the best pre-trained embedding model.

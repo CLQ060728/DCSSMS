@@ -319,5 +319,5 @@ def save_best_model(args, output_file_name, epoch, linear_evaluator, optimizer):
 if __name__ == '__main__':
     parser_main = argparse.ArgumentParser('LinearEvaluatorMain', parents=[get_args_parser()])
     args_main = parser_main.parse_args()
-    # train_in_batch(args_main)
-    test(args_main)
+    train_in_batch(args_main)
+    # test(args_main)
