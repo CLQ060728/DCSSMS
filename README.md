@@ -3,13 +3,13 @@ The official repository for a deep contrastive self-supervised Missing Data Hand
 
 The structure of the directories:
 
-	+ ** ./DATA/ **, all the dataset files for self-supervised training and linear evaluation training.
+- **./DATA/**, all the dataset files for self-supervised training and linear evaluation training.
 	
-		1. ** ./DATA/Linear_Evaluation/\*.\* **, dataset files for linear evaluation fine-tuning.
+	1. **./DATA/Linear_Evaluation/\*.\***, dataset files for linear evaluation fine-tuning.
 		
-		2. ** ./DATA/Self-supervised_Training/\*.\* **, dataset files for DCSSMS embedding training.
+	1. **./DATA/Self-supervised_Training/\*.\***, dataset files for DCSSMS embedding training.
 		
-	+ **./Framework/ **, all the code files for the DCSSMS framework training and fine-tuning.
+- **./Framework/ **, all the code files for the DCSSMS framework training and fine-tuning.
 
 # DCSSMS embedding training
 To train the DCSSMS embedding network, use the following python script:
