@@ -12,7 +12,7 @@ def get_args_parser():
     parser.add_argument('--data_dir', default="", type=str, help="""Path to dataset.""")
     parser.add_argument('--embedding_dir', default="", type=str, help="""Path to pretrained embeddings.""")
     parser.add_argument('--linear_model_dir', default="", type=str, help="""Path to pretrained linear model.""")
-    parser.add_argument('--embedding_type', default="", type=str, help="""Embedding Type ('BYOL' or 'SIMCLR').""")
+    parser.add_argument('--embedding_type', default="BYOL", type=str, help="""Embedding Type (currently 'BYOL' only).""")
     parser.add_argument('--balanced_train_set', default=False, type=bool, help="""whether to use balanced training set or not...""")
     parser.add_argument('--suffix', default="10", type=str, help="""Specify training data set suffix""")
     parser.add_argument('--threshold', default=10, type=int, help="""Specify test data set NO. of MDH method occurrances""")
