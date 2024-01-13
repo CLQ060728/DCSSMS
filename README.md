@@ -9,7 +9,7 @@ The structure of the directories:
 - **"./ExpResults/"**, more experimental results
     - **"./ExpResults/Linear_Evaluation_Ablation/\*.\*"**, details about all the linear evaluation experiments, including ablation studies.
 	- **"./ExpResults/MDHMS/\*.\*"**, details about all the MDH method selection experiments.
-	### - **"./ExpResults/MDHMS/MSD^raw"**, we make our self-supervised training dataset, i.e., MSD^raw, publicly accessible. This dataset can also provide insights to select the $442$ investigated MDH methods under different MDH circumstances.
+	- **"./ExpResults/MDHMS/MSD^raw", we make our self-supervised training dataset, i.e., MSD^raw, publicly accessible. This dataset can also provide insights to select the $442$ investigated MDH methods under different MDH circumstances.**
 
 # DCSSMS Embedding Training
 To train the DCSSMS embedding network, follow the steps as shown below:
