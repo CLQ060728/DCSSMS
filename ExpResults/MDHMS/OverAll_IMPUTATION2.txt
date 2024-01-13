@@ -1,0 +1,405 @@
+Missing Rate: 0.1
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: MICE-Me_PMM - Count: 17/17
+        MDH Method: FKMI-K_3&Fuzzifier_1.75 - Count: 3/3
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: MICE-Me_RF - Count: 10/10
+        MDH Method: MICE-Me_CART - Count: 24/24
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 18/18
+        MDH Method: FKMI-K_9&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 14/14
+        MDH Method: FIII- - Count: 3/3
+        MDH Method: CMeMI- - Count: 4/4
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: MICE-Me_CART - Count: 27/27
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 3/3
+        MDH Method: FKMI-K_6&Fuzzifier_1.75 - Count: 3/3
+        MDH Method: MICE-Me_PMM - Count: 12/12
+        MDH Method: MICE-Me_RF - Count: 11/11
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 16/16
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 20/20
+        MDH Method: CMeMI- - Count: 3/3
+        MDH Method: FIII- - Count: 4/4
+        MDH Method: CTMMI- - Count: 3/3
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: sKNNII-K_3&DIS_HVDM - Count: 4/4
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 22/22
+        MDH Method: MICE-Me_PMM - Count: 13/13
+        MDH Method: MICE-Me_RF - Count: 7/7
+        MDH Method: MICE-Me_CART - Count: 23/23
+        MDH Method: FKMI-K_12&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 17/17
+        MDH Method: CTMMI- - Count: 3/3
+        MDH Method: CMMI- - Count: 3/3
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: MICE-Me_PMM - Count: 11/11
+        MDH Method: ANNI- - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 9/9
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 10/10
+        MDH Method: FKMI-K_5&Fuzzifier_1.75 - Count: 3/3
+        MDH Method: CMeMI- - Count: 5/5
+        MDH Method: CMMI- - Count: 3/3
+        MDH Method: CTMMI- - Count: 4/4
+        MDH Method: MICE-Me_CART - Count: 7/7
+        MDH Method: MICE-Me_RF - Count: 3/3
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 23/23
+        MDH Method: ANNI- - Count: 2/2
+        MDH Method: MICE-Me_PMM - Count: 8/8
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 19/19
+        MDH Method: MICE-Me_RF - Count: 7/7
+        MDH Method: MICE-Me_CART - Count: 15/15
+        MDH Method: sWKNNII-K_13&DIS_HVDM - Count: 1/1
+        MDH Method: FKMI-K_3&Fuzzifier_2.0 - Count: 1/1
+        MDH Method: CMeMI- - Count: 2/2
+        MDH Method: FKMI-K_17&Fuzzifier_2.0 - Count: 2/2
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 18/18
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 17/17
+        MDH Method: MICE-Me_RF - Count: 7/7
+        MDH Method: MICE-Me_CART - Count: 11/11
+        MDH Method: MICE-Me_PMM - Count: 9/9
+        MDH Method: FKMI-K_7&Fuzzifier_2.0 - Count: 2/2
+        MDH Method: FKMI-K_6&Fuzzifier_1.75 - Count: 2/2
+        MDH Method: FKMI-K_10&Fuzzifier_2.0 - Count: 1/1
+        MDH Method: CMeMI- - Count: 3/3
+        MDH Method: ICMeMI- - Count: 2/2
+Missing Rate: 0.2
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 19/19
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: sWKNNII-K_1&DIS_HVDM - Count: 3/3
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 5/5
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 16/16
+        MDH Method: MICE-Me_PMM - Count: 9/9
+        MDH Method: MICE-Me_RF - Count: 9/9
+        MDH Method: MICE-Me_CART - Count: 23/23
+        MDH Method: FIII- - Count: 4/4
+        MDH Method: CTMMI- - Count: 4/4
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: FKMI-K_3&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: FKMI-K_8&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_2&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: FKMI-K_7&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 13/13
+        MDH Method: MICE-Me_PMM - Count: 8/8
+        MDH Method: MICE-Me_RF - Count: 12/12
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13/13
+        MDH Method: MICE-Me_CART - Count: 21/21
+        MDH Method: FKMI-K_11&Fuzzifier_2.0 - Count: 4/4
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_3&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 20/20
+        MDH Method: MICE-Me_PMM - Count: 14/14
+        MDH Method: MICE-Me_CART - Count: 21/21
+        MDH Method: MICE-Me_RF - Count: 9/9
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13/13
+        MDH Method: FIII- - Count: 6/6
+        MDH Method: CMeMI- - Count: 4/4
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: sKNNII-K_9&DIS_HVDM - Count: 1/1
+        MDH Method: MICE-Me_PMM - Count: 4/4
+        MDH Method: MICE-Me_RF - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 2/2
+        MDH Method: FKMI-K_11&Fuzzifier_2.0 - Count: 2/2
+        MDH Method: FKMI-K_9&Fuzzifier_1.75 - Count: 1/1
+        MDH Method: MICE-Me_CART - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 3/3
+        MDH Method: CTMMI- - Count: 2/2
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 1/1
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: WKNNII-K_3&DIS_HVDM - Count: 2/2
+        MDH Method: sWKNNII-K_3&DIS_HVDM - Count: 2/2
+        MDH Method: FKMI-K_5&Fuzzifier_1.5 - Count: 1/1
+        MDH Method: sWKNNII-K_9&DIS_HVDM - Count: 1/1
+        MDH Method: MICE-Me_CART - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 1/1
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 1/1
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 2/2
+        MDH Method: FIII- - Count: 3/3
+        MDH Method: MICE-Me_RF - Count: 1/1
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: WKNNII-K_3&DIS_HVDM - Count: 1/1
+        MDH Method: sKNNII-K_3&DIS_HVDM - Count: 1/1
+        MDH Method: FKMI-K_10&Fuzzifier_1.75 - Count: 3/3
+        MDH Method: FKMI-K_10&Fuzzifier_2.0 - Count: 2/2
+        MDH Method: MICE-Me_CART - Count: 4/4
+        MDH Method: MICE-Me_PMM - Count: 3/3
+        MDH Method: FIII- - Count: 3/3
+        MDH Method: FKMI-K_14&Fuzzifier_2.0 - Count: 2/2
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 2/2
+        MDH Method: FKMI-K_15&Fuzzifier_1.75 - Count: 1/1
+Missing Rate: 0.3
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: FKMI-K_2&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: FKMI-K_13&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: FKMI-K_16&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: MICE-Me_PMM - Count: 7/7
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 14/14
+        MDH Method: MICE-Me_CART - Count: 19/19
+        MDH Method: MICE-Me_RF - Count: 9/9
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 8/8
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 3/3
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: sKNNII-K_3&DIS_HVDM - Count: 4/4
+        MDH Method: FKMI-K_17&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 17/17
+        MDH Method: MICE-Me_PMM - Count: 8/8
+        MDH Method: MICE-Me_CART - Count: 21/21
+        MDH Method: MICE-Me_RF - Count: 7/7
+        MDH Method: FKMI-K_2&Fuzzifier_1.75 - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 12/12
+        MDH Method: FIII- - Count: 3/3
+        MDH Method: CMeMI- - Count: 3/3
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: WKNNII-K_1&DIS_HVDM - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 15/15
+        MDH Method: MICE-Me_PMM - Count: 7/7
+        MDH Method: MICE-Me_CART - Count: 20/20
+        MDH Method: MICE-Me_RF - Count: 9/9
+        MDH Method: MeMI- - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 12/12
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: CMeMI- - Count: 3/3
+        MDH Method: CMMI- - Count: 3/3
+Missing Rate: 0.4
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_8&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 7/7
+        MDH Method: MICE-Me_PMM - Count: 8/8
+        MDH Method: MICE-Me_CART - Count: 15/15
+        MDH Method: MICE-Me_RF - Count: 10/10
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 8/8
+        MDH Method: FKMI-K_3&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: IMeMI- - Count: 6/6
+        MDH Method: MeMI- - Count: 5/5
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: FKMI-K_4&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_5&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_4&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 11/11
+        MDH Method: MICE-Me_PMM - Count: 8/8
+        MDH Method: MICE-Me_CART - Count: 16/16
+        MDH Method: MICE-Me_RF - Count: 9/9
+        MDH Method: IMeMI- - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 8/8
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: sKNNII-K_8&DIS_HVDM - Count: 3/3
+        MDH Method: FKMI-K_16&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: MICE-Me_CART - Count: 15/15
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 9/9
+        MDH Method: MICE-Me_PMM - Count: 7/7
+        MDH Method: MICE-Me_RF - Count: 10/10
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 11/11
+        MDH Method: FKMI-K_7&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: IMeMI- - Count: 4/4
+        MDH Method: CMeMI- - Count: 4/4
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: sWKNNI-K_1&DIS_HVDM - Count: 1/1
+        MDH Method: FKMI-K_19&Fuzzifier_1.5 - Count: 1/1
+        MDH Method: FKMI-K_2&Fuzzifier_2.0 - Count: 1/1
+        MDH Method: FKMI-K_2&Fuzzifier_1.5 - Count: 1/1
+        MDH Method: sKNNII-K_6&DIS_HEOM - Count: 1/1
+        MDH Method: KMI-K_6&Fuzzifier_1.0 - Count: 2/2
+        MDH Method: FKMI-K_6&Fuzzifier_1.75 - Count: 2/2
+        MDH Method: FKMI-K_6&Fuzzifier_1.5 - Count: 2/2
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 2/2
+        MDH Method: sKNNII-K_8&DIS_HVDM - Count: 1/1
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: FKMI-K_10&Fuzzifier_2.0 - Count: 2/2
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: FKMI-K_18&Fuzzifier_1.25 - Count: 1/1
+        MDH Method: sKNNII-K_2&DIS_HVDM - Count: 1/1
+        MDH Method: FKMI-K_2&Fuzzifier_1.25 - Count: 1/1
+        MDH Method: FKMI-K_2&Fuzzifier_1.5 - Count: 2/2
+        MDH Method: FKMI-K_1&Fuzzifier_1.5 - Count: 1/1
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 1/1
+        MDH Method: sWKNNII-K_2&DIS_HEOM - Count: 1/1
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 1/1
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: FKMI-K_5&Fuzzifier_2.0 - Count: 1/1
+        MDH Method: FKMI-K_5&Fuzzifier_1.75 - Count: 2/2
+        MDH Method: FKMI-K_4&Fuzzifier_1.75 - Count: 1/1
+        MDH Method: sKNNII-K_4&DIS_HEOM - Count: 1/1
+        MDH Method: FKMI-K_4&Fuzzifier_1.5 - Count: 1/1
+        MDH Method: FKMI-K_2&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: FKMI-K_2&Fuzzifier_1.75 - Count: 5/5
+        MDH Method: sWKNNII-K_2&DIS_HVDM - Count: 2/2
+        MDH Method: sKNNII-K_2&DIS_HVDM - Count: 2/2
+        MDH Method: KMI-K_1&Fuzzifier_1.0 - Count: 1/1
+Missing Rate: 0.5
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: FKMI-K_3&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: FKMI-K_7&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: FKMI-K_10&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: MICE-Me_CART - Count: 13/13
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 12/12
+        MDH Method: MICE-Me_PMM - Count: 5/5
+        MDH Method: MICE-Me_RF - Count: 8/8
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 6/6
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 4/4
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: FKMI-K_2&Fuzzifier_1.75 - Count: 5/5
+        MDH Method: FKMI-K_9&Fuzzifier_1.75 - Count: 5/5
+        MDH Method: FKMI-K_9&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 11/11
+        MDH Method: MICE-Me_PMM - Count: 5/5
+        MDH Method: MICE-Me_CART - Count: 11/11
+        MDH Method: MICE-Me_RF - Count: 9/9
+        MDH Method: FKMI-K_6&Fuzzifier_1.75 - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 7/7
+        MDH Method: CMeMI- - Count: 3/3
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: FKMI-K_7&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 10/10
+        MDH Method: MICE-Me_PMM - Count: 6/6
+        MDH Method: MICE-Me_RF - Count: 7/7
+        MDH Method: MICE-Me_CART - Count: 10/10
+        MDH Method: IMeMI- - Count: 4/4
+        MDH Method: CMMI- - Count: 3/3
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 7/7
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 3/3
+Missing Rate: 0.6
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: FKMI-K_2&Fuzzifier_2.0 - Count: 6/6
+        MDH Method: FKMI-K_5&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 11/11
+        MDH Method: MICE-Me_PMM - Count: 6/6
+        MDH Method: MICE-Me_CART - Count: 10/10
+        MDH Method: FKMI-K_13&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: IMeMI- - Count: 7/7
+        MDH Method: MeMI- - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 5/5
+        MDH Method: CMeMI- - Count: 4/4
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 6/6
+        MDH Method: FKMI-K_14&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_10&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: FKMI-K_4&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: MICE-Me_PMM - Count: 8/8
+        MDH Method: MICE-Me_CART - Count: 8/8
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 8/8
+        MDH Method: FKMI-K_3&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: IMeMI- - Count: 6/6
+        MDH Method: MeMI- - Count: 4/4
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 7/7
+        MDH Method: MICE-Me_PMM - Count: 6/6
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 8/8
+        MDH Method: MICE-Me_RF - Count: 6/6
+        MDH Method: MICE-Me_CART - Count: 5/5
+        MDH Method: IMeMI- - Count: 6/6
+        MDH Method: MeMI- - Count: 6/6
+        MDH Method: ANNI- - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 6/6
+        MDH Method: CMeMI- - Count: 4/4
+Missing Rate: 0.7
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: FKMI-K_4&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: MICE-Me_PMM - Count: 5/5
+        MDH Method: MICE-Me_CART - Count: 5/5
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 6/6
+        MDH Method: IMeMI- - Count: 10/10
+        MDH Method: MeMI- - Count: 8/8
+        MDH Method: ANNI- - Count: 4/4
+        MDH Method: CMeMI- - Count: 4/4
+        MDH Method: CTMMI- - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 4/4
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: sWKNNII-K_1&DIS_HEOM - Count: 4/4
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: MICE-Me_PMM - Count: 6/6
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 6/6
+        MDH Method: IMeMI- - Count: 7/7
+        MDH Method: MeMI- - Count: 5/5
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 5/5
+        MDH Method: FKMI-K_11&Fuzzifier_2.0 - Count: 4/4
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 7/7
+        MDH Method: FKMI-K_12&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_5&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_7&Fuzzifier_1.75 - Count: 5/5
+        MDH Method: MICE-Me_PMM - Count: 5/5
+        MDH Method: MICE-Me_RF - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 7/7
+        MDH Method: IMeMI- - Count: 7/7
+        MDH Method: FKMI-K_6&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: CTMMI- - Count: 5/5
+Missing Rate: 0.8
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: sKNNII-K_1&DIS_HVDM - Count: 5/5
+        MDH Method: FKMI-K_3&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: IMeMI- - Count: 9/9
+        MDH Method: MeMI- - Count: 7/7
+        MDH Method: ANNI- - Count: 4/4
+        MDH Method: CMeMI- - Count: 6/6
+        MDH Method: ICMeMI- - Count: 4/4
+        MDH Method: CMMI- - Count: 3/3
+        MDH Method: FKMI-K_16&Fuzzifier_1.75 - Count: 3/3
+        MDH Method: CTMMI- - Count: 3/3
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: FKMI-K_11&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: FKMI-K_15&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: IMeMI- - Count: 7/7
+        MDH Method: MeMI- - Count: 6/6
+        MDH Method: ANNI- - Count: 6/6
+        MDH Method: CMMI- - Count: 5/5
+        MDH Method: FKMI-K_18&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 4/4
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: FKMI-K_12&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: FKMI-K_10&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: IMeMI- - Count: 10/10
+        MDH Method: MeMI- - Count: 8/8
+        MDH Method: ANNI- - Count: 7/7
+        MDH Method: CMMI- - Count: 4/4
+        MDH Method: CTMMI- - Count: 5/5
+        MDH Method: CMeMI- - Count: 5/5
+Missing Rate: 0.9
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: FKMI-K_4&Fuzzifier_1.75 - Count: 6/6
+        MDH Method: FKMI-K_5&Fuzzifier_2.0 - Count: 6/6
+        MDH Method: FKMI-K_9&Fuzzifier_2.0 - Count: 6/6
+        MDH Method: IMeMI- - Count: 7/7
+        MDH Method: MeMI- - Count: 7/7
+        MDH Method: ANNI- - Count: 6/6
+        MDH Method: CMMI- - Count: 6/6
+        MDH Method: CTMMI- - Count: 5/5
+        MDH Method: CMeMI- - Count: 6/6
+        MDH Method: ICMeMI- - Count: 5/5
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: FKMI-K_5&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: FKMI-K_3&Fuzzifier_1.75 - Count: 5/5
+        MDH Method: FKMI-K_3&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 4/4
+        MDH Method: IMeMI- - Count: 9/9
+        MDH Method: MeMI- - Count: 7/7
+        MDH Method: ANNI- - Count: 5/5
+        MDH Method: CMeMI- - Count: 5/5
+        MDH Method: CMMI- - Count: 5/5
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 3/3
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: FKMI-K_4&Fuzzifier_2.0 - Count: 4/4
+        MDH Method: FKMI-K_7&Fuzzifier_2.0 - Count: 5/5
+        MDH Method: IMeMI- - Count: 7/7
+        MDH Method: MeMI- - Count: 5/5
+        MDH Method: CTMMI- - Count: 5/5
+        MDH Method: CMeMI- - Count: 6/6
+        MDH Method: CMMI- - Count: 5/5
+        MDH Method: ANNI- - Count: 5/5
+        MDH Method: FKMI-K_4&Fuzzifier_1.75 - Count: 4/4

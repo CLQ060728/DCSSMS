@@ -1,0 +1,153 @@
+Missing Rate: 0.1
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: CMeMI- - Count: 33/33
+        MDH Method: CMMI- - Count: 33/33
+        MDH Method: CTMMI- - Count: 33/33
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: CMeMI- - Count: 33/33
+        MDH Method: CMMI- - Count: 33/33
+        MDH Method: CTMMI- - Count: 33/33
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: CMeMI- - Count: 33/33
+        MDH Method: CMMI- - Count: 33/33
+        MDH Method: CTMMI- - Count: 33/33
+Missing Rate: 0.2
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: CMeMI- - Count: 13/13
+        MDH Method: CMMI- - Count: 13/13
+        MDH Method: CTMMI- - Count: 13/13
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: CMeMI- - Count: 13/13
+        MDH Method: CMMI- - Count: 13/13
+        MDH Method: CTMMI- - Count: 13/13
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: CMeMI- - Count: 13/13
+        MDH Method: CMMI- - Count: 13/13
+        MDH Method: CTMMI- - Count: 13/13
+Missing Rate: 0.3
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+Missing Rate: 0.4
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: CMeMI- - Count: 10/10
+        MDH Method: CMMI- - Count: 10/10
+        MDH Method: CTMMI- - Count: 10/10
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: CMeMI- - Count: 10/10
+        MDH Method: CMMI- - Count: 10/10
+        MDH Method: CTMMI- - Count: 10/10
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: CMeMI- - Count: 10/10
+        MDH Method: CMMI- - Count: 10/10
+        MDH Method: CTMMI- - Count: 10/10
+Missing Rate: 0.5
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+Missing Rate: 0.6
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+Missing Rate: 0.7
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+Missing Rate: 0.8
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+Missing Rate: 0.9
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 56/56
+        MDH Method: CMMI- - Count: 56/56
+        MDH Method: CTMMI- - Count: 56/56

@@ -1,0 +1,792 @@
+Missing Rate: 0.1
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'ICMeMI-': 1, 'FIII-': 2, 'MMI-': 3, 'MICE-Me_PMM': 19, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 51, 'MICE-Me_SAMPLE': 52}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MMI-', 'ICMeMI-', 'FIII-']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 51
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 51}
+            Range: [0.018203, 72.872108]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            Range: [0.021085, 12.64266]
+        MDH Method: MICE-Me_SAMPLE - Count: 52
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 52}
+            Range: [0.044826, 135.454518]
+        MDH Method: MICE-Me_PMM - Count: 19
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 19}
+            Range: [0.072622, 180.590276]
+        MDH Method: MMI- - Count: 3
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 3}
+            Range: [1.359052, 50.450595]
+        MDH Method: ICMeMI- - Count: 1
+            MDH Method: ICMeMI- - Metrics: {'TimeEfficiency': 1}
+            Range: [0.765439, 0.765439]
+        MDH Method: FIII- - Count: 2
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 2}
+            Range: [1.72434, 31.018883]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 1, 'TMMI-': 1, 'MMI-': 4, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 49, 'MICE-Me_SAMPLE': 52}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MMI-', 'FIII-', 'TMMI-']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 49
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 49}
+            Range: [0.019267, 134.057219]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            Range: [0.021643, 104.328714]
+        MDH Method: MICE-Me_SAMPLE - Count: 52
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 52}
+            Range: [0.045345, 156.297359]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            Range: [0.091122, 15.590147]
+        MDH Method: MMI- - Count: 4
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 4}
+            Range: [1.312328, 50.804476]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            Range: [31.342567, 31.342567]
+        MDH Method: TMMI- - Count: 1
+            MDH Method: TMMI- - Metrics: {'TimeEfficiency': 1}
+            Range: [66.97199, 66.97199]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'ICMeMI-': 1, 'FIII-': 1, 'MMI-': 4, 'MICE-Me_PMM': 16, 'MISSRANGER-SPLITRULE_T': 42, 'MICE-Me_SAMPLE': 51, 'MISSRANGER-SPLITRULE_F': 53}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MMI-', 'ICMeMI-', 'FIII-']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 42}
+            Range: [0.019089, 141.587917]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 53
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 53}
+            Range: [0.019147, 63.268327]
+        MDH Method: MICE-Me_SAMPLE - Count: 51
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 51}
+            Range: [0.043289, 134.475462]
+        MDH Method: MICE-Me_PMM - Count: 16
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 16}
+            Range: [0.15332, 13.829664]
+        MDH Method: MMI- - Count: 4
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 4}
+            Range: [1.28107, 51.072778]
+        MDH Method: ICMeMI- - Count: 1
+            MDH Method: ICMeMI- - Metrics: {'TimeEfficiency': 1}
+            Range: [0.750165, 0.750165]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            Range: [33.78723, 33.78723]
+
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'FIII-': 1, 'MMI-': 4, 'MICE-Me_PMM': 8, 'MICE-Me_SAMPLE': 25, 'MISSRANGER-SPLITRULE_T': 30, 'MISSRANGER-SPLITRULE_F': 31}
+    MDH Methods: (6) ['MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MMI-', 'FIII-']
+        MDH Method: MICE-Me_SAMPLE - Count: 25
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 25}
+            Range: [0.051527, 1.789265]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 31
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 31}
+            Range: [0.009325, 0.539055]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 30
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 30}
+            Range: [0.010068, 1.138138]
+        MDH Method: MICE-Me_PMM - Count: 8
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 8}
+            Range: [0.106147, 0.751495]
+        MDH Method: MMI- - Count: 4
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 4}
+            Range: [5.530664, 20.856073]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            Range: [7.919855, 7.919855]
+
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'ICMeMI-': 1, 'MeMI-': 1, 'FIII-': 1, 'MMI-': 6, 'MICE-Me_PMM': 12, 'MISSRANGER-SPLITRULE_T': 22, 'MICE-Me_SAMPLE': 26, 'MISSRANGER-SPLITRULE_F': 30}
+    MDH Methods: (8) ['MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MMI-', 'ICMeMI-', 'MeMI-', 'FIII-']
+        MDH Method: MICE-Me_SAMPLE - Count: 26
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 26}
+            Range: [0.111993, 9.530657]
+        MDH Method: MICE-Me_PMM - Count: 12
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 12}
+            Range: [0.200492, 13.824053]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 30
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 30}
+            Range: [0.09954, 58.393624]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 22
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 22}
+            Range: [0.10735, 20.737779]
+        MDH Method: MMI- - Count: 6
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 6}
+            Range: [0.7342, 100.078466]
+        MDH Method: ICMeMI- - Count: 1
+            MDH Method: ICMeMI- - Metrics: {'TimeEfficiency': 1}
+            Range: [0.484648, 0.484648]
+        MDH Method: MeMI- - Count: 1
+            MDH Method: MeMI- - Metrics: {'TimeEfficiency': 1}
+            Range: [20.527902, 20.527902]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            Range: [56.638333, 56.638333]
+
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'MMI-': 1, 'MICE-Me_PMM': 12, 'MISSRANGER-SPLITRULE_T': 24, 'MICE-Me_SAMPLE': 31, 'MISSRANGER-SPLITRULE_F': 31}
+    MDH Methods: (5) ['MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MMI-']
+        MDH Method: MICE-Me_SAMPLE - Count: 31
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 31}
+            Range: [0.083773, 8.732801]
+        MDH Method: MICE-Me_PMM - Count: 12
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 12}
+            Range: [0.209641, 4.371076]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 31
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 31}
+            Range: [0.055871, 9.175277]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 24
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 24}
+            Range: [0.057545, 10.004131]
+        MDH Method: MMI- - Count: 1
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 1}
+            Range: [13.060346, 13.060346]
+
+
+
+Missing Rate: 0.2
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MMI-': 1, 'FIII-': 2, 'MICE-Me_PMM': 24, 'MISSRANGER-SPLITRULE_T': 41, 'MISSRANGER-SPLITRULE_F': 47, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'FIII-', 'MMI-']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 41
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 41}
+            Range: [0.019765, 64.651979]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 47}
+            Range: [0.019648, 104.203012]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            Range: [0.045851, 125.264259]
+        MDH Method: MICE-Me_PMM - Count: 24
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 24}
+            Range: [0.066368, 166.882103]
+        MDH Method: FIII- - Count: 2
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 2}
+            Range: [1.474637, 58.715748]
+        MDH Method: MMI- - Count: 1
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 1}
+            Range: [2.843955, 2.843955]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MMI-': 1, 'FIII-': 3, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 44, 'MISSRANGER-SPLITRULE_F': 47, 'MICE-Me_SAMPLE': 52}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T', 'FIII-', 'MMI-']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 47}
+            Range: [0.018517, 105.376094]
+        MDH Method: MICE-Me_SAMPLE - Count: 52
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 52}
+            Range: [0.045441, 130.391621]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            Range: [0.087435, 173.06451]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 44
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 44}
+            Range: [0.019495, 64.083449]
+        MDH Method: FIII- - Count: 3
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 3}
+            Range: [2.108073, 57.157946]
+        MDH Method: MMI- - Count: 1
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 1}
+            Range: [79.734746, 79.734746]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 1, 'MMI-': 2, 'MICE-Me_PMM': 23, 'MISSRANGER-SPLITRULE_T': 38, 'MISSRANGER-SPLITRULE_F': 51, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MMI-', 'FIII-']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 38
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 38}
+            Range: [0.020534, 9.549351]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            Range: [0.04484, 125.574353]
+        MDH Method: MICE-Me_PMM - Count: 23
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 23}
+            Range: [0.076416, 170.980878]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 51
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 51}
+            Range: [0.017863, 142.961434]
+        MDH Method: MMI- - Count: 2
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 2}
+            Range: [2.796702, 78.595401]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            Range: [57.66166, 57.66166]
+
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 3, 'MICE-Me_SAMPLE': 11, 'MISSRANGER-SPLITRULE_T': 12, 'MISSRANGER-SPLITRULE_F': 13}
+    MDH Methods: (4) ['MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 13}
+            Range: [0.00791, 0.695207]
+        MDH Method: MICE-Me_SAMPLE - Count: 11
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 11}
+            Range: [0.032657, 0.896173]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 12
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 12}
+            Range: [0.008416, 0.786822]
+        MDH Method: MICE-Me_PMM - Count: 3
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 3}
+            Range: [0.148923, 0.185885]
+
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 5, 'MISSRANGER-SPLITRULE_T': 8, 'MICE-Me_SAMPLE': 13, 'MISSRANGER-SPLITRULE_F': 13}
+    MDH Methods: (4) ['MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T']
+        MDH Method: MICE-Me_SAMPLE - Count: 13
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 13}
+            Range: [0.070189, 3.043821]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 13}
+            Range: [0.089428, 2.855219]
+        MDH Method: MICE-Me_PMM - Count: 5
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 5}
+            Range: [0.121235, 0.548777]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 8
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 8}
+            Range: [0.073941, 5.516588]
+
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 4, 'MISSRANGER-SPLITRULE_T': 10, 'MICE-Me_SAMPLE': 12, 'MISSRANGER-SPLITRULE_F': 13}
+    MDH Methods: (4) ['MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_PMM']
+        MDH Method: MICE-Me_SAMPLE - Count: 12
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 12}
+            Range: [0.049204, 4.510705]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 10}
+            Range: [0.047649, 6.815106]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 13}
+            Range: [0.019196, 7.002429]
+        MDH Method: MICE-Me_PMM - Count: 4
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 4}
+            Range: [0.163927, 0.834302]
+
+
+
+Missing Rate: 0.3
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'FIII-': 2, 'MICE-Me_PMM': 19, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 52, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'FIII-', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 52
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 52}
+            Range: [0.018844, 159.741421]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            Range: [0.020506, 78.367219]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            Range: [0.044911, 114.682942]
+        MDH Method: MICE-Me_PMM - Count: 19
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 19}
+            Range: [0.156754, 151.268258]
+        MDH Method: FIII- - Count: 2
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 2}
+            Range: [3.621102, 83.025868]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [79.572265, 79.572265]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'FIII-': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 22, 'MISSRANGER-SPLITRULE_T': 39, 'MISSRANGER-SPLITRULE_F': 50, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MIDASpy-Variation_F', 'FIII-', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 39}
+            Range: [0.019538, 10.154504]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            Range: [0.045856, 123.744287]
+        MDH Method: MICE-Me_PMM - Count: 22
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 22}
+            Range: [0.093664, 163.768066]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 50
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 50}
+            Range: [0.018581, 198.92373]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [76.332419, 76.332419]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            Range: [79.816804, 79.816804]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [84.45603, 84.45603]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MICE-Me_PMM': 26, 'MISSRANGER-SPLITRULE_T': 36, 'MISSRANGER-SPLITRULE_F': 50, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (5) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 36
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 36}
+            Range: [0.019475, 61.003257]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 50
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 50}
+            Range: [0.017939, 100.105787]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.046183, 118.014675]
+        MDH Method: MICE-Me_PMM - Count: 26
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 26}
+            Range: [0.068082, 157.687963]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [78.580162, 78.580162]
+
+
+
+Missing Rate: 0.4
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_T': 1, 'MIDASpy-Variation_F': 1, 'MICE-Me_PMM': 23, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 48, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_T', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 48}
+            Range: [0.017989, 151.632124]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            Range: [0.019593, 90.807565]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.045454, 109.688594]
+        MDH Method: MICE-Me_PMM - Count: 23
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 23}
+            Range: [0.081625, 145.281335]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [88.206547, 88.206547]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [89.50365, 89.50365]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 27, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 46, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 46
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 46}
+            Range: [0.018724, 151.519967]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            Range: [0.019636, 89.495874]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            Range: [0.046071, 115.825589]
+        MDH Method: MICE-Me_PMM - Count: 27
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 27}
+            Range: [0.08582, 148.179414]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [76.535344, 76.535344]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [84.393013, 84.393013]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 26, 'MISSRANGER-SPLITRULE_T': 42, 'MISSRANGER-SPLITRULE_F': 44, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 44
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 44}
+            Range: [0.018744, 94.479681]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 42}
+            Range: [0.019822, 73.354472]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            Range: [0.045559, 107.720371]
+        MDH Method: MICE-Me_PMM - Count: 26
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 26}
+            Range: [0.078095, 141.217339]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [79.136468, 79.136468]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [83.816151, 83.816151]
+
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 2, 'MISSRANGER-SPLITRULE_T': 9, 'MICE-Me_SAMPLE': 9, 'MISSRANGER-SPLITRULE_F': 10}
+    MDH Methods: (4) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 9
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 9}
+            Range: [0.01097, 0.012605]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 10}
+            Range: [0.010081, 0.034487]
+        MDH Method: MICE-Me_SAMPLE - Count: 9
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 9}
+            Range: [0.02895, 0.042093]
+        MDH Method: MICE-Me_PMM - Count: 2
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 2}
+            Range: [0.041504, 0.05289]
+
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'MISSRANGER-SPLITRULE_T': 10, 'MISSRANGER-SPLITRULE_F': 10, 'MICE-Me_SAMPLE': 10}
+    MDH Methods: (3) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 10}
+            Range: [0.020021, 0.034427]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 10}
+            Range: [0.019102, 0.023448]
+        MDH Method: MICE-Me_SAMPLE - Count: 10
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 10}
+            Range: [0.046188, 0.060706]
+
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 2, 'MISSRANGER-SPLITRULE_T': 9, 'MISSRANGER-SPLITRULE_F': 9, 'MICE-Me_SAMPLE': 10}
+    MDH Methods: (4) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 9
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 9}
+            Range: [0.020581, 0.022821]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 9
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 9}
+            Range: [0.019137, 0.021801]
+        MDH Method: MICE-Me_SAMPLE - Count: 10
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 10}
+            Range: [0.045855, 0.060035]
+        MDH Method: MICE-Me_PMM - Count: 2
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 2}
+            Range: [0.062189, 0.065991]
+
+
+
+Missing Rate: 0.5
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 24, 'MISSRANGER-SPLITRULE_T': 39, 'MISSRANGER-SPLITRULE_F': 50, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 50
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 50}
+            Range: [0.019594, 175.415182]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 39}
+            Range: [0.019691, 85.419618]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            Range: [0.045723, 100.21924]
+        MDH Method: MICE-Me_PMM - Count: 24
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 24}
+            Range: [0.065226, 131.120555]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [80.828082, 80.828082]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [86.353972, 86.353972]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 22, 'MISSRANGER-SPLITRULE_T': 41, 'MISSRANGER-SPLITRULE_F': 48, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 41
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 41}
+            Range: [0.0207, 69.856045]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 48}
+            Range: [0.018837, 123.536456]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.04508, 101.772588]
+        MDH Method: MICE-Me_PMM - Count: 22
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 22}
+            Range: [0.070114, 127.096096]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [80.264608, 80.264608]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [84.601145, 84.601145]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_T': 1, 'MIDASpy-Variation_F': 1, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 39, 'MISSRANGER-SPLITRULE_F': 51, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_T', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 39}
+            Range: [0.019631, 85.643564]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 51
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 51}
+            Range: [0.018368, 177.049817]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.045597, 99.115464]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            Range: [0.216424, 127.244107]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [83.177247, 83.177247]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [84.758039, 84.758039]
+
+
+
+Missing Rate: 0.6
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 22, 'MISSRANGER-SPLITRULE_T': 42, 'MISSRANGER-SPLITRULE_F': 48, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 42}
+            Range: [0.019113, 94.322102]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 48}
+            Range: [0.017445, 160.06386]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            Range: [0.046555, 83.931885]
+        MDH Method: MICE-Me_PMM - Count: 22
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 22}
+            Range: [0.078743, 110.187662]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [76.447803, 76.447803]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [85.603631, 85.603631]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 29, 'MISSRANGER-SPLITRULE_T': 36, 'MISSRANGER-SPLITRULE_F': 47, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 36
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 36}
+            Range: [0.018935, 93.455242]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 47}
+            Range: [0.019858, 143.419339]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            Range: [0.045093, 94.697281]
+        MDH Method: MICE-Me_PMM - Count: 29
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 29}
+            Range: [0.072667, 113.687081]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [79.095463, 79.095463]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [83.9911, 83.9911]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 25, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 46, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            Range: [0.018518, 80.157918]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 46
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 46}
+            Range: [0.019542, 162.048725]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.045642, 88.811598]
+        MDH Method: MICE-Me_PMM - Count: 25
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 25}
+            Range: [0.159722, 113.746493]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [81.471357, 81.471357]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [82.086148, 82.086148]
+
+
+
+Missing Rate: 0.7
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 37, 'MISSRANGER-SPLITRULE_F': 53, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 53
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 53}
+            Range: [0.018882, 70.721199]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 37
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 37}
+            Range: [0.018672, 88.805506]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.045753, 73.350423]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            Range: [0.182403, 96.133371]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [75.485869, 75.485869]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [84.962412, 84.962412]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 24, 'MISSRANGER-SPLITRULE_T': 36, 'MISSRANGER-SPLITRULE_F': 52, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 36
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 36}
+            Range: [0.019093, 75.324325]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 52
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 52}
+            Range: [0.018246, 70.03649]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            Range: [0.045264, 74.354517]
+        MDH Method: MICE-Me_PMM - Count: 24
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 24}
+            Range: [0.068251, 95.409153]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [77.916843, 77.916843]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [83.452678, 83.452678]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 19, 'MISSRANGER-SPLITRULE_F': 44, 'MISSRANGER-SPLITRULE_T': 48, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 48}
+            Range: [0.018515, 103.500657]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 44
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 44}
+            Range: [0.018556, 99.056457]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.044586, 78.590663]
+        MDH Method: MICE-Me_PMM - Count: 19
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 19}
+            Range: [0.085026, 101.876463]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [79.382265, 79.382265]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [82.565261, 82.565261]
+
+
+
+Missing Rate: 0.8
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 23, 'MISSRANGER-SPLITRULE_T': 43, 'MISSRANGER-SPLITRULE_F': 46, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 46
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 46}
+            Range: [0.017503, 10.388591]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 43
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 43}
+            Range: [0.018258, 70.491163]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            Range: [0.044139, 58.413782]
+        MDH Method: MICE-Me_PMM - Count: 23
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 23}
+            Range: [0.079057, 8.377003]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [76.169953, 76.169953]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [86.011581, 86.011581]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 1, 'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 20, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 51, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'FIII-', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            Range: [0.018157, 12.531261]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 51
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 51}
+            Range: [0.017377, 123.203785]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            Range: [0.04492, 63.850557]
+        MDH Method: MICE-Me_PMM - Count: 20
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 20}
+            Range: [0.080233, 80.074705]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            Range: [7.238423, 7.238423]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [77.719209, 77.719209]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [84.957745, 84.957745]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 42, 'MISSRANGER-SPLITRULE_F': 48, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 48}
+            Range: [0.018158, 71.032734]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 42}
+            Range: [0.017738, 12.515944]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.044794, 55.142731]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            Range: [0.073438, 70.586972]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [83.491078, 83.491078]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [84.197088, 84.197088]
+
+
+
+Missing Rate: 0.9
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_CART': 4, 'MICE-Me_PMM': 30, 'MISSRANGER-SPLITRULE_T': 37, 'MISSRANGER-SPLITRULE_F': 42, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (5) ['MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_CART']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 37
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 37}
+            Range: [0.018325, 9.636962]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.043605, 43.533406]
+        MDH Method: MICE-Me_PMM - Count: 30
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 30}
+            Range: [0.068994, 12.618987]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 42}
+            Range: [0.018059, 8.492502]
+        MDH Method: MICE-Me_CART - Count: 4
+            MDH Method: MICE-Me_CART - Metrics: {'TimeEfficiency': 4}
+            Range: [0.327171, 24.978769]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MICE-Me_PMM': 20, 'MISSRANGER-SPLITRULE_F': 45, 'MISSRANGER-SPLITRULE_T': 47, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (5) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 47}
+            Range: [0.017651, 70.740374]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 45
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 45}
+            Range: [0.017333, 40.408184]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            Range: [0.030146, 50.644546]
+        MDH Method: MICE-Me_PMM - Count: 20
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 20}
+            Range: [0.066778, 63.384532]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            Range: [79.322726, 79.322726]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 1, 'MICE-Me_CART': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 44, 'MISSRANGER-SPLITRULE_F': 47, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'FIII-', 'MICE-Me_CART', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 44
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 44}
+            Range: [0.017552, 68.621474]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 47}
+            Range: [0.016324, 28.940267]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            Range: [0.030212, 45.364556]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            Range: [0.042024, 58.164507]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            Range: [8.272941, 8.272941]
+        MDH Method: MICE-Me_CART - Count: 1
+            MDH Method: MICE-Me_CART - Metrics: {'TimeEfficiency': 1}
+            Range: [3.521614, 3.521614]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            Range: [81.767617, 81.767617]
+
+
+

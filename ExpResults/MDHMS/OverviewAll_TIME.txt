@@ -1,0 +1,945 @@
+Missing Rate: 0.1
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'ICMeMI-': 1, 'FIII-': 2, 'MMI-': 3, 'MICE-Me_PMM': 19, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 51, 'MICE-Me_SAMPLE': 52}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MMI-', 'ICMeMI-', 'FIII-']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 51
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 51}
+            NRMSE_Median Range: []
+            Range: [0.018203, 0.650168, 72.872108]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            NRMSE_Median Range: []
+            Range: [0.021085, 0.720756, 12.64266]
+        MDH Method: MICE-Me_SAMPLE - Count: 52
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 52}
+            NRMSE_Median Range: []
+            Range: [0.044826, 0.391154, 135.454518]
+        MDH Method: MICE-Me_PMM - Count: 19
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 19}
+            NRMSE_Median Range: []
+            Range: [0.072622, 0.67674, 180.590276]
+        MDH Method: MMI- - Count: 3
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 3}
+            NRMSE_Median Range: []
+            Range: [1.359052, 1.374889, 50.450595]
+        MDH Method: ICMeMI- - Count: 1
+            MDH Method: ICMeMI- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [0.765439, 0.765439, 0.765439]
+        MDH Method: FIII- - Count: 2
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 2}
+            NRMSE_Median Range: []
+            Range: [1.72434, 16.371612, 31.018883]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 1, 'TMMI-': 1, 'MMI-': 4, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 49, 'MICE-Me_SAMPLE': 52}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MMI-', 'FIII-', 'TMMI-']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 49
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 49}
+            NRMSE_Median Range: []
+            Range: [0.019267, 0.665034, 134.057219]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            NRMSE_Median Range: []
+            Range: [0.021643, 0.587866, 104.328714]
+        MDH Method: MICE-Me_SAMPLE - Count: 52
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 52}
+            NRMSE_Median Range: []
+            Range: [0.045345, 0.397964, 156.297359]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            NRMSE_Median Range: []
+            Range: [0.091122, 0.8376, 15.590147]
+        MDH Method: MMI- - Count: 4
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 4}
+            NRMSE_Median Range: []
+            Range: [1.312328, 1.585563, 50.804476]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [31.342567, 31.342567, 31.342567]
+        MDH Method: TMMI- - Count: 1
+            MDH Method: TMMI- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [66.97199, 66.97199, 66.97199]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'ICMeMI-': 1, 'FIII-': 1, 'MMI-': 4, 'MICE-Me_PMM': 16, 'MISSRANGER-SPLITRULE_T': 42, 'MICE-Me_SAMPLE': 51, 'MISSRANGER-SPLITRULE_F': 53}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MMI-', 'ICMeMI-', 'FIII-']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 42}
+            NRMSE_Median Range: []
+            Range: [0.019089, 0.598821, 141.587917]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 53
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 53}
+            NRMSE_Median Range: []
+            Range: [0.019147, 0.721509, 63.268327]
+        MDH Method: MICE-Me_SAMPLE - Count: 51
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 51}
+            NRMSE_Median Range: []
+            Range: [0.043289, 0.404345, 134.475462]
+        MDH Method: MICE-Me_PMM - Count: 16
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 16}
+            NRMSE_Median Range: []
+            Range: [0.15332, 0.919351, 13.829664]
+        MDH Method: MMI- - Count: 4
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 4}
+            NRMSE_Median Range: []
+            Range: [1.28107, 1.585563, 51.072778]
+        MDH Method: ICMeMI- - Count: 1
+            MDH Method: ICMeMI- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [0.750165, 0.750165, 0.750165]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [33.78723, 33.78723, 33.78723]
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'FIII-': 1, 'MMI-': 4, 'MICE-Me_PMM': 8, 'MICE-Me_SAMPLE': 25, 'MISSRANGER-SPLITRULE_T': 30, 'MISSRANGER-SPLITRULE_F': 31}
+    MDH Methods: (6) ['MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MMI-', 'FIII-']
+        MDH Method: MICE-Me_SAMPLE - Count: 25
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 25}
+            NRMSE_Median Range: []
+            Range: [0.051527, 0.102356, 1.789265]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 31
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 31}
+            NRMSE_Median Range: []
+            Range: [0.009325, 0.046561, 0.539055]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 30
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 30}
+            NRMSE_Median Range: []
+            Range: [0.010068, 0.064036, 1.138138]
+        MDH Method: MICE-Me_PMM - Count: 8
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 8}
+            NRMSE_Median Range: []
+            Range: [0.106147, 0.250039, 0.751495]
+        MDH Method: MMI- - Count: 4
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 4}
+            NRMSE_Median Range: []
+            Range: [5.530664, 12.327228, 20.856073]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [7.919855, 7.919855, 7.919855]
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'ICMeMI-': 1, 'MeMI-': 1, 'FIII-': 1, 'MMI-': 6, 'MICE-Me_PMM': 12, 'MISSRANGER-SPLITRULE_T': 22, 'MICE-Me_SAMPLE': 26, 'MISSRANGER-SPLITRULE_F': 30}
+    MDH Methods: (8) ['MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MMI-', 'ICMeMI-', 'MeMI-', 'FIII-']
+        MDH Method: MICE-Me_SAMPLE - Count: 26
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 26}
+            NRMSE_Median Range: []
+            Range: [0.111993, 0.316736, 9.530657]
+        MDH Method: MICE-Me_PMM - Count: 12
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 12}
+            NRMSE_Median Range: []
+            Range: [0.200492, 0.661576, 13.824053]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 30
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 30}
+            NRMSE_Median Range: []
+            Range: [0.09954, 0.579835, 58.393624]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 22
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 22}
+            NRMSE_Median Range: []
+            Range: [0.10735, 0.615615, 20.737779]
+        MDH Method: MMI- - Count: 6
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 6}
+            NRMSE_Median Range: []
+            Range: [0.7342, 1.358939, 100.078466]
+        MDH Method: ICMeMI- - Count: 1
+            MDH Method: ICMeMI- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [0.484648, 0.484648, 0.484648]
+        MDH Method: MeMI- - Count: 1
+            MDH Method: MeMI- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [20.527902, 20.527902, 20.527902]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [56.638333, 56.638333, 56.638333]
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'MMI-': 1, 'MICE-Me_PMM': 12, 'MISSRANGER-SPLITRULE_T': 24, 'MICE-Me_SAMPLE': 31, 'MISSRANGER-SPLITRULE_F': 31}
+    MDH Methods: (5) ['MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MMI-']
+        MDH Method: MICE-Me_SAMPLE - Count: 31
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 31}
+            NRMSE_Median Range: []
+            Range: [0.083773, 0.270044, 8.732801]
+        MDH Method: MICE-Me_PMM - Count: 12
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 12}
+            NRMSE_Median Range: []
+            Range: [0.209641, 0.43726, 4.371076]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 31
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 31}
+            NRMSE_Median Range: []
+            Range: [0.055871, 0.234088, 9.175277]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 24
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 24}
+            NRMSE_Median Range: []
+            Range: [0.057545, 0.262398, 10.004131]
+        MDH Method: MMI- - Count: 1
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [13.060346, 13.060346, 13.060346]
+Missing Rate: 0.2
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MMI-': 1, 'FIII-': 2, 'MICE-Me_PMM': 24, 'MISSRANGER-SPLITRULE_T': 41, 'MISSRANGER-SPLITRULE_F': 47, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'FIII-', 'MMI-']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 41
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 41}
+            NRMSE_Median Range: []
+            Range: [0.019765, 0.787608, 64.651979]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 47}
+            NRMSE_Median Range: []
+            Range: [0.019648, 0.553889, 104.203012]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            NRMSE_Median Range: []
+            Range: [0.045851, 0.392937, 125.264259]
+        MDH Method: MICE-Me_PMM - Count: 24
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 24}
+            NRMSE_Median Range: []
+            Range: [0.066368, 0.752148, 166.882103]
+        MDH Method: FIII- - Count: 2
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 2}
+            NRMSE_Median Range: []
+            Range: [1.474637, 30.095192, 58.715748]
+        MDH Method: MMI- - Count: 1
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [2.843955, 2.843955, 2.843955]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MMI-': 1, 'FIII-': 3, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 44, 'MISSRANGER-SPLITRULE_F': 47, 'MICE-Me_SAMPLE': 52}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T', 'FIII-', 'MMI-']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 47}
+            NRMSE_Median Range: []
+            Range: [0.018517, 0.581378, 105.376094]
+        MDH Method: MICE-Me_SAMPLE - Count: 52
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 52}
+            NRMSE_Median Range: []
+            Range: [0.045441, 0.388572, 130.391621]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            NRMSE_Median Range: []
+            Range: [0.087435, 1.070342, 173.06451]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 44
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 44}
+            NRMSE_Median Range: []
+            Range: [0.019495, 0.635765, 64.083449]
+        MDH Method: FIII- - Count: 3
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 3}
+            NRMSE_Median Range: []
+            Range: [2.108073, 2.727228, 57.157946]
+        MDH Method: MMI- - Count: 1
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [79.734746, 79.734746, 79.734746]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 1, 'MMI-': 2, 'MICE-Me_PMM': 23, 'MISSRANGER-SPLITRULE_T': 38, 'MISSRANGER-SPLITRULE_F': 51, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MMI-', 'FIII-']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 38
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 38}
+            NRMSE_Median Range: []
+            Range: [0.020534, 0.625267, 9.549351]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            NRMSE_Median Range: []
+            Range: [0.04484, 0.400928, 125.574353]
+        MDH Method: MICE-Me_PMM - Count: 23
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 23}
+            NRMSE_Median Range: []
+            Range: [0.076416, 0.773427, 170.980878]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 51
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 51}
+            NRMSE_Median Range: []
+            Range: [0.017863, 0.607745, 142.961434]
+        MDH Method: MMI- - Count: 2
+            MDH Method: MMI- - Metrics: {'TimeEfficiency': 2}
+            NRMSE_Median Range: []
+            Range: [2.796702, 40.696051, 78.595401]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [57.66166, 57.66166, 57.66166]
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 3, 'MICE-Me_SAMPLE': 11, 'MISSRANGER-SPLITRULE_T': 12, 'MISSRANGER-SPLITRULE_F': 13}
+    MDH Methods: (4) ['MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 13}
+            NRMSE_Median Range: []
+            Range: [0.00791, 0.071105, 0.695207]
+        MDH Method: MICE-Me_SAMPLE - Count: 11
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 11}
+            NRMSE_Median Range: []
+            Range: [0.032657, 0.066449, 0.896173]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 12
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 12}
+            NRMSE_Median Range: []
+            Range: [0.008416, 0.076669, 0.786822]
+        MDH Method: MICE-Me_PMM - Count: 3
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 3}
+            NRMSE_Median Range: []
+            Range: [0.148923, 0.183697, 0.185885]
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 5, 'MISSRANGER-SPLITRULE_T': 8, 'MICE-Me_SAMPLE': 13, 'MISSRANGER-SPLITRULE_F': 13}
+    MDH Methods: (4) ['MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T']
+        MDH Method: MICE-Me_SAMPLE - Count: 13
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 13}
+            NRMSE_Median Range: []
+            Range: [0.070189, 0.233708, 3.043821]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 13}
+            NRMSE_Median Range: []
+            Range: [0.089428, 0.253481, 2.855219]
+        MDH Method: MICE-Me_PMM - Count: 5
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 5}
+            NRMSE_Median Range: []
+            Range: [0.121235, 0.322869, 0.548777]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 8
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 8}
+            NRMSE_Median Range: []
+            Range: [0.073941, 0.279546, 5.516588]
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 4, 'MISSRANGER-SPLITRULE_T': 10, 'MICE-Me_SAMPLE': 12, 'MISSRANGER-SPLITRULE_F': 13}
+    MDH Methods: (4) ['MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_PMM']
+        MDH Method: MICE-Me_SAMPLE - Count: 12
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 12}
+            NRMSE_Median Range: []
+            Range: [0.049204, 0.282765, 4.510705]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 10}
+            NRMSE_Median Range: []
+            Range: [0.047649, 0.567936, 6.815106]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 13}
+            NRMSE_Median Range: []
+            Range: [0.019196, 0.401095, 7.002429]
+        MDH Method: MICE-Me_PMM - Count: 4
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 4}
+            NRMSE_Median Range: []
+            Range: [0.163927, 0.485089, 0.834302]
+Missing Rate: 0.3
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'FIII-': 2, 'MICE-Me_PMM': 19, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 52, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'FIII-', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 52
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 52}
+            NRMSE_Median Range: []
+            Range: [0.018844, 0.652827, 159.741421]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            NRMSE_Median Range: []
+            Range: [0.020506, 0.574851, 78.367219]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            NRMSE_Median Range: []
+            Range: [0.044911, 0.397336, 114.682942]
+        MDH Method: MICE-Me_PMM - Count: 19
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 19}
+            NRMSE_Median Range: []
+            Range: [0.156754, 1.045614, 151.268258]
+        MDH Method: FIII- - Count: 2
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 2}
+            NRMSE_Median Range: []
+            Range: [3.621102, 43.323485, 83.025868]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [79.572265, 79.572265, 79.572265]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'FIII-': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 22, 'MISSRANGER-SPLITRULE_T': 39, 'MISSRANGER-SPLITRULE_F': 50, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MIDASpy-Variation_F', 'FIII-', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 39}
+            NRMSE_Median Range: []
+            Range: [0.019538, 0.618492, 10.154504]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            NRMSE_Median Range: []
+            Range: [0.045856, 0.399301, 123.744287]
+        MDH Method: MICE-Me_PMM - Count: 22
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 22}
+            NRMSE_Median Range: []
+            Range: [0.093664, 0.741196, 163.768066]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 50
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 50}
+            NRMSE_Median Range: []
+            Range: [0.018581, 0.734552, 198.92373]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [76.332419, 76.332419, 76.332419]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [79.816804, 79.816804, 79.816804]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [84.45603, 84.45603, 84.45603]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MICE-Me_PMM': 26, 'MISSRANGER-SPLITRULE_T': 36, 'MISSRANGER-SPLITRULE_F': 50, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (5) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 36
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 36}
+            NRMSE_Median Range: []
+            Range: [0.019475, 0.68152, 61.003257]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 50
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 50}
+            NRMSE_Median Range: []
+            Range: [0.017939, 0.608343, 100.105787]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.046183, 0.435798, 118.014675]
+        MDH Method: MICE-Me_PMM - Count: 26
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 26}
+            NRMSE_Median Range: []
+            Range: [0.068082, 0.752082, 157.687963]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [78.580162, 78.580162, 78.580162]
+Missing Rate: 0.4
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_T': 1, 'MIDASpy-Variation_F': 1, 'MICE-Me_PMM': 23, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 48, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_T', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 48}
+            NRMSE_Median Range: []
+            Range: [0.017989, 0.546312, 151.632124]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            NRMSE_Median Range: []
+            Range: [0.019593, 0.706994, 90.807565]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.045454, 0.383558, 109.688594]
+        MDH Method: MICE-Me_PMM - Count: 23
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 23}
+            NRMSE_Median Range: []
+            Range: [0.081625, 0.877406, 145.281335]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [88.206547, 88.206547, 88.206547]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [89.50365, 89.50365, 89.50365]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 27, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 46, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 46
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 46}
+            NRMSE_Median Range: []
+            Range: [0.018724, 0.623731, 151.519967]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            NRMSE_Median Range: []
+            Range: [0.019636, 0.616437, 89.495874]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            NRMSE_Median Range: []
+            Range: [0.046071, 0.390213, 115.825589]
+        MDH Method: MICE-Me_PMM - Count: 27
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 27}
+            NRMSE_Median Range: []
+            Range: [0.08582, 0.774877, 148.179414]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [76.535344, 76.535344, 76.535344]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [84.393013, 84.393013, 84.393013]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 26, 'MISSRANGER-SPLITRULE_T': 42, 'MISSRANGER-SPLITRULE_F': 44, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 44
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 44}
+            NRMSE_Median Range: []
+            Range: [0.018744, 0.544108, 94.479681]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 42}
+            NRMSE_Median Range: []
+            Range: [0.019822, 0.570639, 73.354472]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            NRMSE_Median Range: []
+            Range: [0.045559, 0.432384, 107.720371]
+        MDH Method: MICE-Me_PMM - Count: 26
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 26}
+            NRMSE_Median Range: []
+            Range: [0.078095, 0.97405, 141.217339]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [79.136468, 79.136468, 79.136468]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [83.816151, 83.816151, 83.816151]
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 2, 'MISSRANGER-SPLITRULE_T': 9, 'MICE-Me_SAMPLE': 9, 'MISSRANGER-SPLITRULE_F': 10}
+    MDH Methods: (4) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 9
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 9}
+            NRMSE_Median Range: []
+            Range: [0.01097, 0.011699, 0.012605]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 10}
+            NRMSE_Median Range: []
+            Range: [0.010081, 0.01129, 0.034487]
+        MDH Method: MICE-Me_SAMPLE - Count: 9
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 9}
+            NRMSE_Median Range: []
+            Range: [0.02895, 0.029986, 0.042093]
+        MDH Method: MICE-Me_PMM - Count: 2
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 2}
+            NRMSE_Median Range: []
+            Range: [0.041504, 0.047197, 0.05289]
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'MISSRANGER-SPLITRULE_T': 10, 'MISSRANGER-SPLITRULE_F': 10, 'MICE-Me_SAMPLE': 10}
+    MDH Methods: (3) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 10}
+            NRMSE_Median Range: []
+            Range: [0.020021, 0.021687, 0.034427]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 10}
+            NRMSE_Median Range: []
+            Range: [0.019102, 0.020982, 0.023448]
+        MDH Method: MICE-Me_SAMPLE - Count: 10
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 10}
+            NRMSE_Median Range: []
+            Range: [0.046188, 0.049526, 0.060706]
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 2, 'MISSRANGER-SPLITRULE_T': 9, 'MISSRANGER-SPLITRULE_F': 9, 'MICE-Me_SAMPLE': 10}
+    MDH Methods: (4) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 9
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 9}
+            NRMSE_Median Range: []
+            Range: [0.020581, 0.022015, 0.022821]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 9
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 9}
+            NRMSE_Median Range: []
+            Range: [0.019137, 0.020531, 0.021801]
+        MDH Method: MICE-Me_SAMPLE - Count: 10
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 10}
+            NRMSE_Median Range: []
+            Range: [0.045855, 0.046891, 0.060035]
+        MDH Method: MICE-Me_PMM - Count: 2
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 2}
+            NRMSE_Median Range: []
+            Range: [0.062189, 0.06409, 0.065991]
+Missing Rate: 0.5
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 24, 'MISSRANGER-SPLITRULE_T': 39, 'MISSRANGER-SPLITRULE_F': 50, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 50
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 50}
+            NRMSE_Median Range: []
+            Range: [0.019594, 0.649616, 175.415182]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 39}
+            NRMSE_Median Range: []
+            Range: [0.019691, 0.525183, 85.419618]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            NRMSE_Median Range: []
+            Range: [0.045723, 0.377296, 100.21924]
+        MDH Method: MICE-Me_PMM - Count: 24
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 24}
+            NRMSE_Median Range: []
+            Range: [0.065226, 0.957774, 131.120555]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [80.828082, 80.828082, 80.828082]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [86.353972, 86.353972, 86.353972]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 22, 'MISSRANGER-SPLITRULE_T': 41, 'MISSRANGER-SPLITRULE_F': 48, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 41
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 41}
+            NRMSE_Median Range: []
+            Range: [0.0207, 0.625187, 69.856045]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 48}
+            NRMSE_Median Range: []
+            Range: [0.018837, 0.567764, 123.536456]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.04508, 0.407623, 101.772588]
+        MDH Method: MICE-Me_PMM - Count: 22
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 22}
+            NRMSE_Median Range: []
+            Range: [0.070114, 0.835692, 127.096096]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [80.264608, 80.264608, 80.264608]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [84.601145, 84.601145, 84.601145]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_T': 1, 'MIDASpy-Variation_F': 1, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 39, 'MISSRANGER-SPLITRULE_F': 51, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_T', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 39}
+            NRMSE_Median Range: []
+            Range: [0.019631, 0.557126, 85.643564]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 51
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 51}
+            NRMSE_Median Range: []
+            Range: [0.018368, 0.54713, 177.049817]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.045597, 0.460248, 99.115464]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            NRMSE_Median Range: []
+            Range: [0.216424, 1.127808, 127.244107]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [83.177247, 83.177247, 83.177247]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [84.758039, 84.758039, 84.758039]
+Missing Rate: 0.6
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 22, 'MISSRANGER-SPLITRULE_T': 42, 'MISSRANGER-SPLITRULE_F': 48, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 42}
+            NRMSE_Median Range: []
+            Range: [0.019113, 0.511629, 94.322102]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 48}
+            NRMSE_Median Range: []
+            Range: [0.017445, 0.560898, 160.06386]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            NRMSE_Median Range: []
+            Range: [0.046555, 0.42479, 83.931885]
+        MDH Method: MICE-Me_PMM - Count: 22
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 22}
+            NRMSE_Median Range: []
+            Range: [0.078743, 0.882834, 110.187662]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [76.447803, 76.447803, 76.447803]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [85.603631, 85.603631, 85.603631]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 29, 'MISSRANGER-SPLITRULE_T': 36, 'MISSRANGER-SPLITRULE_F': 47, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 36
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 36}
+            NRMSE_Median Range: []
+            Range: [0.018935, 0.547985, 93.455242]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 47}
+            NRMSE_Median Range: []
+            Range: [0.019858, 0.569714, 143.419339]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            NRMSE_Median Range: []
+            Range: [0.045093, 0.405957, 94.697281]
+        MDH Method: MICE-Me_PMM - Count: 29
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 29}
+            NRMSE_Median Range: []
+            Range: [0.072667, 0.860154, 113.687081]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [79.095463, 79.095463, 79.095463]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [83.9911, 83.9911, 83.9911]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 25, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 46, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            NRMSE_Median Range: []
+            Range: [0.018518, 0.50476, 80.157918]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 46
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 46}
+            NRMSE_Median Range: []
+            Range: [0.019542, 0.534246, 162.048725]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.045642, 0.421196, 88.811598]
+        MDH Method: MICE-Me_PMM - Count: 25
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 25}
+            NRMSE_Median Range: []
+            Range: [0.159722, 0.858047, 113.746493]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [81.471357, 81.471357, 81.471357]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [82.086148, 82.086148, 82.086148]
+Missing Rate: 0.7
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 37, 'MISSRANGER-SPLITRULE_F': 53, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 53
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 53}
+            NRMSE_Median Range: []
+            Range: [0.018882, 0.639192, 70.721199]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 37
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 37}
+            NRMSE_Median Range: []
+            Range: [0.018672, 0.484338, 88.805506]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.045753, 0.38962, 73.350423]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            NRMSE_Median Range: []
+            Range: [0.182403, 0.843341, 96.133371]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [75.485869, 75.485869, 75.485869]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [84.962412, 84.962412, 84.962412]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 24, 'MISSRANGER-SPLITRULE_T': 36, 'MISSRANGER-SPLITRULE_F': 52, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 36
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 36}
+            NRMSE_Median Range: []
+            Range: [0.019093, 0.492279, 75.324325]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 52
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 52}
+            NRMSE_Median Range: []
+            Range: [0.018246, 0.640347, 70.03649]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            NRMSE_Median Range: []
+            Range: [0.045264, 0.406497, 74.354517]
+        MDH Method: MICE-Me_PMM - Count: 24
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 24}
+            NRMSE_Median Range: []
+            Range: [0.068251, 0.856234, 95.409153]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [77.916843, 77.916843, 77.916843]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [83.452678, 83.452678, 83.452678]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 19, 'MISSRANGER-SPLITRULE_F': 44, 'MISSRANGER-SPLITRULE_T': 48, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 48}
+            NRMSE_Median Range: []
+            Range: [0.018515, 0.576716, 103.500657]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 44
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 44}
+            NRMSE_Median Range: []
+            Range: [0.018556, 0.533057, 99.056457]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.044586, 0.377706, 78.590663]
+        MDH Method: MICE-Me_PMM - Count: 19
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 19}
+            NRMSE_Median Range: []
+            Range: [0.085026, 0.84792, 101.876463]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [79.382265, 79.382265, 79.382265]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [82.565261, 82.565261, 82.565261]
+Missing Rate: 0.8
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 23, 'MISSRANGER-SPLITRULE_T': 43, 'MISSRANGER-SPLITRULE_F': 46, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 46
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 46}
+            NRMSE_Median Range: []
+            Range: [0.017503, 0.492972, 10.388591]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 43
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 43}
+            NRMSE_Median Range: []
+            Range: [0.018258, 0.444344, 70.491163]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            NRMSE_Median Range: []
+            Range: [0.044139, 0.357179, 58.413782]
+        MDH Method: MICE-Me_PMM - Count: 23
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 23}
+            NRMSE_Median Range: []
+            Range: [0.079057, 0.826978, 8.377003]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [76.169953, 76.169953, 76.169953]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [86.011581, 86.011581, 86.011581]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 1, 'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 20, 'MISSRANGER-SPLITRULE_T': 40, 'MISSRANGER-SPLITRULE_F': 51, 'MICE-Me_SAMPLE': 54}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'FIII-', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 40}
+            NRMSE_Median Range: []
+            Range: [0.018157, 0.519335, 12.531261]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 51
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 51}
+            NRMSE_Median Range: []
+            Range: [0.017377, 0.434537, 123.203785]
+        MDH Method: MICE-Me_SAMPLE - Count: 54
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 54}
+            NRMSE_Median Range: []
+            Range: [0.04492, 0.395323, 63.850557]
+        MDH Method: MICE-Me_PMM - Count: 20
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 20}
+            NRMSE_Median Range: []
+            Range: [0.080233, 0.845252, 80.074705]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [7.238423, 7.238423, 7.238423]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [77.719209, 77.719209, 77.719209]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [84.957745, 84.957745, 84.957745]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 42, 'MISSRANGER-SPLITRULE_F': 48, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (6) ['MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 48
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 48}
+            NRMSE_Median Range: []
+            Range: [0.018158, 0.472467, 71.032734]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 42}
+            NRMSE_Median Range: []
+            Range: [0.017738, 0.552817, 12.515944]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.044794, 0.416811, 55.142731]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            NRMSE_Median Range: []
+            Range: [0.073438, 0.867148, 70.586972]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [83.491078, 83.491078, 83.491078]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [84.197088, 84.197088, 84.197088]
+Missing Rate: 0.9
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_CART': 4, 'MICE-Me_PMM': 30, 'MISSRANGER-SPLITRULE_T': 37, 'MISSRANGER-SPLITRULE_F': 42, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (5) ['MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_CART']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 37
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 37}
+            NRMSE_Median Range: []
+            Range: [0.018325, 0.44744, 9.636962]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.043605, 0.304148, 43.533406]
+        MDH Method: MICE-Me_PMM - Count: 30
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 30}
+            NRMSE_Median Range: []
+            Range: [0.068994, 0.66149, 12.618987]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 42}
+            NRMSE_Median Range: []
+            Range: [0.018059, 0.481634, 8.492502]
+        MDH Method: MICE-Me_CART - Count: 4
+            MDH Method: MICE-Me_CART - Metrics: {'TimeEfficiency': 4}
+            NRMSE_Median Range: []
+            Range: [0.327171, 1.439518, 24.978769]
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 1, 'MICE-Me_PMM': 20, 'MISSRANGER-SPLITRULE_F': 45, 'MISSRANGER-SPLITRULE_T': 47, 'MICE-Me_SAMPLE': 55}
+    MDH Methods: (5) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'MIDASpy-Variation_F']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 47}
+            NRMSE_Median Range: []
+            Range: [0.017651, 0.496898, 70.740374]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 45
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 45}
+            NRMSE_Median Range: []
+            Range: [0.017333, 0.401394, 40.408184]
+        MDH Method: MICE-Me_SAMPLE - Count: 55
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 55}
+            NRMSE_Median Range: []
+            Range: [0.030146, 0.384412, 50.644546]
+        MDH Method: MICE-Me_PMM - Count: 20
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 20}
+            NRMSE_Median Range: []
+            Range: [0.066778, 0.762389, 63.384532]
+        MDH Method: MIDASpy-Variation_F - Count: 1
+            MDH Method: MIDASpy-Variation_F - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [79.322726, 79.322726, 79.322726]
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 1, 'MICE-Me_CART': 1, 'MIDASpy-Variation_T': 1, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_T': 44, 'MISSRANGER-SPLITRULE_F': 47, 'MICE-Me_SAMPLE': 53}
+    MDH Methods: (7) ['MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MICE-Me_PMM', 'FIII-', 'MICE-Me_CART', 'MIDASpy-Variation_T']
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 44
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'TimeEfficiency': 44}
+            NRMSE_Median Range: []
+            Range: [0.017552, 0.41227, 68.621474]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'TimeEfficiency': 47}
+            NRMSE_Median Range: []
+            Range: [0.016324, 0.372808, 28.940267]
+        MDH Method: MICE-Me_SAMPLE - Count: 53
+            MDH Method: MICE-Me_SAMPLE - Metrics: {'TimeEfficiency': 53}
+            NRMSE_Median Range: []
+            Range: [0.030212, 0.33658, 45.364556]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'TimeEfficiency': 21}
+            NRMSE_Median Range: []
+            Range: [0.042024, 0.70327, 58.164507]
+        MDH Method: FIII- - Count: 1
+            MDH Method: FIII- - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [8.272941, 8.272941, 8.272941]
+        MDH Method: MICE-Me_CART - Count: 1
+            MDH Method: MICE-Me_CART - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [3.521614, 3.521614, 3.521614]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+            MDH Method: MIDASpy-Variation_T - Metrics: {'TimeEfficiency': 1}
+            NRMSE_Median Range: []
+            Range: [81.767617, 81.767617, 81.767617]

@@ -1,0 +1,495 @@
+Missing Rate: 0.1
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'CMeMI-': 33, 'CMMI-': 33, 'CTMMI-': 33}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 33
+            MDH Method: CMeMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 33
+            MDH Method: CMMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 33
+            MDH Method: CTMMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'CMeMI-': 33, 'CMMI-': 33, 'CTMMI-': 33}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 33
+            MDH Method: CMeMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 33
+            MDH Method: CMMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 33
+            MDH Method: CTMMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'CMeMI-': 33, 'CMMI-': 33, 'CTMMI-': 33}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 33
+            MDH Method: CMeMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 33
+            MDH Method: CMMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 33
+            MDH Method: CTMMI- - Metrics: {'IEXH': 33}
+            Range: [1.0, 1.0]
+
+
+
+Missing Rate: 0.2
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'CMeMI-': 13, 'CMMI-': 13, 'CTMMI-': 13}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 13
+            MDH Method: CMeMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 13
+            MDH Method: CMMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 13
+            MDH Method: CTMMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'CMeMI-': 13, 'CMMI-': 13, 'CTMMI-': 13}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 13
+            MDH Method: CMeMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 13
+            MDH Method: CMMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 13
+            MDH Method: CTMMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'CMeMI-': 13, 'CMMI-': 13, 'CTMMI-': 13}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 13
+            MDH Method: CMeMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 13
+            MDH Method: CMMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 13
+            MDH Method: CTMMI- - Metrics: {'IEXH': 13}
+            Range: [1.0, 1.0]
+
+
+
+Missing Rate: 0.3
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+
+
+Missing Rate: 0.4
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'CMeMI-': 10, 'CMMI-': 10, 'CTMMI-': 10}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 10
+            MDH Method: CMeMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 10
+            MDH Method: CMMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 10
+            MDH Method: CTMMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'CMeMI-': 10, 'CMMI-': 10, 'CTMMI-': 10}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 10
+            MDH Method: CMeMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 10
+            MDH Method: CMMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 10
+            MDH Method: CTMMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'CMeMI-': 10, 'CMMI-': 10, 'CTMMI-': 10}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 10
+            MDH Method: CMeMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 10
+            MDH Method: CMMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 10
+            MDH Method: CTMMI- - Metrics: {'IEXH': 10}
+            Range: [1.0, 1.0]
+
+
+
+Missing Rate: 0.5
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+
+
+Missing Rate: 0.6
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+
+
+Missing Rate: 0.7
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+
+
+Missing Rate: 0.8
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+
+
+Missing Rate: 0.9
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'CMeMI-': 56, 'CMMI-': 56, 'CTMMI-': 56}
+    MDH Methods: (3) ['CMeMI-', 'CMMI-', 'CTMMI-']
+        MDH Method: CMeMI- - Count: 56
+            MDH Method: CMeMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CMMI- - Count: 56
+            MDH Method: CMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+        MDH Method: CTMMI- - Count: 56
+            MDH Method: CTMMI- - Metrics: {'IEXH': 56}
+            Range: [1.0, 1.0]
+
+
+

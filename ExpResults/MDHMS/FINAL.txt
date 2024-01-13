@@ -1,0 +1,66 @@
+TOP-5 Methods
+CLA:
+MDH Method: MISSRANGER-SPLITRULE_T - Count: 617
+MDH Method: CMMI- - Count: 615
+MDH Method: CTMMI- - Count: 609
+MDH Method: MISSRANGER-SPLITRULE_F - Count: 604
+MDH Method: CMeMI- - Count: 584
+MDH Method: MICE-Me_PMM - Count: 535
+INTR:
+MDH Method: CTMMI- - Count: 1387
+MDH Method: CMMI- - Count: 1386
+MDH Method: CMeMI- - Count: 1386
+MDH Method: MICE-Me_PMM - Count: 555
+MDH Method: MISSRANGER-SPLITRULE_F - Count: 516
+MDH Method: MISSRANGER-SPLITRULE_T - Count: 501
+DISUDS1:
+MDH Method: MICE-Me_SAMPLE - Count: 672
+MDH Method: MICE-Me_CART - Count: 667
+MDH Method: MIDASpy-Variation_F - Count: 526
+MDH Method: MICE-Me_PMM - Count: 511
+MDH Method: MIDASpy-Variation_T - Count: 482
+MDH Method: MICE-Me_RF - Count: 413
+DISUDS2:
+MDH Method: MICE-Me_CART - Count: 468
+MDH Method: CMeMI- - Count: 423
+MDH Method: CMMI- - Count: 399
+MDH Method: CTMMI- - Count: 388
+MDH Method: MISSRANGER-SPLITRULE_T - Count: 368
+MDH Method: MISSRANGER-SPLITRULE_F - Count: 305
+IMPUTATION1:
+MDH Method: CMeMI- - Count: 1680
+MDH Method: CMMI- - Count: 1680
+MDH Method: CTMMI- - Count: 1680
+MDH Method: MICE-Me_CART - Count: 1680
+MDH Method: MICE-Me_SAMPLE - Count: 1680
+MDH Method: MICE-Me_PMM - Count: 1680
+MDH Method: MICE-Me_RF - Count: 1680
+MDH Method: MISSRANGER-SPLITRULE_T - Count: 1680
+MDH Method: MISSRANGER-SPLITRULE_F - Count: 1680
+MDH Method: MIDASpy-Variation_F - Count: 1680
+MDH Method: MIDASpy-Variation_T - Count: 1680
+MDH Method: IMeMI- - Count: 1680
+MDH Method: IMMI- - Count: 1680
+MDH Method: MMI- - Count: 1680
+MDH Method: MeMI- - Count: 1680
+IMPUTATION2:
+MDH Method: MICE-Me_CART - Count: 351
+MDH Method: MISSRANGER-SPLITRULE_T - Count: 326
+MDH Method: MISSRANGER-SPLITRULE_F - Count: 235
+MDH Method: MICE-Me_PMM - Count: 205
+MDH Method: MICE-Me_RF - Count: 167
+MDH Method: IMeMI- - Count: 110
+NRMSE:
+MDH Method: CMMI- - Count: 625
+MDH Method: CMeMI- - Count: 517
+MDH Method: CTMMI- - Count: 515
+MDH Method: MISSRANGER-SPLITRULE_T - Count: 352
+MDH Method: IMMI- - Count: 319
+MDH Method: MICE-Me_PMM - Count: 237
+TIME:
+MDH Method: MICE-Me_SAMPLE - Count: 1601
+MDH Method: MISSRANGER-SPLITRULE_F - Count: 1466
+MDH Method: MISSRANGER-SPLITRULE_T - Count: 1227
+MDH Method: MICE-Me_PMM - Count: 657
+MDH Method: MMI- - Count: 26
+MDH Method: MIDASpy-Variation_F - Count: 19

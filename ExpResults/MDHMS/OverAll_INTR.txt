@@ -1,0 +1,423 @@
+Missing Rate: 0.1
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 256/46
+        MDH Method: ICMeMI- - Count: 18/3
+        MDH Method: CMMI- - Count: 241/46
+        MDH Method: MICE-Me_PMM - Count: 58/19
+        MDH Method: CTMMI- - Count: 235/46
+        MDH Method: MICE-Me_RF - Count: 35/9
+        MDH Method: MIDASpy-Variation_F - Count: 18/7
+        MDH Method: MICE-Me_CART - Count: 84/20
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 54/14
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 53/15
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 254/46
+        MDH Method: CMMI- - Count: 249/46
+        MDH Method: CTMMI- - Count: 243/46
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 56/17
+        MDH Method: MIDASpy-Variation_F - Count: 22/9
+        MDH Method: MICE-Me_RF - Count: 40/11
+        MDH Method: ICMMI- - Count: 17/3
+        MDH Method: MICE-Me_CART - Count: 84/19
+        MDH Method: MICE-Me_PMM - Count: 60/21
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 51/16
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 256/46
+        MDH Method: CMMI- - Count: 247/46
+        MDH Method: CTMMI- - Count: 236/46
+        MDH Method: MICE-Me_PMM - Count: 69/19
+        MDH Method: MICE-Me_RF - Count: 46/13
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 51/12
+        MDH Method: MICE-Me_CART - Count: 73/16
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 47/16
+        MDH Method: ICMMI- - Count: 17/4
+        MDH Method: FIII- - Count: 16/3
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: CMeMI- - Count: 213/27
+        MDH Method: CMMI- - Count: 211/27
+        MDH Method: CTMMI- - Count: 207/27
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 20/7
+        MDH Method: MICE-Me_CART - Count: 22/3
+        MDH Method: IMeMI- - Count: 38/6
+        MDH Method: MICE-Me_PMM - Count: 20/3
+        MDH Method: IMMI- - Count: 29/6
+        MDH Method: ITMMI- - Count: 36/6
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 15/3
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: CMeMI- - Count: 165/27
+        MDH Method: CMMI- - Count: 167/27
+        MDH Method: CTMMI- - Count: 168/27
+        MDH Method: MICE-Me_RF - Count: 29/8
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 44/11
+        MDH Method: IMeMI- - Count: 21/4
+        MDH Method: ITMMI- - Count: 18/3
+        MDH Method: MICE-Me_CART - Count: 38/8
+        MDH Method: MICE-Me_PMM - Count: 40/8
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 25/7
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: CMeMI- - Count: 179/27
+        MDH Method: CMMI- - Count: 173/27
+        MDH Method: CTMMI- - Count: 171/27
+        MDH Method: MICE-Me_CART - Count: 35/6
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 36/7
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 30/5
+        MDH Method: MICE-Me_PMM - Count: 35/9
+        MDH Method: MICE-Me_RF - Count: 25/7
+        MDH Method: IMeMI- - Count: 22/3
+        MDH Method: IMMI- - Count: 15/3
+
+
+Missing Rate: 0.2
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 238/46
+        MDH Method: CMMI- - Count: 233/46
+        MDH Method: CTMMI- - Count: 218/46
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 72/16
+        MDH Method: MICE-Me_CART - Count: 88/18
+        MDH Method: MICE-Me_PMM - Count: 64/19
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 55/12
+        MDH Method: MIDASpy-Variation_F - Count: 24/11
+        MDH Method: MICE-Me_RF - Count: 53/12
+        MDH Method: IMeMI- - Count: 20/4
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 248/46
+        MDH Method: CMMI- - Count: 241/46
+        MDH Method: CTMMI- - Count: 219/46
+        MDH Method: ICMeMI- - Count: 19/3
+        MDH Method: ANNI- - Count: 20/6
+        MDH Method: MICE-Me_CART - Count: 85/15
+        MDH Method: MICE-Me_RF - Count: 43/11
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 54/14
+        MDH Method: MICE-Me_PMM - Count: 55/17
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 61/17
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 246/46
+        MDH Method: CMMI- - Count: 238/46
+        MDH Method: CTMMI- - Count: 226/46
+        MDH Method: MICE-Me_SAMPLE - Count: 19/6
+        MDH Method: MICE-Me_RF - Count: 49/14
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 66/18
+        MDH Method: MIDASpy-Variation_F - Count: 21/6
+        MDH Method: MICE-Me_PMM - Count: 66/18
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 62/15
+        MDH Method: MICE-Me_CART - Count: 77/17
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: CMeMI- - Count: 72/10
+        MDH Method: CMMI- - Count: 71/10
+        MDH Method: CTMMI- - Count: 70/11
+        MDH Method: ITMMI- - Count: 6/1
+        MDH Method: MICE-Me_CART - Count: 11/4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 7/4
+        MDH Method: MICE-Me_PMM - Count: 10/3
+        MDH Method: MIDASpy-Variation_F - Count: 9/2
+        MDH Method: MICE-Me_SAMPLE - Count: 5/2
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 8/3
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: MICE-Me_PMM - Count: 16/4
+        MDH Method: CMeMI- - Count: 61/11
+        MDH Method: CMMI- - Count: 60/11
+        MDH Method: MICE-Me_SAMPLE - Count: 5/2
+        MDH Method: CTMMI- - Count: 58/11
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 8/3
+        MDH Method: MIDASpy-Variation_F - Count: 5/4
+        MDH Method: MICE-Me_CART - Count: 16/3
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 8/2
+        MDH Method: FKMI-K_11&Fuzzifier_1.5 - Count: 4/2
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: MICE-Me_CART - Count: 23/6
+        MDH Method: CMeMI- - Count: 60/12
+        MDH Method: MICE-Me_RF - Count: 11/4
+        MDH Method: CMMI- - Count: 61/12
+        MDH Method: CTMMI- - Count: 57/12
+        MDH Method: MICE-Me_PMM - Count: 24/8
+        MDH Method: FIII- - Count: 14/2
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 9/3
+        MDH Method: FKMI-K_14&Fuzzifier_2.0 - Count: 4/1
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 11/3
+
+
+Missing Rate: 0.3
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 246/46
+        MDH Method: CMMI- - Count: 232/46
+        MDH Method: CTMMI- - Count: 223/46
+        MDH Method: MIDASpy-Variation_F - Count: 31/10
+        MDH Method: MICE-Me_RF - Count: 44/12
+        MDH Method: MICE-Me_CART - Count: 94/22
+        MDH Method: MICE-Me_PMM - Count: 76/20
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 62/14
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 77/16
+        MDH Method: FIII- - Count: 20/5
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: MICE-Me_CART - Count: 73/18
+        MDH Method: CMeMI- - Count: 266/46
+        MDH Method: CMMI- - Count: 249/46
+        MDH Method: CTMMI- - Count: 234/46
+        MDH Method: MICE-Me_RF - Count: 46/9
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 70/15
+        MDH Method: MICE-Me_PMM - Count: 71/18
+        MDH Method: MIDASpy-Variation_F - Count: 27/10
+        MDH Method: ICMeMI- - Count: 25/5
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 70/14
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 256/46
+        MDH Method: CMMI- - Count: 232/46
+        MDH Method: CTMMI- - Count: 215/46
+        MDH Method: IMeMI- - Count: 20/4
+        MDH Method: ICMeMI- - Count: 26/7
+        MDH Method: MICE-Me_PMM - Count: 73/16
+        MDH Method: MICE-Me_CART - Count: 81/17
+        MDH Method: MICE-Me_RF - Count: 41/8
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 76/15
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 72/14
+
+
+Missing Rate: 0.4
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 255/46
+        MDH Method: CMMI- - Count: 242/46
+        MDH Method: CTMMI- - Count: 235/46
+        MDH Method: MICE-Me_RF - Count: 39/9
+        MDH Method: MICE-Me_CART - Count: 75/14
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 75/15
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 67/18
+        MDH Method: ICMeMI- - Count: 21/7
+        MDH Method: MICE-Me_PMM - Count: 77/19
+        MDH Method: MIDASpy-Variation_F - Count: 26/8
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 245/46
+        MDH Method: CMMI- - Count: 241/46
+        MDH Method: CTMMI- - Count: 214/46
+        MDH Method: MICE-Me_RF - Count: 41/10
+        MDH Method: MICE-Me_PMM - Count: 77/20
+        MDH Method: MICE-Me_CART - Count: 77/18
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 65/14
+        MDH Method: MIDASpy-Variation_F - Count: 25/7
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 88/19
+        MDH Method: IMeMI- - Count: 23/5
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 243/46
+        MDH Method: IMMI- - Count: 27/6
+        MDH Method: CMMI- - Count: 229/46
+        MDH Method: ITMMI- - Count: 27/6
+        MDH Method: CTMMI- - Count: 218/46
+        MDH Method: MICE-Me_RF - Count: 51/12
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 72/16
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 83/16
+        MDH Method: MICE-Me_CART - Count: 95/20
+        MDH Method: MICE-Me_PMM - Count: 85/20
+    Missing Mechanism: MCAR-UNIVARIATE
+        MDH Method: CMeMI- - Count: 46/10
+        MDH Method: CMMI- - Count: 49/10
+        MDH Method: CTMMI- - Count: 48/10
+        MDH Method: IMMI- - Count: 9/4
+        MDH Method: ITMMI- - Count: 6/3
+        MDH Method: sWKNNI-K_8&DIS_HEOM - Count: 3/1
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 5/1
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 6/2
+        MDH Method: IMeMI- - Count: 10/5
+        MDH Method: MICE-Me_PMM - Count: 5/2
+    Missing Mechanism: MCAR-MULTIVARIATE
+        MDH Method: CMeMI- - Count: 44/10
+        MDH Method: CMMI- - Count: 42/10
+        MDH Method: CTMMI- - Count: 43/10
+        MDH Method: ICMeMI- - Count: 4/1
+        MDH Method: MICE-Me_RF - Count: 13/5
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 5/2
+        MDH Method: WKNNII-K_4&DIS_HEOM - Count: 3/1
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 6/3
+        MDH Method: WKNNI-K_6&DIS_HEOM - Count: 4/2
+        MDH Method: MICE-Me_CART - Count: 4/2
+    Missing Mechanism: MCAR-MONOTONE
+        MDH Method: CMMI- - Count: 49/10
+        MDH Method: CMeMI- - Count: 48/10
+        MDH Method: CTMMI- - Count: 43/10
+        MDH Method: ICMMI- - Count: 5/3
+        MDH Method: ICMeMI- - Count: 4/3
+        MDH Method: MICE-Me_RF - Count: 10/5
+        MDH Method: sKNNII-K_4&DIS_HEOM - Count: 3/1
+        MDH Method: KNNI-K_2&DIS_HVDM - Count: 3/2
+        MDH Method: FKMI-K_15&Fuzzifier_1.75 - Count: 3/2
+        MDH Method: MICE-Me_SAMPLE - Count: 5/3
+
+
+Missing Rate: 0.5
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 250/46
+        MDH Method: CMMI- - Count: 240/46
+        MDH Method: CTMMI- - Count: 218/46
+        MDH Method: IMMI- - Count: 24/6
+        MDH Method: MICE-Me_RF - Count: 51/10
+        MDH Method: ITMMI- - Count: 24/6
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 84/17
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 88/19
+        MDH Method: MICE-Me_PMM - Count: 81/19
+        MDH Method: MICE-Me_CART - Count: 93/17
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 243/46
+        MDH Method: CMMI- - Count: 236/46
+        MDH Method: ITMMI- - Count: 30/7
+        MDH Method: CTMMI- - Count: 208/46
+        MDH Method: MICE-Me_RF - Count: 43/11
+        MDH Method: MICE-Me_CART - Count: 77/18
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 85/15
+        MDH Method: MICE-Me_PMM - Count: 84/16
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 90/18
+        MDH Method: MIDASpy-Variation_F - Count: 31/12
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMMI- - Count: 225/46
+        MDH Method: CMeMI- - Count: 235/46
+        MDH Method: CTMMI- - Count: 207/46
+        MDH Method: MICE-Me_RF - Count: 44/11
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 88/20
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 74/19
+        MDH Method: MICE-Me_PMM - Count: 102/27
+        MDH Method: ITMMI- - Count: 27/7
+        MDH Method: IMeMI- - Count: 26/7
+        MDH Method: MICE-Me_CART - Count: 79/17
+
+
+Missing Rate: 0.6
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 237/46
+        MDH Method: CMMI- - Count: 229/46
+        MDH Method: CTMMI- - Count: 202/46
+        MDH Method: MICE-Me_PMM - Count: 95/18
+        MDH Method: MICE-Me_RF - Count: 50/11
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 78/18
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 92/18
+        MDH Method: ITMMI- - Count: 33/9
+        MDH Method: IMeMI- - Count: 32/9
+        MDH Method: MICE-Me_CART - Count: 86/19
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 243/46
+        MDH Method: CMMI- - Count: 228/46
+        MDH Method: CTMMI- - Count: 204/46
+        MDH Method: IMeMI- - Count: 38/10
+        MDH Method: MICE-Me_RF - Count: 53/12
+        MDH Method: MICE-Me_CART - Count: 66/16
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 99/20
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 90/17
+        MDH Method: ITMMI- - Count: 35/10
+        MDH Method: MICE-Me_PMM - Count: 93/17
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 240/46
+        MDH Method: CMMI- - Count: 212/46
+        MDH Method: CTMMI- - Count: 196/46
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 82/16
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 103/22
+        MDH Method: ITMMI- - Count: 29/8
+        MDH Method: MIDASpy-Variation_F - Count: 34/13
+        MDH Method: MICE-Me_RF - Count: 50/13
+        MDH Method: MICE-Me_CART - Count: 68/14
+        MDH Method: MICE-Me_PMM - Count: 80/17
+
+
+Missing Rate: 0.7
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 238/46
+        MDH Method: CMMI- - Count: 233/46
+        MDH Method: CTMMI- - Count: 216/46
+        MDH Method: MICE-Me_RF - Count: 46/9
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 92/21
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 100/19
+        MDH Method: MICE-Me_CART - Count: 67/17
+        MDH Method: MICE-Me_PMM - Count: 91/20
+        MDH Method: MIDASpy-Variation_F - Count: 50/12
+        MDH Method: ITMMI- - Count: 34/10
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: IMeMI- - Count: 37/11
+        MDH Method: CMeMI- - Count: 227/46
+        MDH Method: CMMI- - Count: 211/46
+        MDH Method: ITMMI- - Count: 39/11
+        MDH Method: CTMMI- - Count: 187/46
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 102/16
+        MDH Method: MICE-Me_RF - Count: 40/11
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 100/17
+        MDH Method: MICE-Me_PMM - Count: 103/21
+        MDH Method: MICE-Me_CART - Count: 75/19
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 106/21
+        MDH Method: CMeMI- - Count: 214/46
+        MDH Method: CMMI- - Count: 213/46
+        MDH Method: CTMMI- - Count: 198/46
+        MDH Method: MICE-Me_PMM - Count: 95/24
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 98/20
+        MDH Method: MICE-Me_RF - Count: 40/9
+        MDH Method: MIDASpy-Variation_F - Count: 43/12
+        MDH Method: MICE-Me_CART - Count: 60/14
+        MDH Method: IMeMI- - Count: 36/12
+
+
+Missing Rate: 0.8
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMeMI- - Count: 211/46
+        MDH Method: CMMI- - Count: 213/46
+        MDH Method: CTMMI- - Count: 194/46
+        MDH Method: MICE-Me_RF - Count: 52/13
+        MDH Method: MICE-Me_PMM - Count: 91/20
+        MDH Method: ITMMI- - Count: 42/11
+        MDH Method: MIDASpy-Variation_F - Count: 50/11
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 96/17
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 97/17
+        MDH Method: MICE-Me_CART - Count: 71/20
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: ITMMI- - Count: 46/13
+        MDH Method: CMeMI- - Count: 228/46
+        MDH Method: CMMI- - Count: 215/46
+        MDH Method: CTMMI- - Count: 194/46
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 110/21
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 98/22
+        MDH Method: MICE-Me_PMM - Count: 96/18
+        MDH Method: MIDASpy-Variation_F - Count: 47/12
+        MDH Method: MICE-Me_RF - Count: 58/14
+        MDH Method: MICE-Me_CART - Count: 54/14
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMMI- - Count: 213/46
+        MDH Method: CMeMI- - Count: 220/46
+        MDH Method: CTMMI- - Count: 195/46
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 91/24
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 99/17
+        MDH Method: MICE-Me_RF - Count: 55/12
+        MDH Method: MICE-Me_CART - Count: 68/18
+        MDH Method: MIDASpy-Variation_F - Count: 63/12
+        MDH Method: ITMMI- - Count: 48/10
+        MDH Method: MICE-Me_PMM - Count: 113/22
+
+
+Missing Rate: 0.9
+    Missing Mechanism: MCAR-GENERAL
+        MDH Method: CMMI- - Count: 203/46
+        MDH Method: CMeMI- - Count: 216/46
+        MDH Method: CTMMI- - Count: 187/46
+        MDH Method: MICE-Me_CART - Count: 63/12
+        MDH Method: MICE-Me_PMM - Count: 78/14
+        MDH Method: MICE-Me_RF - Count: 54/9
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 104/26
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 112/22
+        MDH Method: ITMMI- - Count: 64/13
+        MDH Method: MIDASpy-Variation_F - Count: 60/15
+    Missing Mechanism: MAR-GENERAL
+        MDH Method: CMeMI- - Count: 232/46
+        MDH Method: CMMI- - Count: 209/46
+        MDH Method: ITMMI- - Count: 65/12
+        MDH Method: CTMMI- - Count: 189/46
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 90/19
+        MDH Method: MIDASpy-Variation_F - Count: 72/16
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 118/20
+        MDH Method: MICE-Me_CART - Count: 70/15
+        MDH Method: MICE-Me_PMM - Count: 98/22
+        MDH Method: MICE-Me_RF - Count: 53/8
+    Missing Mechanism: MNAR-GENERAL
+        MDH Method: CMeMI- - Count: 218/46
+        MDH Method: IMMI- - Count: 48/14
+        MDH Method: CMMI- - Count: 208/46
+        MDH Method: ITMMI- - Count: 70/14
+        MDH Method: CTMMI- - Count: 183/46
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 113/24
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 109/21
+        MDH Method: MIDASpy-Variation_F - Count: 67/15
+        MDH Method: MICE-Me_CART - Count: 59/13
+        MDH Method: MICE-Me_PMM - Count: 80/17
+
+

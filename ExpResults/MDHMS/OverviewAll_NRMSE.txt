@@ -1,0 +1,2455 @@
+Missing Rate: 0.1
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 14, 'FIII-': 15, 'MICE-Me_PMM': 25, 'ANNI-': 30, 'MISSRANGER-SPLITRULE_T': 30, 'MISSRANGER-SPLITRULE_F': 32, 'MICE-Me_CART': 41, 'CTMMI-': 59, 'CMMI-': 70, 'CMeMI-': 74}
+    MDH Methods: (54) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ANNI-', 'ICMeMI-', 'sKNNII-K_18&DIS_HVDM', 'IMeMI-', 'MeMI-', 'FIII-', 'WKNNII-K_20&DIS_HVDM', 'FKMI-K_6&Fuzzifier_1.25', 'sKNNII-K_20&DIS_HVDM', 'sKNNII-K_18&DIS_HEOM', 'FKMI-K_18&Fuzzifier_2.0', 'FKMI-K_18&Fuzzifier_1.75', 'FKMI-K_18&Fuzzifier_1.25', 'WKNNII-K_18&DIS_HEOM', 'sKNNII-K_15&DIS_HEOM', 'FKMI-K_13&Fuzzifier_1.25', 'WKNNII-K_19&DIS_HVDM', 'FKMI-K_12&Fuzzifier_1.25', 'FKMI-K_12&Fuzzifier_2.0', 'sWKNNII-K_10&DIS_HEOM', 'sKNNII-K_16&DIS_HVDM', 'WKNNII-K_19&DIS_HEOM', 'sWKNNII-K_19&DIS_HEOM', 'FKMI-K_9&Fuzzifier_2.0', 'sWKNNII-K_9&DIS_HEOM', 'sKNNII-K_16&DIS_HEOM', 'FKMI-K_16&Fuzzifier_1.5', 'FKMI-K_16&Fuzzifier_2.0', 'FKMI-K_19&Fuzzifier_2.0', 'sWKNNII-K_16&DIS_HVDM', 'WKNNII-K_16&DIS_HVDM', 'sWKNNII-K_18&DIS_HEOM', 'KMI-K_17&Fuzzifier_1.0', 'FKMI-K_17&Fuzzifier_1.25', 'FKMI-K_17&Fuzzifier_1.75', 'WKNNII-K_16&DIS_HEOM', 'WKNNII-K_17&DIS_HEOM', 'KMI-K_18&Fuzzifier_1.0', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_RF', 'MICE-Me_SAMPLE', 'MICE-Me_CART', 'MISSRANGER-SPLITRULE_T', 'IMMI-', 'ITMMI-', 'MIDASpy-Variation_F', 'TMMI-', 'MMI-', 'MIDASpy-Variation_T', 'FKMI-K_13&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 74
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 12, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.024991, 0.0, 0.269179]
+            Range: [0.0, 0.0, 0.284747]
+        MDH Method: CMMI- - Count: 70
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 11, 'NRMSE_Median': 9}
+            NRMSE_Median Range: [0.034931, 0.0, 0.269179]
+            Range: [0.0, 0.0, 0.284747]
+        MDH Method: CTMMI- - Count: 59
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 4, 'NRMSE_Median': 5}
+            NRMSE_Median Range: [0.025475, 0.0, 0.269179]
+            Range: [0.0, 0.0, 0.284747]
+        MDH Method: ANNI- - Count: 30
+            MDH Method: ANNI- - Metrics: {'NRMSE_Median': 13, 'NRMSE_MAX': 12, 'NRMSE_MIN': 5}
+            NRMSE_Median Range: [0.001631, 0.065037, 0.173041]
+            Range: [0.001631, 0.065037, 0.267708]
+        MDH Method: ICMeMI- - Count: 6
+        MDH Method: sKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: IMeMI- - Count: 7
+        MDH Method: MeMI- - Count: 3
+        MDH Method: FIII- - Count: 15
+            MDH Method: FIII- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.086597, 0.259265, 0.266028]
+            Range: [0.086597, 0.259265, 0.28951]
+        MDH Method: WKNNII-K_20&DIS_HVDM - Count: 2
+        MDH Method: FKMI-K_6&Fuzzifier_1.25 - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 2
+        MDH Method: FKMI-K_18&Fuzzifier_1.25 - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_15&DIS_HEOM - Count: 2
+        MDH Method: FKMI-K_13&Fuzzifier_1.25 - Count: 2
+        MDH Method: WKNNII-K_19&DIS_HVDM - Count: 3
+        MDH Method: FKMI-K_12&Fuzzifier_1.25 - Count: 1
+        MDH Method: FKMI-K_12&Fuzzifier_2.0 - Count: 1
+        MDH Method: sWKNNII-K_10&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_19&DIS_HEOM - Count: 3
+        MDH Method: sWKNNII-K_19&DIS_HEOM - Count: 2
+        MDH Method: FKMI-K_9&Fuzzifier_2.0 - Count: 1
+        MDH Method: sWKNNII-K_9&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HEOM - Count: 2
+        MDH Method: FKMI-K_16&Fuzzifier_1.5 - Count: 2
+        MDH Method: FKMI-K_16&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 1
+        MDH Method: sWKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_17&Fuzzifier_1.0 - Count: 2
+        MDH Method: FKMI-K_17&Fuzzifier_1.25 - Count: 2
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 1
+        MDH Method: WKNNII-K_16&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_17&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_18&Fuzzifier_1.0 - Count: 1
+        MDH Method: MICE-Me_PMM - Count: 25
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 15, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.003589, 0.030506, 0.262423]
+            Range: [0.003589, 0.030506, 0.2711]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 32
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 3, 'NRMSE_MAX': 14, 'NRMSE_Median': 15}
+            NRMSE_Median Range: [0.0, 0.03041, 0.120112]
+            Range: [0.0, 0.03041, 0.29143]
+        MDH Method: MICE-Me_RF - Count: 13
+        MDH Method: MICE-Me_SAMPLE - Count: 4
+        MDH Method: MICE-Me_CART - Count: 41
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 21, 'NRMSE_MAX': 17}
+            NRMSE_Median Range: [0.006232, 0.042236, 0.260711]
+            Range: [0.00559, 0.042236, 0.29127]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 30
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MAX': 14, 'NRMSE_Median': 15, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.0, 0.053966, 0.262959]
+            Range: [0.0, 0.053966, 0.290981]
+        MDH Method: IMMI- - Count: 11
+        MDH Method: ITMMI- - Count: 6
+        MDH Method: MIDASpy-Variation_F - Count: 14
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_Median': 4, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.249769, 0.242514, 0.262386]
+            Range: [0.097202, 0.242514, 0.285571]
+        MDH Method: TMMI- - Count: 4
+        MDH Method: MMI- - Count: 4
+        MDH Method: MIDASpy-Variation_T - Count: 9
+        MDH Method: FKMI-K_13&Fuzzifier_1.5 - Count: 1
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_RF': 17, 'FIII-': 19, 'ANNI-': 22, 'MICE-Me_PMM': 29, 'MISSRANGER-SPLITRULE_F': 34, 'MISSRANGER-SPLITRULE_T': 34, 'MICE-Me_CART': 35, 'CTMMI-': 61, 'CMeMI-': 70, 'CMMI-': 71}
+    MDH Methods: (61) ['CMeMI-', 'CMMI-', 'CTMMI-', 'sKNNII-K_8&DIS_HVDM', 'sWKNNII-K_19&DIS_HVDM', 'sKNNII-K_19&DIS_HVDM', 'WKNNII-K_19&DIS_HVDM', 'sWKNNI-K_20&DIS_HEOM', 'sKNNI-K_19&DIS_HVDM', 'KMI-K_20&Fuzzifier_1.0', 'sWKNNII-K_17&DIS_HEOM', 'sKNNII-K_19&DIS_HEOM', 'KMI-K_19&Fuzzifier_1.0', 'FKMI-K_19&Fuzzifier_1.75', 'FKMI-K_20&Fuzzifier_2.0', 'FKMI-K_13&Fuzzifier_1.25', 'WKNNII-K_20&DIS_HEOM', 'sWKNNII-K_20&DIS_HVDM', 'sKNNII-K_20&DIS_HVDM', 'KNNII-K_20&DIS_HVDM', 'sWKNNII-K_17&DIS_HVDM', 'IMMI-', 'MMI-', 'ICMeMI-', 'IMeMI-', 'FKMI-K_16&Fuzzifier_1.25', 'FKMI-K_20&Fuzzifier_1.5', 'FKMI-K_18&Fuzzifier_1.5', 'sKNNII-K_18&DIS_HEOM', 'sWKNNII-K_18&DIS_HEOM', 'WKNNI-K_17&DIS_HVDM', 'sKNNI-K_17&DIS_HVDM', 'FKMI-K_18&Fuzzifier_1.25', 'KNNII-K_18&DIS_HEOM', 'ICMMI-', 'FKMI-K_12&Fuzzifier_1.5', 'FKMI-K_18&Fuzzifier_1.75', 'sWKNNII-K_13&DIS_HEOM', 'sKNNII-K_18&DIS_HVDM', 'WKNNII-K_10&DIS_HVDM', 'sKNNII-K_16&DIS_HEOM', 'FKMI-K_17&Fuzzifier_1.75', 'sWKNNI-K_20&DIS_HVDM', 'sWKNNII-K_18&DIS_HVDM', 'WKNNII-K_18&DIS_HEOM', 'WKNNII-K_15&DIS_HEOM', 'MICE-Me_PMM', 'ANNI-', 'MICE-Me_CART', 'MICE-Me_RF', 'FIII-', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_T', 'MeMI-', 'MIDASpy-Variation_T', 'TMMI-', 'ITMMI-', 'FKMI-K_2&Fuzzifier_1.75', 'ICTMMI-']
+        MDH Method: CMeMI- - Count: 70
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 51, 'NRMSE_MAX': 8, 'NRMSE_Median': 11}
+            NRMSE_Median Range: [0.035029, 0.0, 0.287818]
+            Range: [0.0, 0.0, 0.314576]
+        MDH Method: CMMI- - Count: 71
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 12, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.037268, 0.0, 0.287818]
+            Range: [0.0, 0.0, 0.314576]
+        MDH Method: CTMMI- - Count: 61
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 7, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.021259, 0.0, 0.266015]
+            Range: [0.0, 0.0, 0.266015]
+        MDH Method: sKNNII-K_8&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HVDM - Count: 2
+        MDH Method: sKNNII-K_19&DIS_HVDM - Count: 5
+        MDH Method: WKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: sWKNNI-K_20&DIS_HEOM - Count: 1
+        MDH Method: sKNNI-K_19&DIS_HVDM - Count: 1
+        MDH Method: KMI-K_20&Fuzzifier_1.0 - Count: 1
+        MDH Method: sWKNNII-K_17&DIS_HEOM - Count: 2
+        MDH Method: sKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_19&Fuzzifier_1.0 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.75 - Count: 2
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_1.25 - Count: 1
+        MDH Method: WKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: KNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: IMMI- - Count: 9
+        MDH Method: MMI- - Count: 4
+        MDH Method: ICMeMI- - Count: 2
+        MDH Method: IMeMI- - Count: 6
+        MDH Method: FKMI-K_16&Fuzzifier_1.25 - Count: 2
+        MDH Method: FKMI-K_20&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.5 - Count: 3
+        MDH Method: sKNNII-K_18&DIS_HEOM - Count: 2
+        MDH Method: sWKNNII-K_18&DIS_HEOM - Count: 2
+        MDH Method: WKNNI-K_17&DIS_HVDM - Count: 1
+        MDH Method: sKNNI-K_17&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.25 - Count: 3
+        MDH Method: KNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: ICMMI- - Count: 4
+        MDH Method: FKMI-K_12&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 1
+        MDH Method: sWKNNII-K_13&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_10&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 1
+        MDH Method: sWKNNI-K_20&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_15&DIS_HEOM - Count: 1
+        MDH Method: MICE-Me_PMM - Count: 29
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 16, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.001113, 0.04253, 0.258855]
+            Range: [0.001113, 0.04253, 0.317324]
+        MDH Method: ANNI- - Count: 22
+            MDH Method: ANNI- - Metrics: {'NRMSE_MIN': 5, 'NRMSE_Median': 10, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.010389, 0.059671, 0.262189]
+            Range: [0.0, 0.059671, 0.320951]
+        MDH Method: MICE-Me_CART - Count: 35
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MIN': 5, 'NRMSE_Median': 17, 'NRMSE_MAX': 13}
+            NRMSE_Median Range: [0.002313, 0.039337, 0.261391]
+            Range: [0.002313, 0.039337, 0.316732]
+        MDH Method: MICE-Me_RF - Count: 17
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_Median': 9, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.003981, 0.163089, 0.268922]
+            Range: [0.003981, 0.163089, 0.32266]
+        MDH Method: FIII- - Count: 19
+            MDH Method: FIII- - Metrics: {'NRMSE_MAX': 13, 'NRMSE_Median': 6}
+            NRMSE_Median Range: [0.106099, 0.272229, 0.284737]
+            Range: [0.106099, 0.272229, 0.314337]
+        MDH Method: MIDASpy-Variation_F - Count: 16
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 34
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 1, 'NRMSE_Median': 15, 'NRMSE_MAX': 18}
+            NRMSE_Median Range: [0.000921, 0.061666, 0.064752]
+            Range: [0.000921, 0.061666, 0.321597]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 34
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_Median': 17, 'NRMSE_MAX': 16, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.000599, 0.041484, 0.086493]
+            Range: [0.000599, 0.041484, 0.237915]
+        MDH Method: MeMI- - Count: 3
+        MDH Method: MIDASpy-Variation_T - Count: 7
+        MDH Method: TMMI- - Count: 2
+        MDH Method: ITMMI- - Count: 3
+        MDH Method: FKMI-K_2&Fuzzifier_1.75 - Count: 1
+        MDH Method: ICTMMI- - Count: 2
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_RF': 16, 'ANNI-': 20, 'MIDASpy-Variation_F': 21, 'MICE-Me_PMM': 26, 'MICE-Me_CART': 28, 'MISSRANGER-SPLITRULE_T': 39, 'MISSRANGER-SPLITRULE_F': 39, 'CTMMI-': 62, 'CMMI-': 72, 'CMeMI-': 76}
+    MDH Methods: (69) ['CMeMI-', 'CMMI-', 'CTMMI-', 'sKNNII-K_17&DIS_HVDM', 'sKNNII-K_14&DIS_HEOM', 'WKNNII-K_14&DIS_HVDM', 'ICMMI-', 'FKMI-K_19&Fuzzifier_2.0', 'sKNNII-K_19&DIS_HEOM', 'WKNNII-K_19&DIS_HVDM', 'sWKNNI-K_20&DIS_HEOM', 'WKNNI-K_20&DIS_HEOM', 'sKNNI-K_20&DIS_HEOM', 'FKMI-K_20&Fuzzifier_2.0', 'FKMI-K_20&Fuzzifier_1.25', 'WKNNI-K_19&DIS_HEOM', 'sKNNI-K_19&DIS_HEOM', 'sWKNNII-K_20&DIS_HVDM', 'FKMI-K_20&Fuzzifier_1.5', 'FKMI-K_8&Fuzzifier_1.25', 'FKMI-K_8&Fuzzifier_1.5', 'FKMI-K_20&Fuzzifier_1.75', 'sKNNII-K_18&DIS_HEOM', 'sKNNII-K_19&DIS_HVDM', 'FKMI-K_18&Fuzzifier_1.25', 'WKNNII-K_17&DIS_HEOM', 'KMI-K_17&Fuzzifier_1.0', 'WKNNII-K_18&DIS_HEOM', 'sKNNI-K_20&DIS_HVDM', 'sKNNII-K_16&DIS_HVDM', 'sWKNNI-K_20&DIS_HVDM', 'FKMI-K_16&Fuzzifier_1.5', 'FKMI-K_16&Fuzzifier_1.75', 'sKNNII-K_16&DIS_HEOM', 'sKNNI-K_19&DIS_HVDM', 'FKMI-K_18&Fuzzifier_1.5', 'sWKNNII-K_16&DIS_HVDM', 'FKMI-K_19&Fuzzifier_1.75', 'FKMI-K_5&Fuzzifier_1.5', 'FKMI-K_14&Fuzzifier_1.75', 'sWKNNII-K_14&DIS_HEOM', 'FKMI-K_14&Fuzzifier_2.0', 'sKNNII-K_15&DIS_HVDM', 'sWKNNII-K_15&DIS_HVDM', 'WKNNII-K_15&DIS_HVDM', 'KMI-K_19&Fuzzifier_1.0', 'FKMI-K_12&Fuzzifier_1.25', 'sWKNNII-K_19&DIS_HEOM', 'WKNNII-K_18&DIS_HVDM', 'sWKNNII-K_18&DIS_HVDM', 'sKNNII-K_20&DIS_HVDM', 'WKNNII-K_16&DIS_HEOM', 'KMI-K_13&Fuzzifier_1.0', 'ANNI-', 'MICE-Me_PMM', 'MICE-Me_RF', 'MISSRANGER-SPLITRULE_T', 'IMeMI-', 'IMMI-', 'ITMMI-', 'MICE-Me_CART', 'FIII-', 'MIDASpy-Variation_F', 'MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_F', 'TMMI-', 'MIDASpy-Variation_T', 'ICMeMI-', 'MMI-']
+        MDH Method: CMeMI- - Count: 76
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 12, 'NRMSE_Median': 14}
+            NRMSE_Median Range: [0.014894, 0.0, 0.238535]
+            Range: [0.0, 0.0, 0.357003]
+        MDH Method: CMMI- - Count: 72
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 11, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.035638, 0.0, 0.237001]
+            Range: [0.0, 0.0, 0.357003]
+        MDH Method: CTMMI- - Count: 62
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 6, 'NRMSE_MAX': 6}
+            NRMSE_Median Range: [0.037268, 0.0, 0.237001]
+            Range: [0.0, 0.0, 0.357003]
+        MDH Method: sKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_14&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_14&DIS_HVDM - Count: 1
+        MDH Method: ICMMI- - Count: 3
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 1
+        MDH Method: sKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_19&DIS_HVDM - Count: 3
+        MDH Method: sWKNNI-K_20&DIS_HEOM - Count: 1
+        MDH Method: WKNNI-K_20&DIS_HEOM - Count: 1
+        MDH Method: sKNNI-K_20&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.25 - Count: 2
+        MDH Method: WKNNI-K_19&DIS_HEOM - Count: 2
+        MDH Method: sKNNI-K_19&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_8&Fuzzifier_1.25 - Count: 1
+        MDH Method: FKMI-K_8&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.75 - Count: 2
+        MDH Method: sKNNII-K_18&DIS_HEOM - Count: 2
+        MDH Method: sKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.25 - Count: 1
+        MDH Method: WKNNII-K_17&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_17&Fuzzifier_1.0 - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: sKNNI-K_20&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HVDM - Count: 2
+        MDH Method: sWKNNI-K_20&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_16&Fuzzifier_1.5 - Count: 2
+        MDH Method: FKMI-K_16&Fuzzifier_1.75 - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HEOM - Count: 1
+        MDH Method: sKNNI-K_19&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.5 - Count: 1
+        MDH Method: sWKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_5&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_1.75 - Count: 1
+        MDH Method: sWKNNII-K_14&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_2.0 - Count: 1
+        MDH Method: sKNNII-K_15&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_15&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_15&DIS_HVDM - Count: 1
+        MDH Method: KMI-K_19&Fuzzifier_1.0 - Count: 1
+        MDH Method: FKMI-K_12&Fuzzifier_1.25 - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_16&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_13&Fuzzifier_1.0 - Count: 1
+        MDH Method: ANNI- - Count: 20
+            MDH Method: ANNI- - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 9, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.000624, 0.051369, 0.156463]
+            Range: [0.000624, 0.051369, 0.313492]
+        MDH Method: MICE-Me_PMM - Count: 26
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 13, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.003204, 0.039604, 0.263619]
+            Range: [0.003204, 0.039604, 0.353473]
+        MDH Method: MICE-Me_RF - Count: 16
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 9, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.006935, 0.040824, 0.26443]
+            Range: [0.004954, 0.040824, 0.26443]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_Median': 25, 'NRMSE_MIN': 2, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.0, 0.027705, 0.257215]
+            Range: [0.0, 0.027705, 0.257215]
+        MDH Method: IMeMI- - Count: 4
+        MDH Method: IMMI- - Count: 8
+        MDH Method: ITMMI- - Count: 4
+        MDH Method: MICE-Me_CART - Count: 28
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MIN': 4, 'NRMSE_MAX': 11, 'NRMSE_Median': 13}
+            NRMSE_Median Range: [0.013443, 0.071835, 0.260258]
+            Range: [0.004865, 0.071835, 0.339312]
+        MDH Method: FIII- - Count: 15
+        MDH Method: MIDASpy-Variation_F - Count: 21
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 16, 'NRMSE_Median': 4, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.210539, 0.22934, 0.25978]
+            Range: [0.056492, 0.22934, 0.352734]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MAX': 17, 'NRMSE_Median': 21, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.000307, 0.033679, 0.099504]
+            Range: [0.000307, 0.033679, 0.352734]
+        MDH Method: TMMI- - Count: 1
+        MDH Method: MIDASpy-Variation_T - Count: 7
+        MDH Method: ICMeMI- - Count: 3
+        MDH Method: MMI- - Count: 2
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 4, 'ICMeMI-': 4, 'MICE-Me_CART': 5, 'ANNI-': 8, 'MISSRANGER-SPLITRULE_F': 9, 'MICE-Me_PMM': 12, 'MISSRANGER-SPLITRULE_T': 12, 'CTMMI-': 74, 'CMMI-': 75, 'CMeMI-': 77}
+    MDH Methods: (21) ['CMeMI-', 'CMMI-', 'CTMMI-', 'MICE-Me_PMM', 'ANNI-', 'MISSRANGER-SPLITRULE_T', 'MIDASpy-Variation_T', 'MIDASpy-Variation_F', 'MICE-Me_RF', 'MISSRANGER-SPLITRULE_F', 'ICMMI-', 'MICE-Me_CART', 'ICMeMI-', 'MICE-Me_SAMPLE', 'IMMI-', 'MMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'TMMI-', 'ICTMMI-']
+        MDH Method: CMeMI- - Count: 77
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 33, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.0, 0.0, 0.0]
+            Range: [0.0, 0.0, 0.763055]
+        MDH Method: CMMI- - Count: 75
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 33, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.0, 0.0, 0.0]
+            Range: [0.0, 0.0, 0.763055]
+        MDH Method: CTMMI- - Count: 74
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 33, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.0, 0.0, 0.0]
+            Range: [0.0, 0.0, 0.763055]
+        MDH Method: MICE-Me_PMM - Count: 12
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MAX': 12}
+            NRMSE_Median Range: []
+            Range: [0.034342, 0.064784, 0.702313]
+        MDH Method: ANNI- - Count: 8
+            MDH Method: ANNI- - Metrics: {'NRMSE_MAX': 8}
+            NRMSE_Median Range: []
+            Range: [0.014728, 0.080062, 0.692625]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 12
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MAX': 12}
+            NRMSE_Median Range: []
+            Range: [0.0, 0.051682, 0.398015]
+        MDH Method: MIDASpy-Variation_T - Count: 2
+        MDH Method: MIDASpy-Variation_F - Count: 4
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 4}
+            NRMSE_Median Range: []
+            Range: [0.014127, 0.232883, 0.631963]
+        MDH Method: MICE-Me_RF - Count: 2
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 9
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MAX': 9}
+            NRMSE_Median Range: []
+            Range: [0.0, 0.052604, 0.372309]
+        MDH Method: ICMMI- - Count: 1
+        MDH Method: MICE-Me_CART - Count: 5
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MAX': 5}
+            NRMSE_Median Range: []
+            Range: [0.044488, 0.052019, 0.137195]
+        MDH Method: ICMeMI- - Count: 4
+            MDH Method: ICMeMI- - Metrics: {'NRMSE_MAX': 4}
+            NRMSE_Median Range: []
+            Range: [0.008489, 0.121172, 0.237338]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: IMMI- - Count: 3
+        MDH Method: MMI- - Count: 2
+        MDH Method: IMeMI- - Count: 2
+        MDH Method: MeMI- - Count: 1
+        MDH Method: FIII- - Count: 1
+        MDH Method: TMMI- - Count: 1
+        MDH Method: ICTMMI- - Count: 1
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 6, 'ANNI-': 10, 'MICE-Me_RF': 10, 'MICE-Me_CART': 18, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_F': 26, 'MISSRANGER-SPLITRULE_T': 26, 'CTMMI-': 50, 'CMMI-': 50, 'CMeMI-': 53}
+    MDH Methods: (20) ['CMeMI-', 'CMMI-', 'CTMMI-', 'MICE-Me_PMM', 'ANNI-', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'FIII-', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T', 'IMeMI-', 'MICE-Me_CART', 'ITMMI-', 'TMMI-', 'MeMI-', 'IMMI-', 'MICE-Me_RF', 'MICE-Me_SAMPLE', 'MMI-', 'ICMeMI-']
+        MDH Method: CMeMI- - Count: 53
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 15, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.0, 0.0, 0.03425]
+            Range: [0.0, 0.0, 0.507049]
+        MDH Method: CMMI- - Count: 50
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 15, 'NRMSE_MAX': 2}
+            NRMSE_Median Range: [0.0, 0.0, 0.03425]
+            Range: [0.0, 0.0, 0.210066]
+        MDH Method: CTMMI- - Count: 50
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 14, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.0, 0.0, 0.0]
+            Range: [0.0, 0.0, 0.210066]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MAX': 10, 'NRMSE_Median': 11}
+            NRMSE_Median Range: [0.0, 0.032132, 0.091885]
+            Range: [0.0, 0.032132, 0.217479]
+        MDH Method: ANNI- - Count: 10
+            MDH Method: ANNI- - Metrics: {'NRMSE_MAX': 7, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.0, 0.036446, 0.013917]
+            Range: [0.0, 0.036446, 0.117665]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 26
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MAX': 17, 'NRMSE_Median': 9}
+            NRMSE_Median Range: [0.0, 0.036709, 0.031951]
+            Range: [0.0, 0.036709, 0.502002]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 26
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_Median': 12, 'NRMSE_MAX': 14}
+            NRMSE_Median Range: [0.0, 0.026827, 0.030685]
+            Range: [0.0, 0.026827, 0.504532]
+        MDH Method: FIII- - Count: 4
+        MDH Method: MIDASpy-Variation_F - Count: 6
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 6}
+            NRMSE_Median Range: []
+            Range: [0.033917, 0.063995, 0.314557]
+        MDH Method: MIDASpy-Variation_T - Count: 4
+        MDH Method: IMeMI- - Count: 3
+        MDH Method: MICE-Me_CART - Count: 18
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.0, 0.023093, 0.034836]
+            Range: [0.0, 0.023093, 0.172345]
+        MDH Method: ITMMI- - Count: 5
+        MDH Method: TMMI- - Count: 3
+        MDH Method: MeMI- - Count: 1
+        MDH Method: IMMI- - Count: 4
+        MDH Method: MICE-Me_RF - Count: 10
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MAX': 7, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.0, 0.050189, 0.033558]
+            Range: [0.0, 0.050189, 0.232495]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MMI- - Count: 1
+        MDH Method: ICMeMI- - Count: 1
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'IMMI-': 6, 'MIDASpy-Variation_F': 6, 'ANNI-': 8, 'MICE-Me_CART': 10, 'MICE-Me_PMM': 11, 'MISSRANGER-SPLITRULE_F': 15, 'MISSRANGER-SPLITRULE_T': 22, 'CTMMI-': 62, 'CMMI-': 62, 'CMeMI-': 64}
+    MDH Methods: (20) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ANNI-', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_RF', 'FIII-', 'MIDASpy-Variation_T', 'MICE-Me_CART', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_F', 'ICMeMI-', 'IMeMI-', 'MeMI-', 'IMMI-', 'MMI-', 'TMMI-', 'ICTMMI-', 'ITMMI-']
+        MDH Method: CMeMI- - Count: 64
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 26, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.0, 0.0, 0.205021]
+            Range: [0.0, 0.0, 0.410997]
+        MDH Method: CMMI- - Count: 62
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 25, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.0, 0.0, 0.205021]
+            Range: [0.0, 0.0, 0.410997]
+        MDH Method: CTMMI- - Count: 62
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 33, 'NRMSE_Median': 25, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.0, 0.0, 0.205021]
+            Range: [0.0, 0.0, 0.410997]
+        MDH Method: ANNI- - Count: 8
+            MDH Method: ANNI- - Metrics: {'NRMSE_MAX': 6, 'NRMSE_Median': 2}
+            NRMSE_Median Range: [0.016502, 0.071603, 0.062694]
+            Range: [0.016502, 0.071603, 0.415848]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 22
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MAX': 19, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.004064, 0.031665, 0.015442]
+            Range: [0.004064, 0.031665, 0.545268]
+        MDH Method: MICE-Me_RF - Count: 5
+        MDH Method: FIII- - Count: 5
+        MDH Method: MIDASpy-Variation_T - Count: 3
+        MDH Method: MICE-Me_CART - Count: 10
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MAX': 8, 'NRMSE_Median': 2}
+            NRMSE_Median Range: [0.000931, 0.0408, 0.084206]
+            Range: [0.000931, 0.0408, 0.307148]
+        MDH Method: MICE-Me_PMM - Count: 11
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MAX': 8, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.009308, 0.035084, 0.085097]
+            Range: [0.0, 0.035084, 0.086341]
+        MDH Method: MIDASpy-Variation_F - Count: 6
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 5, 'NRMSE_Median': 1}
+            NRMSE_Median Range: [0.001867, 0.14122, 0.001867]
+            Range: [0.001867, 0.14122, 0.362398]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 15
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.004412, 0.026991, 0.026991]
+            Range: [0.004412, 0.026991, 0.285939]
+        MDH Method: ICMeMI- - Count: 4
+        MDH Method: IMeMI- - Count: 4
+        MDH Method: MeMI- - Count: 2
+        MDH Method: IMMI- - Count: 6
+            MDH Method: IMMI- - Metrics: {'NRMSE_MAX': 6}
+            NRMSE_Median Range: []
+            Range: [0.055869, 0.102161, 0.394215]
+        MDH Method: MMI- - Count: 3
+        MDH Method: TMMI- - Count: 3
+        MDH Method: ICTMMI- - Count: 1
+        MDH Method: ITMMI- - Count: 1
+Missing Rate: 0.2
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_RF': 16, 'ANNI-': 19, 'MIDASpy-Variation_F': 19, 'MICE-Me_PMM': 23, 'MICE-Me_CART': 32, 'MISSRANGER-SPLITRULE_F': 34, 'MISSRANGER-SPLITRULE_T': 42, 'CTMMI-': 68, 'CMeMI-': 72, 'CMMI-': 76}
+    MDH Methods: (49) ['CMeMI-', 'CMMI-', 'CTMMI-', 'WKNNII-K_15&DIS_HEOM', 'sWKNNII-K_20&DIS_HVDM', 'sKNNII-K_17&DIS_HVDM', 'sKNNII-K_16&DIS_HEOM', 'KMI-K_20&Fuzzifier_1.0', 'WKNNII-K_20&DIS_HEOM', 'ICMMI-', 'FKMI-K_18&Fuzzifier_1.25', 'WKNNII-K_18&DIS_HEOM', 'KMI-K_18&Fuzzifier_1.0', 'TMMI-', 'ITMMI-', 'sKNNII-K_19&DIS_HEOM', 'FKMI-K_19&Fuzzifier_2.0', 'FKMI-K_19&Fuzzifier_1.25', 'KMI-K_17&Fuzzifier_1.0', 'sKNNII-K_17&DIS_HEOM', 'sWKNNII-K_17&DIS_HEOM', 'sKNNII-K_20&DIS_HEOM', 'FKMI-K_17&Fuzzifier_2.0', 'sKNNII-K_20&DIS_HVDM', 'ICTMMI-', 'WKNNII-K_19&DIS_HEOM', 'WKNNII-K_20&DIS_HVDM', 'WKNNI-K_19&DIS_HVDM', 'FKMI-K_18&Fuzzifier_1.75', 'sKNNII-K_18&DIS_HEOM', 'sWKNNII-K_19&DIS_HEOM', 'ANNI-', 'IMMI-', 'MMI-', 'FKMI-K_18&Fuzzifier_2.0', 'MICE-Me_CART', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MIDASpy-Variation_F', 'MICE-Me_RF', 'FIII-', 'IMeMI-', 'MICE-Me_SAMPLE', 'MIDASpy-Variation_T', 'FKMI-K_14&Fuzzifier_2.0', 'FKMI-K_14&Fuzzifier_1.5', 'ICMeMI-', 'MeMI-']
+        MDH Method: CMeMI- - Count: 72
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 12, 'NRMSE_Median': 10}
+            NRMSE_Median Range: [0.021831, 0.0, 0.397139]
+            Range: [0.0, 0.0, 0.409208]
+        MDH Method: CMMI- - Count: 76
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 13, 'NRMSE_MAX': 14}
+            NRMSE_Median Range: [0.057783, 0.0, 0.357081]
+            Range: [0.0, 0.0, 0.400534]
+        MDH Method: CTMMI- - Count: 68
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 9, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.035435, 0.0, 0.357081]
+            Range: [0.0, 0.0, 0.400534]
+        MDH Method: WKNNII-K_15&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HVDM - Count: 5
+        MDH Method: sKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_20&Fuzzifier_1.0 - Count: 2
+        MDH Method: WKNNII-K_20&DIS_HEOM - Count: 2
+        MDH Method: ICMMI- - Count: 7
+        MDH Method: FKMI-K_18&Fuzzifier_1.25 - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_18&Fuzzifier_1.0 - Count: 1
+        MDH Method: TMMI- - Count: 2
+        MDH Method: ITMMI- - Count: 5
+        MDH Method: sKNNII-K_19&DIS_HEOM - Count: 2
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.25 - Count: 3
+        MDH Method: KMI-K_17&Fuzzifier_1.0 - Count: 1
+        MDH Method: sKNNII-K_17&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_17&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_2.0 - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HVDM - Count: 3
+        MDH Method: ICTMMI- - Count: 2
+        MDH Method: WKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_20&DIS_HVDM - Count: 3
+        MDH Method: WKNNI-K_19&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 1
+        MDH Method: sKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HEOM - Count: 2
+        MDH Method: ANNI- - Count: 19
+            MDH Method: ANNI- - Metrics: {'NRMSE_MAX': 7, 'NRMSE_MIN': 3, 'NRMSE_Median': 9}
+            NRMSE_Median Range: [0.010475, 0.070003, 0.365114]
+            Range: [0.008007, 0.070003, 0.365114]
+        MDH Method: IMMI- - Count: 12
+        MDH Method: MMI- - Count: 4
+        MDH Method: FKMI-K_18&Fuzzifier_2.0 - Count: 1
+        MDH Method: MICE-Me_CART - Count: 32
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 19, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.012606, 0.073292, 0.386315]
+            Range: [0.012606, 0.073292, 0.411313]
+        MDH Method: MICE-Me_PMM - Count: 23
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 5, 'NRMSE_Median': 11, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.016976, 0.043563, 0.370673]
+            Range: [0.0, 0.043563, 0.396746]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 34
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 1, 'NRMSE_Median': 19, 'NRMSE_MAX': 14}
+            NRMSE_Median Range: [0.010043, 0.06546, 0.370687]
+            Range: [0.010043, 0.06546, 0.393083]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 42
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_Median': 23, 'NRMSE_MIN': 3, 'NRMSE_MAX': 16}
+            NRMSE_Median Range: [0.00285, 0.060471, 0.37104]
+            Range: [0.00285, 0.060471, 0.37104]
+        MDH Method: MIDASpy-Variation_F - Count: 19
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 12, 'NRMSE_Median': 7}
+            NRMSE_Median Range: [0.022372, 0.189557, 0.370275]
+            Range: [0.022372, 0.189557, 0.385701]
+        MDH Method: MICE-Me_RF - Count: 16
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MAX': 11, 'NRMSE_Median': 4, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.020504, 0.131341, 0.156533]
+            Range: [0.020504, 0.131341, 0.412144]
+        MDH Method: FIII- - Count: 13
+        MDH Method: IMeMI- - Count: 5
+        MDH Method: MICE-Me_SAMPLE - Count: 2
+        MDH Method: MIDASpy-Variation_T - Count: 8
+        MDH Method: FKMI-K_14&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_1.5 - Count: 1
+        MDH Method: ICMeMI- - Count: 1
+        MDH Method: MeMI- - Count: 1
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 17, 'MICE-Me_RF': 18, 'MIDASpy-Variation_F': 18, 'MICE-Me_PMM': 29, 'MICE-Me_CART': 34, 'MISSRANGER-SPLITRULE_F': 39, 'MISSRANGER-SPLITRULE_T': 40, 'CTMMI-': 63, 'CMMI-': 69, 'CMeMI-': 70}
+    MDH Methods: (45) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'WKNNII-K_14&DIS_HVDM', 'FKMI-K_20&Fuzzifier_1.25', 'sWKNNII-K_20&DIS_HEOM', 'sKNNII-K_14&DIS_HEOM', 'FKMI-K_14&Fuzzifier_2.0', 'sWKNNII-K_13&DIS_HEOM', 'sWKNNII-K_12&DIS_HVDM', 'WKNNII-K_13&DIS_HVDM', 'IMeMI-', 'MeMI-', 'FIII-', 'ICMeMI-', 'KMI-K_13&Fuzzifier_1.0', 'FKMI-K_13&Fuzzifier_1.75', 'sKNNII-K_13&DIS_HEOM', 'ANNI-', 'sWKNNII-K_17&DIS_HEOM', 'FKMI-K_17&Fuzzifier_1.75', 'FKMI-K_17&Fuzzifier_1.5', 'FKMI-K_19&Fuzzifier_1.5', 'FKMI-K_19&Fuzzifier_1.75', 'KMI-K_19&Fuzzifier_1.0', 'FKMI-K_18&Fuzzifier_1.75', 'WKNNII-K_18&DIS_HEOM', 'FKMI-K_18&Fuzzifier_2.0', 'WKNNII-K_19&DIS_HEOM', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MICE-Me_CART', 'MICE-Me_RF', 'ITMMI-', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T', 'FKMI-K_9&Fuzzifier_1.5', 'FKMI-K_11&Fuzzifier_1.75', 'ICTMMI-']
+        MDH Method: CMeMI- - Count: 70
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 13, 'NRMSE_Median': 9}
+            NRMSE_Median Range: [0.047134, 0.0, 0.39133]
+            Range: [0.0, 0.0, 0.426815]
+        MDH Method: CMMI- - Count: 69
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 14, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.052705, 0.0, 0.39133]
+            Range: [0.0, 0.0, 0.413413]
+        MDH Method: CTMMI- - Count: 63
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 11, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.052705, 0.0, 0.371042]
+            Range: [0.0, 0.0, 0.371042]
+        MDH Method: ICMMI- - Count: 5
+        MDH Method: IMMI- - Count: 16
+        MDH Method: MMI- - Count: 6
+        MDH Method: TMMI- - Count: 4
+        MDH Method: WKNNII-K_14&DIS_HVDM - Count: 2
+        MDH Method: FKMI-K_20&Fuzzifier_1.25 - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_14&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_2.0 - Count: 1
+        MDH Method: sWKNNII-K_13&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_12&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_13&DIS_HVDM - Count: 1
+        MDH Method: IMeMI- - Count: 11
+        MDH Method: MeMI- - Count: 4
+        MDH Method: FIII- - Count: 17
+            MDH Method: FIII- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.129205, 0.367075, 0.390492]
+            Range: [0.129205, 0.367075, 0.436217]
+        MDH Method: ICMeMI- - Count: 5
+        MDH Method: KMI-K_13&Fuzzifier_1.0 - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_1.75 - Count: 1
+        MDH Method: sKNNII-K_13&DIS_HEOM - Count: 1
+        MDH Method: ANNI- - Count: 14
+        MDH Method: sWKNNII-K_17&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.75 - Count: 1
+        MDH Method: KMI-K_19&Fuzzifier_1.0 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_2.0 - Count: 1
+        MDH Method: WKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 40
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 23, 'NRMSE_MAX': 14}
+            NRMSE_Median Range: [0.005219, 0.062447, 0.378594]
+            Range: [0.005219, 0.062447, 0.450292]
+        MDH Method: MICE-Me_PMM - Count: 29
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 17, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.004032, 0.054904, 0.372652]
+            Range: [0.0, 0.054904, 0.390776]
+        MDH Method: MICE-Me_CART - Count: 34
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MIN': 4, 'NRMSE_MAX': 15, 'NRMSE_Median': 15}
+            NRMSE_Median Range: [0.006338, 0.092661, 0.385342]
+            Range: [0.006338, 0.092661, 0.447811]
+        MDH Method: MICE-Me_RF - Count: 18
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_Median': 9, 'NRMSE_MAX': 6, 'NRMSE_MIN': 3}
+            NRMSE_Median Range: [0.007123, 0.066511, 0.3904]
+            Range: [0.0, 0.066511, 0.3904]
+        MDH Method: ITMMI- - Count: 4
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 39
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 1, 'NRMSE_Median': 22, 'NRMSE_MAX': 16}
+            NRMSE_Median Range: [0.010004, 0.066582, 0.37958]
+            Range: [0.009151, 0.066582, 0.430832]
+        MDH Method: MICE-Me_SAMPLE - Count: 3
+        MDH Method: MIDASpy-Variation_F - Count: 18
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 14, 'NRMSE_Median': 4}
+            NRMSE_Median Range: [0.0349, 0.176752, 0.372015]
+            Range: [0.0349, 0.176752, 0.425477]
+        MDH Method: MIDASpy-Variation_T - Count: 9
+        MDH Method: FKMI-K_9&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_11&Fuzzifier_1.75 - Count: 1
+        MDH Method: ICTMMI- - Count: 2
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'FIII-': 17, 'ANNI-': 17, 'MIDASpy-Variation_F': 17, 'MICE-Me_PMM': 28, 'MISSRANGER-SPLITRULE_F': 33, 'MISSRANGER-SPLITRULE_T': 38, 'MICE-Me_CART': 38, 'CTMMI-': 68, 'CMMI-': 73, 'CMeMI-': 75}
+    MDH Methods: (55) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMeMI-', 'IMMI-', 'sKNNII-K_19&DIS_HVDM', 'sWKNNII-K_20&DIS_HVDM', 'MMI-', 'ITMMI-', 'WKNNII-K_12&DIS_HVDM', 'ICMMI-', 'WKNNI-K_20&DIS_HVDM', 'WKNNII-K_19&DIS_HVDM', 'sKNNII-K_20&DIS_HVDM', 'IMeMI-', 'MeMI-', 'FIII-', 'FKMI-K_17&Fuzzifier_1.25', 'KMI-K_20&Fuzzifier_1.0', 'WKNNII-K_17&DIS_HEOM', 'sKNNII-K_16&DIS_HVDM', 'WKNNII-K_13&DIS_HVDM', 'WKNNII-K_16&DIS_HVDM', 'FKMI-K_15&Fuzzifier_1.25', 'FKMI-K_15&Fuzzifier_1.75', 'FKMI-K_15&Fuzzifier_2.0', 'sWKNNII-K_19&DIS_HVDM', 'sWKNNII-K_19&DIS_HEOM', 'WKNNII-K_14&DIS_HVDM', 'sWKNNI-K_19&DIS_HEOM', 'sKNNI-K_20&DIS_HVDM', 'KNNII-K_20&DIS_HVDM', 'TMMI-', 'sWKNNII-K_20&DIS_HEOM', 'sKNNI-K_20&DIS_HEOM', 'FKMI-K_20&Fuzzifier_1.75', 'FKMI-K_14&Fuzzifier_1.75', 'sWKNNII-K_14&DIS_HEOM', 'sKNNII-K_14&DIS_HEOM', 'sWKNNII-K_15&DIS_HEOM', 'WKNNII-K_15&DIS_HEOM', 'MICE-Me_CART', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MICE-Me_RF', 'MISSRANGER-SPLITRULE_F', 'ANNI-', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T', 'MICE-Me_SAMPLE', 'FKMI-K_1&Fuzzifier_2.0', 'FKMI-K_1&Fuzzifier_1.5', 'ICTMMI-', 'FKMI-K_10&Fuzzifier_1.75', 'FKMI-K_9&Fuzzifier_1.75']
+        MDH Method: CMeMI- - Count: 75
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 13, 'NRMSE_MAX': 13}
+            NRMSE_Median Range: [0.0212, 0.0, 0.376858]
+            Range: [0.0, 0.0, 0.464604]
+        MDH Method: CMMI- - Count: 73
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 11, 'NRMSE_Median': 14}
+            NRMSE_Median Range: [0.06455, 0.0, 0.376858]
+            Range: [0.0, 0.0, 0.38555]
+        MDH Method: CTMMI- - Count: 68
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 14, 'NRMSE_MAX': 6}
+            NRMSE_Median Range: [0.018657, 0.0, 0.358356]
+            Range: [0.0, 0.0, 0.358356]
+        MDH Method: ICMeMI- - Count: 2
+        MDH Method: IMMI- - Count: 12
+        MDH Method: sKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: MMI- - Count: 7
+        MDH Method: ITMMI- - Count: 3
+        MDH Method: WKNNII-K_12&DIS_HVDM - Count: 1
+        MDH Method: ICMMI- - Count: 4
+        MDH Method: WKNNI-K_20&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: IMeMI- - Count: 6
+        MDH Method: MeMI- - Count: 3
+        MDH Method: FIII- - Count: 17
+            MDH Method: FIII- - Metrics: {'NRMSE_Median': 6, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.131016, 0.365767, 0.37055]
+            Range: [0.131016, 0.365767, 0.463755]
+        MDH Method: FKMI-K_17&Fuzzifier_1.25 - Count: 1
+        MDH Method: KMI-K_20&Fuzzifier_1.0 - Count: 1
+        MDH Method: WKNNII-K_17&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_13&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_15&Fuzzifier_1.25 - Count: 1
+        MDH Method: FKMI-K_15&Fuzzifier_1.75 - Count: 2
+        MDH Method: FKMI-K_15&Fuzzifier_2.0 - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_14&DIS_HVDM - Count: 1
+        MDH Method: sWKNNI-K_19&DIS_HEOM - Count: 1
+        MDH Method: sKNNI-K_20&DIS_HVDM - Count: 1
+        MDH Method: KNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: TMMI- - Count: 5
+        MDH Method: sWKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: sKNNI-K_20&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_1.75 - Count: 1
+        MDH Method: sWKNNII-K_14&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_14&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_15&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_15&DIS_HEOM - Count: 1
+        MDH Method: MICE-Me_CART - Count: 38
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MIN': 6, 'NRMSE_Median': 17, 'NRMSE_MAX': 15}
+            NRMSE_Median Range: [0.010689, 0.064464, 0.376701]
+            Range: [0.0, 0.064464, 0.455998]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 38
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 20, 'NRMSE_MAX': 16}
+            NRMSE_Median Range: [0.007463, 0.061716, 0.365757]
+            Range: [0.007463, 0.061716, 0.46442]
+        MDH Method: MICE-Me_PMM - Count: 28
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 5, 'NRMSE_Median': 15, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.005273, 0.054409, 0.363842]
+            Range: [0.005273, 0.054409, 0.466813]
+        MDH Method: MICE-Me_RF - Count: 13
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 33
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MAX': 13, 'NRMSE_Median': 18, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.002623, 0.064945, 0.356238]
+            Range: [0.0, 0.064945, 0.453893]
+        MDH Method: ANNI- - Count: 17
+            MDH Method: ANNI- - Metrics: {'NRMSE_MAX': 8, 'NRMSE_Median': 7, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.0, 0.097238, 0.148974]
+            Range: [0.0, 0.097238, 0.445528]
+        MDH Method: MIDASpy-Variation_F - Count: 17
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 14, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.03106, 0.18052, 0.362939]
+            Range: [0.03106, 0.18052, 0.462731]
+        MDH Method: MIDASpy-Variation_T - Count: 8
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.5 - Count: 1
+        MDH Method: ICTMMI- - Count: 2
+        MDH Method: FKMI-K_10&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_9&Fuzzifier_1.75 - Count: 1
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'ANNI-': 2, 'ICTMMI-': 2, 'MISSRANGER-SPLITRULE_T': 3, 'MICE-Me_PMM': 3, 'MISSRANGER-SPLITRULE_F': 3, 'MIDASpy-Variation_F': 3, 'MICE-Me_CART': 5, 'CMeMI-': 31, 'CTMMI-': 31, 'CMMI-': 33}
+    MDH Methods: (11) ['CMeMI-', 'CMMI-', 'CTMMI-', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MIDASpy-Variation_F', 'MICE-Me_CART', 'MICE-Me_RF', 'ANNI-', 'ICTMMI-']
+        MDH Method: CMeMI- - Count: 31
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_Median': 13, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.0, 0.0, 0.0]
+            Range: [0.0, 0.0, 0.818449]
+        MDH Method: CMMI- - Count: 33
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_Median': 13, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.0, 0.0, 0.0]
+            Range: [0.0, 0.0, 0.770176]
+        MDH Method: CTMMI- - Count: 31
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_Median': 13, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.0, 0.0, 0.0]
+            Range: [0.0, 0.0, 0.717667]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 3
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MAX': 3}
+            NRMSE_Median Range: []
+            Range: [0.137549, 0.416278, 0.76452]
+        MDH Method: MICE-Me_PMM - Count: 3
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MAX': 3}
+            NRMSE_Median Range: []
+            Range: [0.120121, 0.667064, 0.734955]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 3
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MAX': 3}
+            NRMSE_Median Range: []
+            Range: [0.134868, 0.375627, 0.779357]
+        MDH Method: MIDASpy-Variation_F - Count: 3
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 3}
+            NRMSE_Median Range: []
+            Range: [0.725514, 0.777926, 0.81398]
+        MDH Method: MICE-Me_CART - Count: 5
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MAX': 5}
+            NRMSE_Median Range: []
+            Range: [0.471082, 0.715948, 0.812297]
+        MDH Method: MICE-Me_RF - Count: 1
+        MDH Method: ANNI- - Count: 2
+            MDH Method: ANNI- - Metrics: {'NRMSE_MAX': 2}
+            NRMSE_Median Range: []
+            Range: [0.291106, 0.295164, 0.299223]
+        MDH Method: ICTMMI- - Count: 2
+            MDH Method: ICTMMI- - Metrics: {'NRMSE_MAX': 2}
+            NRMSE_Median Range: []
+            Range: [0.088284, 0.099762, 0.11124]
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'ICMeMI-': 3, 'MISSRANGER-SPLITRULE_T': 5, 'ANNI-': 6, 'MISSRANGER-SPLITRULE_F': 6, 'MICE-Me_CART': 7, 'MIDASpy-Variation_F': 8, 'FIII-': 11, 'CTMMI-': 18, 'CMMI-': 22, 'CMeMI-': 26}
+    MDH Methods: (15) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ANNI-', 'FIII-', 'MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_RF', 'ICMeMI-', 'MIDASpy-Variation_F', 'MICE-Me_CART', 'MICE-Me_PMM', 'ICTMMI-', 'MIDASpy-Variation_T']
+        MDH Method: CMeMI- - Count: 26
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_Median': 6, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.0, 0.0, 0.172592]
+            Range: [0.0, 0.0, 0.567392]
+        MDH Method: CMMI- - Count: 22
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_Median': 6, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.0, 0.0, 0.172592]
+            Range: [0.0, 0.0, 0.199431]
+        MDH Method: CTMMI- - Count: 18
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_Median': 4, 'NRMSE_MAX': 1}
+            NRMSE_Median Range: [0.0, 0.0, 0.0]
+            Range: [0.0, 0.0, 0.199431]
+        MDH Method: ANNI- - Count: 6
+            MDH Method: ANNI- - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.151358, 0.264291, 0.368096]
+            Range: [0.151358, 0.264291, 0.51707]
+        MDH Method: FIII- - Count: 11
+            MDH Method: FIII- - Metrics: {'NRMSE_Median': 4, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.115569, 0.368096, 0.368096]
+            Range: [0.115569, 0.368096, 0.564976]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 6
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MAX': 3, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.038597, 0.228077, 0.072007]
+            Range: [0.038597, 0.228077, 0.504035]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 5
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MAX': 2, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.042004, 0.088454, 0.222908]
+            Range: [0.042004, 0.088454, 0.511443]
+        MDH Method: MICE-Me_RF - Count: 1
+        MDH Method: ICMeMI- - Count: 3
+            MDH Method: ICMeMI- - Metrics: {'NRMSE_MAX': 3}
+            NRMSE_Median Range: []
+            Range: [0.058926, 0.064827, 0.089062]
+        MDH Method: MIDASpy-Variation_F - Count: 8
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.132804, 0.39085, 0.309531]
+            Range: [0.132804, 0.39085, 0.564976]
+        MDH Method: MICE-Me_CART - Count: 7
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MAX': 3, 'NRMSE_Median': 4}
+            NRMSE_Median Range: [0.038395, 0.311769, 0.311769]
+            Range: [0.038395, 0.311769, 0.530822]
+        MDH Method: MICE-Me_PMM - Count: 1
+        MDH Method: ICTMMI- - Count: 1
+        MDH Method: MIDASpy-Variation_T - Count: 1
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'MISSRANGER-SPLITRULE_F': 5, 'MICE-Me_RF': 5, 'MIDASpy-Variation_F': 6, 'ANNI-': 7, 'MICE-Me_PMM': 7, 'MICE-Me_CART': 9, 'FIII-': 10, 'CTMMI-': 16, 'CMMI-': 20, 'CMeMI-': 25}
+    MDH Methods: (13) ['CMeMI-', 'CMMI-', 'CTMMI-', 'MISSRANGER-SPLITRULE_T', 'ANNI-', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MIDASpy-Variation_F', 'MICE-Me_RF', 'MICE-Me_CART', 'FIII-', 'MIDASpy-Variation_T', 'ICMeMI-']
+        MDH Method: CMeMI- - Count: 25
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_Median': 4, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.065681, 0.0, 0.195434]
+            Range: [0.0, 0.0, 0.445249]
+        MDH Method: CMMI- - Count: 20
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_MAX': 4, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.04249, 0.0, 0.217483]
+            Range: [0.0, 0.0, 0.421672]
+        MDH Method: CTMMI- - Count: 16
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 13, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.040453, 0.0, 0.177597]
+            Range: [0.0, 0.0, 0.177597]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 5
+        MDH Method: ANNI- - Count: 7
+            MDH Method: ANNI- - Metrics: {'NRMSE_Median': 4, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.060876, 0.208473, 0.288845]
+            Range: [0.060876, 0.208473, 0.312403]
+        MDH Method: MICE-Me_PMM - Count: 7
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.039977, 0.289605, 0.289605]
+            Range: [0.039977, 0.289605, 0.449827]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 5
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MAX': 3, 'NRMSE_Median': 2}
+            NRMSE_Median Range: [0.033632, 0.36733, 0.190181]
+            Range: [0.033632, 0.36733, 0.442269]
+        MDH Method: MIDASpy-Variation_F - Count: 6
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_Median': 4, 'NRMSE_MAX': 2}
+            NRMSE_Median Range: [0.06924, 0.290918, 0.306314]
+            Range: [0.06924, 0.290918, 0.491148]
+        MDH Method: MICE-Me_RF - Count: 5
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MAX': 2, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.056637, 0.307148, 0.307148]
+            Range: [0.056637, 0.307148, 0.442269]
+        MDH Method: MICE-Me_CART - Count: 9
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_Median': 4, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.054089, 0.293422, 0.293422]
+            Range: [0.054089, 0.293422, 0.476]
+        MDH Method: FIII- - Count: 10
+            MDH Method: FIII- - Metrics: {'NRMSE_Median': 5, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.149388, 0.333444, 0.306142]
+            Range: [0.149388, 0.333444, 0.472407]
+        MDH Method: MIDASpy-Variation_T - Count: 1
+        MDH Method: ICMeMI- - Count: 1
+Missing Rate: 0.3
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 13, 'MICE-Me_RF': 15, 'IMMI-': 21, 'MICE-Me_PMM': 22, 'MISSRANGER-SPLITRULE_F': 29, 'MISSRANGER-SPLITRULE_T': 34, 'MICE-Me_CART': 37, 'CTMMI-': 73, 'CMeMI-': 79, 'CMMI-': 83}
+    MDH Methods: (41) ['CMeMI-', 'CMMI-', 'CTMMI-', 'TMMI-', 'ITMMI-', 'IMMI-', 'WKNNII-K_20&DIS_HEOM', 'sKNNII-K_20&DIS_HVDM', 'sWKNNII-K_20&DIS_HVDM', 'ICMMI-', 'MMI-', 'FKMI-K_19&Fuzzifier_1.5', 'FKMI-K_19&Fuzzifier_1.75', 'KMI-K_19&Fuzzifier_1.0', 'FKMI-K_18&Fuzzifier_1.75', 'IMeMI-', 'MeMI-', 'ICMeMI-', 'WKNNII-K_19&DIS_HVDM', 'sWKNNII-K_20&DIS_HEOM', 'FKMI-K_20&Fuzzifier_2.0', 'FKMI-K_17&Fuzzifier_1.75', 'FKMI-K_17&Fuzzifier_1.25', 'KMI-K_17&Fuzzifier_1.0', 'ANNI-', 'ICTMMI-', 'FKMI-K_18&Fuzzifier_2.0', 'KMI-K_18&Fuzzifier_1.0', 'sKNNII-K_18&DIS_HEOM', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_RF', 'MICE-Me_CART', 'MICE-Me_PMM', 'FIII-', 'MIDASpy-Variation_F', 'MICE-Me_SAMPLE', 'MIDASpy-Variation_T', 'FKMI-K_16&Fuzzifier_1.75', 'FKMI-K_16&Fuzzifier_1.5', 'FKMI-K_20&Fuzzifier_1.75']
+        MDH Method: CMeMI- - Count: 79
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 16, 'NRMSE_Median': 13}
+            NRMSE_Median Range: [0.045757, 0.0, 0.477489]
+            Range: [0.0, 0.0, 0.539018]
+        MDH Method: CMMI- - Count: 83
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 19, 'NRMSE_MAX': 15}
+            NRMSE_Median Range: [0.059686, 0.0, 0.477489]
+            Range: [0.0, 0.0, 0.539018]
+        MDH Method: CTMMI- - Count: 73
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 13, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.059774, 0.0, 0.474616]
+            Range: [0.0, 0.0, 0.49943]
+        MDH Method: TMMI- - Count: 8
+        MDH Method: ITMMI- - Count: 7
+        MDH Method: IMMI- - Count: 21
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 11, 'NRMSE_MAX': 9, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.022411, 0.156662, 0.165918]
+            Range: [0.022411, 0.156662, 0.4722]
+        MDH Method: WKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: ICMMI- - Count: 10
+        MDH Method: MMI- - Count: 10
+        MDH Method: FKMI-K_19&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.75 - Count: 1
+        MDH Method: KMI-K_19&Fuzzifier_1.0 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 1
+        MDH Method: IMeMI- - Count: 7
+        MDH Method: MeMI- - Count: 2
+        MDH Method: ICMeMI- - Count: 5
+        MDH Method: WKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 2
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.25 - Count: 1
+        MDH Method: KMI-K_17&Fuzzifier_1.0 - Count: 1
+        MDH Method: ANNI- - Count: 11
+        MDH Method: ICTMMI- - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_2.0 - Count: 1
+        MDH Method: KMI-K_18&Fuzzifier_1.0 - Count: 1
+        MDH Method: sKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 34
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 19, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.011396, 0.069948, 0.081974]
+            Range: [0.008849, 0.069948, 0.526334]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 29
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 2, 'NRMSE_MAX': 13, 'NRMSE_Median': 14}
+            NRMSE_Median Range: [0.013539, 0.079985, 0.233115]
+            Range: [0.011396, 0.079985, 0.498628]
+        MDH Method: MICE-Me_RF - Count: 15
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 6, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.013643, 0.080774, 0.199007]
+            Range: [0.011847, 0.080774, 0.501368]
+        MDH Method: MICE-Me_CART - Count: 37
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_Median': 18, 'NRMSE_MIN': 3, 'NRMSE_MAX': 16}
+            NRMSE_Median Range: [0.00977, 0.085467, 0.467949]
+            Range: [0.00977, 0.085467, 0.5]
+        MDH Method: MICE-Me_PMM - Count: 22
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_Median': 10, 'NRMSE_MIN': 3, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.008406, 0.073517, 0.454211]
+            Range: [0.008406, 0.073517, 0.477503]
+        MDH Method: FIII- - Count: 11
+        MDH Method: MIDASpy-Variation_F - Count: 13
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 10, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.209976, 0.391268, 0.472697]
+            Range: [0.083427, 0.391268, 0.504494]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MIDASpy-Variation_T - Count: 5
+        MDH Method: FKMI-K_16&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_16&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.75 - Count: 1
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_RF': 18, 'IMMI-': 18, 'MIDASpy-Variation_F': 18, 'MICE-Me_PMM': 21, 'MISSRANGER-SPLITRULE_F': 29, 'MICE-Me_CART': 31, 'MISSRANGER-SPLITRULE_T': 35, 'CTMMI-': 65, 'CMMI-': 76, 'CMeMI-': 80}
+    MDH Methods: (59) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'ICMeMI-', 'FKMI-K_18&Fuzzifier_1.75', 'FKMI-K_18&Fuzzifier_2.0', 'FKMI-K_18&Fuzzifier_1.5', 'sKNNI-K_18&DIS_HEOM', 'WKNNII-K_14&DIS_HEOM', 'sWKNNII-K_13&DIS_HEOM', 'FKMI-K_19&Fuzzifier_1.75', 'WKNNII-K_17&DIS_HVDM', 'sKNNII-K_19&DIS_HEOM', 'FKMI-K_18&Fuzzifier_1.25', 'FKMI-K_16&Fuzzifier_1.25', 'sWKNNII-K_19&DIS_HEOM', 'sWKNNII-K_16&DIS_HVDM', 'sWKNNII-K_18&DIS_HEOM', 'sWKNNII-K_14&DIS_HVDM', 'FKMI-K_14&Fuzzifier_1.25', 'WKNNII-K_14&DIS_HVDM', 'sKNNII-K_18&DIS_HEOM', 'KMI-K_18&Fuzzifier_1.0', 'WKNNII-K_20&DIS_HVDM', 'FKMI-K_11&Fuzzifier_1.75', 'KNNII-K_20&DIS_HVDM', 'sWKNNII-K_18&DIS_HVDM', 'FKMI-K_17&Fuzzifier_2.0', 'FKMI-K_20&Fuzzifier_2.0', 'sKNNII-K_18&DIS_HVDM', 'WKNNI-K_20&DIS_HEOM', 'sKNNII-K_17&DIS_HVDM', 'FKMI-K_13&Fuzzifier_1.25', 'sWKNNII-K_15&DIS_HVDM', 'sKNNII-K_15&DIS_HVDM', 'FKMI-K_16&Fuzzifier_1.75', 'sKNNII-K_15&DIS_HEOM', 'sWKNNII-K_15&DIS_HEOM', 'sKNNII-K_13&DIS_HVDM', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_CART', 'MICE-Me_RF', 'FIII-', 'MIDASpy-Variation_F', 'MICE-Me_SAMPLE', 'ANNI-', 'IMeMI-', 'ITMMI-', 'ICMMI-', 'MIDASpy-Variation_T', 'FKMI-K_19&Fuzzifier_1.5', 'MeMI-', 'FKMI-K_10&Fuzzifier_1.5', 'FKMI-K_10&Fuzzifier_1.75']
+        MDH Method: CMeMI- - Count: 80
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 17, 'NRMSE_Median': 15}
+            NRMSE_Median Range: [0.058811, 0.0, 0.476495]
+            Range: [0.0, 0.0, 0.531217]
+        MDH Method: CMMI- - Count: 76
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 16, 'NRMSE_Median': 12}
+            NRMSE_Median Range: [0.06455, 0.0, 0.476495]
+            Range: [0.0, 0.0, 0.531217]
+        MDH Method: CTMMI- - Count: 65
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 8, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.06455, 0.0, 0.476495]
+            Range: [0.0, 0.0, 0.491831]
+        MDH Method: IMMI- - Count: 18
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 9, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.024238, 0.165265, 0.198493]
+            Range: [0.024238, 0.165265, 0.511019]
+        MDH Method: MMI- - Count: 9
+        MDH Method: TMMI- - Count: 10
+        MDH Method: ICMeMI- - Count: 8
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.5 - Count: 2
+        MDH Method: sKNNI-K_18&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_14&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_13&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.75 - Count: 1
+        MDH Method: WKNNII-K_17&DIS_HVDM - Count: 2
+        MDH Method: sKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.25 - Count: 3
+        MDH Method: FKMI-K_16&Fuzzifier_1.25 - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_18&DIS_HEOM - Count: 2
+        MDH Method: sWKNNII-K_14&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_1.25 - Count: 1
+        MDH Method: WKNNII-K_14&DIS_HVDM - Count: 2
+        MDH Method: sKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_18&Fuzzifier_1.0 - Count: 1
+        MDH Method: WKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_11&Fuzzifier_1.75 - Count: 2
+        MDH Method: KNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_2.0 - Count: 2
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 1
+        MDH Method: sKNNII-K_18&DIS_HVDM - Count: 2
+        MDH Method: WKNNI-K_20&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_1.25 - Count: 1
+        MDH Method: sWKNNII-K_15&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_15&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_16&Fuzzifier_1.75 - Count: 1
+        MDH Method: sKNNII-K_15&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_15&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_13&DIS_HVDM - Count: 1
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 12, 'NRMSE_MAX': 6}
+            NRMSE_Median Range: [0.009302, 0.068538, 0.465248]
+            Range: [0.009302, 0.068538, 0.485927]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 35
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 18, 'NRMSE_MAX': 13}
+            NRMSE_Median Range: [0.018064, 0.068338, 0.081927]
+            Range: [0.010425, 0.068338, 0.518249]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 29
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 17, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.018053, 0.060601, 0.467684]
+            Range: [0.018053, 0.060601, 0.467684]
+        MDH Method: MICE-Me_CART - Count: 31
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_Median': 13, 'NRMSE_MIN': 5, 'NRMSE_MAX': 13}
+            NRMSE_Median Range: [0.017943, 0.080715, 0.45025]
+            Range: [0.010098, 0.080715, 0.515306]
+        MDH Method: MICE-Me_RF - Count: 18
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 7, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.028005, 0.083914, 0.305771]
+            Range: [0.0, 0.083914, 0.486299]
+        MDH Method: FIII- - Count: 5
+        MDH Method: MIDASpy-Variation_F - Count: 18
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 10, 'NRMSE_Median': 7, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.022353, 0.307254, 0.494342]
+            Range: [0.013255, 0.307254, 0.527984]
+        MDH Method: MICE-Me_SAMPLE - Count: 2
+        MDH Method: ANNI- - Count: 9
+        MDH Method: IMeMI- - Count: 8
+        MDH Method: ITMMI- - Count: 2
+        MDH Method: ICMMI- - Count: 5
+        MDH Method: MIDASpy-Variation_T - Count: 7
+        MDH Method: FKMI-K_19&Fuzzifier_1.5 - Count: 1
+        MDH Method: MeMI- - Count: 1
+        MDH Method: FKMI-K_10&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_10&Fuzzifier_1.75 - Count: 1
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'ANNI-': 14, 'MIDASpy-Variation_F': 16, 'MICE-Me_PMM': 20, 'MICE-Me_CART': 25, 'IMMI-': 26, 'MISSRANGER-SPLITRULE_F': 32, 'MISSRANGER-SPLITRULE_T': 34, 'CTMMI-': 71, 'CMMI-': 76, 'CMeMI-': 85}
+    MDH Methods: (38) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ITMMI-', 'TMMI-', 'IMMI-', 'MMI-', 'FKMI-K_20&Fuzzifier_1.25', 'IMeMI-', 'MeMI-', 'sKNNII-K_19&DIS_HEOM', 'KMI-K_19&Fuzzifier_1.0', 'WKNNII-K_13&DIS_HVDM', 'ICMeMI-', 'FKMI-K_20&Fuzzifier_2.0', 'WKNNII-K_20&DIS_HEOM', 'WKNNI-K_20&DIS_HEOM', 'sWKNNII-K_20&DIS_HEOM', 'FKMI-K_20&Fuzzifier_1.5', 'sKNNII-K_20&DIS_HVDM', 'ICMMI-', 'ANNI-', 'sWKNNII-K_16&DIS_HVDM', 'FKMI-K_13&Fuzzifier_2.0', 'FKMI-K_13&Fuzzifier_1.5', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_CART', 'MICE-Me_RF', 'FIII-', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T', 'MICE-Me_SAMPLE', 'FKMI-K_17&Fuzzifier_1.5', 'FKMI-K_19&Fuzzifier_2.0', 'ICTMMI-', 'FKMI-K_18&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 85
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 17, 'NRMSE_MAX': 18}
+            NRMSE_Median Range: [0.042559, 0.0, 0.460217]
+            Range: [0.0, 0.0, 0.553447]
+        MDH Method: CMMI- - Count: 76
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 16, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.036092, 0.0, 0.460217]
+            Range: [0.0, 0.0, 0.553447]
+        MDH Method: CTMMI- - Count: 71
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 9, 'NRMSE_Median': 12}
+            NRMSE_Median Range: [0.046151, 0.0, 0.459581]
+            Range: [0.0, 0.0, 0.553447]
+        MDH Method: ITMMI- - Count: 13
+        MDH Method: TMMI- - Count: 10
+        MDH Method: IMMI- - Count: 26
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 12, 'NRMSE_MAX': 13, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.02709, 0.167934, 0.198493]
+            Range: [0.02709, 0.167934, 0.427121]
+        MDH Method: MMI- - Count: 10
+        MDH Method: FKMI-K_20&Fuzzifier_1.25 - Count: 1
+        MDH Method: IMeMI- - Count: 7
+        MDH Method: MeMI- - Count: 1
+        MDH Method: sKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_19&Fuzzifier_1.0 - Count: 1
+        MDH Method: WKNNII-K_13&DIS_HVDM - Count: 1
+        MDH Method: ICMeMI- - Count: 11
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 1
+        MDH Method: WKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: WKNNI-K_20&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.5 - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: ICMMI- - Count: 2
+        MDH Method: ANNI- - Count: 14
+            MDH Method: ANNI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 6, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.046268, 0.182142, 0.447087]
+            Range: [0.008695, 0.182142, 0.518835]
+        MDH Method: sWKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_1.5 - Count: 1
+        MDH Method: MICE-Me_PMM - Count: 20
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 10, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.01428, 0.055568, 0.449985]
+            Range: [0.01428, 0.055568, 0.449985]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 34
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 16, 'NRMSE_MAX': 15}
+            NRMSE_Median Range: [0.014286, 0.077163, 0.44161]
+            Range: [0.014286, 0.077163, 0.493593]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 32
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 2, 'NRMSE_MAX': 15, 'NRMSE_Median': 15}
+            NRMSE_Median Range: [0.013433, 0.104929, 0.290561]
+            Range: [0.013433, 0.104929, 0.534046]
+        MDH Method: MICE-Me_CART - Count: 25
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_Median': 12, 'NRMSE_MIN': 3, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.028639, 0.095258, 0.455137]
+            Range: [0.016756, 0.095258, 0.547348]
+        MDH Method: MICE-Me_RF - Count: 12
+        MDH Method: FIII- - Count: 10
+        MDH Method: MIDASpy-Variation_F - Count: 16
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 12, 'NRMSE_Median': 4}
+            NRMSE_Median Range: [0.037592, 0.31021, 0.456374]
+            Range: [0.037592, 0.31021, 0.544424]
+        MDH Method: MIDASpy-Variation_T - Count: 10
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 1
+        MDH Method: ICTMMI- - Count: 2
+        MDH Method: FKMI-K_18&Fuzzifier_1.5 - Count: 1
+Missing Rate: 0.4
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'IMMI-': 14, 'MICE-Me_RF': 16, 'MIDASpy-Variation_F': 17, 'MICE-Me_PMM': 20, 'MICE-Me_CART': 22, 'MISSRANGER-SPLITRULE_F': 27, 'MISSRANGER-SPLITRULE_T': 32, 'CTMMI-': 75, 'CMeMI-': 81, 'CMMI-': 84}
+    MDH Methods: (39) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'ITMMI-', 'FKMI-K_20&Fuzzifier_1.75', 'FKMI-K_20&Fuzzifier_1.25', 'KMI-K_20&Fuzzifier_1.0', 'ICMMI-', 'WKNNII-K_20&DIS_HVDM', 'KMI-K_19&Fuzzifier_1.0', 'IMMI-', 'sKNNI-K_20&DIS_HVDM', 'WKNNII-K_18&DIS_HVDM', 'ICTMMI-', 'sWKNNI-K_18&DIS_HVDM', 'WKNNI-K_18&DIS_HVDM', 'sKNNI-K_18&DIS_HEOM', 'sWKNNI-K_17&DIS_HEOM', 'WKNNI-K_17&DIS_HEOM', 'sWKNNII-K_18&DIS_HEOM', 'WKNNII-K_19&DIS_HVDM', 'sKNNII-K_19&DIS_HVDM', 'KNNII-K_19&DIS_HVDM', 'ICMeMI-', 'TMMI-', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_CART', 'MICE-Me_RF', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T', 'MMI-', 'FKMI-K_6&Fuzzifier_2.0', 'ANNI-', 'FKMI-K_8&Fuzzifier_1.75']
+        MDH Method: CMeMI- - Count: 81
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 52, 'NRMSE_MAX': 15, 'NRMSE_Median': 14}
+            NRMSE_Median Range: [0.074536, 0.0, 0.549836]
+            Range: [0.0, 0.0, 0.579314]
+        MDH Method: CMMI- - Count: 84
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_MAX': 17, 'NRMSE_Median': 18}
+            NRMSE_Median Range: [0.067387, 0.0, 0.549836]
+            Range: [0.0, 0.0, 0.579314]
+        MDH Method: CTMMI- - Count: 75
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 14, 'NRMSE_Median': 13}
+            NRMSE_Median Range: [0.042259, 0.0, 0.549266]
+            Range: [0.0, 0.0, 0.576578]
+        MDH Method: IMeMI- - Count: 13
+        MDH Method: MeMI- - Count: 6
+        MDH Method: FIII- - Count: 10
+        MDH Method: ITMMI- - Count: 13
+        MDH Method: FKMI-K_20&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.25 - Count: 1
+        MDH Method: KMI-K_20&Fuzzifier_1.0 - Count: 2
+        MDH Method: ICMMI- - Count: 8
+        MDH Method: WKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: KMI-K_19&Fuzzifier_1.0 - Count: 1
+        MDH Method: IMMI- - Count: 14
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 6, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.022425, 0.17462, 0.348743]
+            Range: [0.022425, 0.17462, 0.469147]
+        MDH Method: sKNNI-K_20&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: ICTMMI- - Count: 5
+        MDH Method: sWKNNI-K_18&DIS_HVDM - Count: 1
+        MDH Method: WKNNI-K_18&DIS_HVDM - Count: 1
+        MDH Method: sKNNI-K_18&DIS_HEOM - Count: 1
+        MDH Method: sWKNNI-K_17&DIS_HEOM - Count: 1
+        MDH Method: WKNNI-K_17&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: KNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: ICMeMI- - Count: 3
+        MDH Method: TMMI- - Count: 9
+        MDH Method: MICE-Me_PMM - Count: 20
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 8, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.020395, 0.09605, 0.289975]
+            Range: [0.013188, 0.09605, 0.557609]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 32
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 17, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.017115, 0.096828, 0.531413]
+            Range: [0.013331, 0.096828, 0.54525]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 27
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 1, 'NRMSE_Median': 17, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.016599, 0.088816, 0.527604]
+            Range: [0.016599, 0.088816, 0.537874]
+        MDH Method: MICE-Me_CART - Count: 22
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_Median': 10, 'NRMSE_MIN': 2, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.02211, 0.108002, 0.529496]
+            Range: [0.012238, 0.108002, 0.57565]
+        MDH Method: MICE-Me_RF - Count: 16
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 7, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.018592, 0.107558, 0.531564]
+            Range: [0.012407, 0.107558, 0.550147]
+        MDH Method: MIDASpy-Variation_F - Count: 17
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 12, 'NRMSE_Median': 5}
+            NRMSE_Median Range: [0.051656, 0.459683, 0.524804]
+            Range: [0.051656, 0.459683, 0.570597]
+        MDH Method: MIDASpy-Variation_T - Count: 13
+        MDH Method: MMI- - Count: 7
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 1
+        MDH Method: ANNI- - Count: 10
+        MDH Method: FKMI-K_8&Fuzzifier_1.75 - Count: 1
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'ICMMI-': 13, 'MICE-Me_PMM': 14, 'MIDASpy-Variation_F': 15, 'MICE-Me_CART': 22, 'IMMI-': 26, 'MISSRANGER-SPLITRULE_F': 27, 'MISSRANGER-SPLITRULE_T': 33, 'CTMMI-': 83, 'CMeMI-': 83, 'CMMI-': 91}
+    MDH Methods: (33) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMeMI-', 'IMMI-', 'MMI-', 'ITMMI-', 'sWKNNII-K_20&DIS_HVDM', 'WKNNII-K_20&DIS_HEOM', 'sKNNII-K_17&DIS_HEOM', 'WKNNII-K_19&DIS_HVDM', 'sWKNNII-K_14&DIS_HVDM', 'sWKNNII-K_16&DIS_HVDM', 'sKNNII-K_16&DIS_HVDM', 'FKMI-K_15&Fuzzifier_2.0', 'ICMMI-', 'ICTMMI-', 'IMeMI-', 'TMMI-', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MICE-Me_CART', 'MIDASpy-Variation_T', 'MICE-Me_RF', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'FIII-', 'ANNI-', 'FKMI-K_20&Fuzzifier_2.0', 'FKMI-K_8&Fuzzifier_2.0', 'FKMI-K_5&Fuzzifier_2.0', 'FKMI-K_5&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 83
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 15, 'NRMSE_MAX': 18}
+            NRMSE_Median Range: [0.083333, 0.0, 0.562951]
+            Range: [0.0, 0.0, 0.594295]
+        MDH Method: CMMI- - Count: 91
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 23, 'NRMSE_MAX': 18}
+            NRMSE_Median Range: [0.028723, 0.0, 0.562951]
+            Range: [0.0, 0.0, 0.592187]
+        MDH Method: CTMMI- - Count: 83
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 17, 'NRMSE_Median': 16}
+            NRMSE_Median Range: [0.028642, 0.0, 0.543452]
+            Range: [0.0, 0.0, 0.592187]
+        MDH Method: ICMeMI- - Count: 8
+        MDH Method: IMMI- - Count: 26
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 14, 'NRMSE_MAX': 11, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.026973, 0.186828, 0.190762]
+            Range: [0.026973, 0.186828, 0.587299]
+        MDH Method: MMI- - Count: 11
+        MDH Method: ITMMI- - Count: 4
+        MDH Method: sWKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_17&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_14&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_15&Fuzzifier_2.0 - Count: 1
+        MDH Method: ICMMI- - Count: 13
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.085326, 0.186431, 0.1896]
+            Range: [0.085326, 0.186431, 0.202158]
+        MDH Method: ICTMMI- - Count: 9
+        MDH Method: IMeMI- - Count: 10
+        MDH Method: TMMI- - Count: 9
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 33
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 17, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.019226, 0.06588, 0.105238]
+            Range: [0.017309, 0.06588, 0.541667]
+        MDH Method: MICE-Me_PMM - Count: 14
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 6, 'NRMSE_MAX': 6}
+            NRMSE_Median Range: [0.033836, 0.109621, 0.280887]
+            Range: [0.028334, 0.109621, 0.570443]
+        MDH Method: MICE-Me_CART - Count: 22
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 9, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.035453, 0.162915, 0.533807]
+            Range: [0.019251, 0.162915, 0.595622]
+        MDH Method: MIDASpy-Variation_T - Count: 7
+        MDH Method: MICE-Me_RF - Count: 13
+        MDH Method: MIDASpy-Variation_F - Count: 15
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 10, 'NRMSE_Median': 5}
+            NRMSE_Median Range: [0.052274, 0.476823, 0.558253]
+            Range: [0.052274, 0.476823, 0.600965]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 27
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_Median': 15, 'NRMSE_MAX': 11, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.018869, 0.111604, 0.524569]
+            Range: [0.018453, 0.111604, 0.574335]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: FIII- - Count: 7
+        MDH Method: ANNI- - Count: 6
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_8&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_5&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_5&Fuzzifier_1.5 - Count: 1
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_RF': 18, 'MIDASpy-Variation_F': 20, 'MICE-Me_CART': 20, 'MICE-Me_PMM': 21, 'IMMI-': 21, 'MISSRANGER-SPLITRULE_F': 23, 'MISSRANGER-SPLITRULE_T': 31, 'CTMMI-': 81, 'CMeMI-': 81, 'CMMI-': 92}
+    MDH Methods: (32) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'ICTMMI-', 'ITMMI-', 'FKMI-K_13&Fuzzifier_1.25', 'WKNNII-K_13&DIS_HEOM', 'FKMI-K_13&Fuzzifier_2.0', 'WKNNI-K_16&DIS_HVDM', 'sKNNII-K_14&DIS_HVDM', 'sKNNII-K_16&DIS_HVDM', 'FKMI-K_18&Fuzzifier_1.75', 'sWKNNII-K_18&DIS_HEOM', 'sKNNII-K_17&DIS_HVDM', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_RF', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MICE-Me_CART', 'IMeMI-', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'FIII-', 'MIDASpy-Variation_T', 'ICMeMI-', 'ANNI-', 'FKMI-K_15&Fuzzifier_2.0', 'FKMI-K_15&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 81
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 18, 'NRMSE_Median': 13}
+            NRMSE_Median Range: [0.082312, 0.0, 0.540875]
+            Range: [0.0, 0.0, 0.607748]
+        MDH Method: CMMI- - Count: 92
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 16, 'NRMSE_MAX': 27}
+            NRMSE_Median Range: [0.066505, 0.0, 0.540875]
+            Range: [0.0, 0.0, 0.607748]
+        MDH Method: CTMMI- - Count: 81
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 14, 'NRMSE_MAX': 19}
+            NRMSE_Median Range: [0.036783, 0.0, 0.540875]
+            Range: [0.0, 0.0, 0.607748]
+        MDH Method: ICMMI- - Count: 14
+        MDH Method: IMMI- - Count: 21
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 11, 'NRMSE_MAX': 9, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.021813, 0.183399, 0.351954]
+            Range: [0.021813, 0.183399, 0.351954]
+        MDH Method: MMI- - Count: 11
+        MDH Method: TMMI- - Count: 11
+        MDH Method: ICTMMI- - Count: 6
+        MDH Method: ITMMI- - Count: 6
+        MDH Method: FKMI-K_13&Fuzzifier_1.25 - Count: 1
+        MDH Method: WKNNII-K_13&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_2.0 - Count: 1
+        MDH Method: WKNNI-K_16&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_14&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 1
+        MDH Method: sWKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 31
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 5, 'NRMSE_Median': 15, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.023313, 0.066375, 0.522079]
+            Range: [0.017332, 0.066375, 0.60397]
+        MDH Method: MICE-Me_RF - Count: 18
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 7, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.019031, 0.105362, 0.243733]
+            Range: [0.017748, 0.105362, 0.593171]
+        MDH Method: MICE-Me_PMM - Count: 21
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 9, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.020404, 0.090729, 0.528286]
+            Range: [0.018407, 0.090729, 0.528286]
+        MDH Method: MIDASpy-Variation_F - Count: 20
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 11, 'NRMSE_Median': 8, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.048167, 0.241507, 0.539254]
+            Range: [0.048167, 0.241507, 0.592187]
+        MDH Method: MICE-Me_CART - Count: 20
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MAX': 10, 'NRMSE_MIN': 1, 'NRMSE_Median': 9}
+            NRMSE_Median Range: [0.022161, 0.116368, 0.547274]
+            Range: [0.022161, 0.116368, 0.574957]
+        MDH Method: IMeMI- - Count: 7
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 23
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_Median': 15, 'NRMSE_MAX': 7, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.018997, 0.091629, 0.527312]
+            Range: [0.018016, 0.091629, 0.582772]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: FIII- - Count: 4
+        MDH Method: MIDASpy-Variation_T - Count: 12
+        MDH Method: ICMeMI- - Count: 4
+        MDH Method: ANNI- - Count: 9
+        MDH Method: FKMI-K_15&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_15&Fuzzifier_1.5 - Count: 1
+    Missing Mechanism: MCAR-UNIVARIATE
+    Top-10 Best MDH Methods: {'TMMI-': 4, 'ICMMI-': 6, 'IMMI-': 6, 'MMI-': 6, 'MeMI-': 6, 'FIII-': 6, 'IMeMI-': 8, 'CMeMI-': 12, 'CTMMI-': 16, 'CMMI-': 18}
+    MDH Methods: (11) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'ICMeMI-']
+        MDH Method: CMeMI- - Count: 12
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_Median': 1, 'NRMSE_MAX': 1}
+            NRMSE_Median Range: [0.129326, 0.0, 0.129326]
+            Range: [0.0, 0.0, 0.258651]
+        MDH Method: CMMI- - Count: 18
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_Median': 4, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.127748, 0.0, 0.13885]
+            Range: [0.0, 0.0, 0.277701]
+        MDH Method: CTMMI- - Count: 16
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_Median': 3, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.131421, 0.0, 0.139011]
+            Range: [0.0, 0.0, 0.278022]
+        MDH Method: ICMMI- - Count: 6
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.13141, 0.200835, 0.13885]
+            Range: [0.13141, 0.200835, 0.277701]
+        MDH Method: IMMI- - Count: 6
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.127724, 0.195777, 0.136105]
+            Range: [0.127724, 0.195777, 0.272211]
+        MDH Method: MMI- - Count: 6
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.127724, 0.195777, 0.136105]
+            Range: [0.127724, 0.195777, 0.272211]
+        MDH Method: TMMI- - Count: 4
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 2, 'NRMSE_MAX': 2}
+            NRMSE_Median Range: [0.128929, 0.196996, 0.136134]
+            Range: [0.128929, 0.196996, 0.272269]
+        MDH Method: IMeMI- - Count: 8
+            MDH Method: IMeMI- - Metrics: {'NRMSE_Median': 4, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.128617, 0.194038, 0.130843]
+            Range: [0.128617, 0.194038, 0.261686]
+        MDH Method: MeMI- - Count: 6
+            MDH Method: MeMI- - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.128617, 0.194038, 0.130843]
+            Range: [0.128617, 0.194038, 0.261686]
+        MDH Method: FIII- - Count: 6
+            MDH Method: FIII- - Metrics: {'NRMSE_Median': 3, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.128617, 0.194038, 0.130843]
+            Range: [0.128617, 0.194038, 0.261686]
+        MDH Method: ICMeMI- - Count: 2
+    Missing Mechanism: MCAR-MULTIVARIATE
+    Top-10 Best MDH Methods: {'ICTMMI-': 1, 'TMMI-': 2, 'IMeMI-': 2, 'IMMI-': 3, 'MMI-': 3, 'WKNNII-K_18&DIS_HVDM': 3, 'ICMMI-': 4, 'CMeMI-': 11, 'CTMMI-': 14, 'CMMI-': 15}
+    MDH Methods: (42) ['CMeMI-', 'CMMI-', 'CTMMI-', 'sWKNNII-K_16&DIS_HVDM', 'ICTMMI-', 'FKMI-K_16&Fuzzifier_2.0', 'sKNNII-K_16&DIS_HVDM', 'FKMI-K_19&Fuzzifier_1.75', 'IMeMI-', 'MeMI-', 'FIII-', 'sKNNII-K_13&DIS_HEOM', 'KMI-K_13&Fuzzifier_1.0', 'KMI-K_19&Fuzzifier_1.0', 'IMMI-', 'MMI-', 'TMMI-', 'WKNNII-K_16&DIS_HVDM', 'sKNNII-K_11&DIS_HVDM', 'FKMI-K_13&Fuzzifier_1.75', 'ICMMI-', 'WKNNII-K_20&DIS_HVDM', 'FKMI-K_20&Fuzzifier_1.25', 'WKNNII-K_18&DIS_HVDM', 'sWKNNII-K_13&DIS_HVDM', 'sKNNII-K_19&DIS_HEOM', 'WKNNII-K_14&DIS_HVDM', 'KNNII-K_18&DIS_HVDM', 'sWKNNII-K_17&DIS_HVDM', 'FKMI-K_12&Fuzzifier_1.75', 'sKNNI-K_19&DIS_HVDM', 'sWKNNII-K_19&DIS_HEOM', 'FKMI-K_19&Fuzzifier_1.5', 'FKMI-K_19&Fuzzifier_2.0', 'sKNNII-K_19&DIS_HVDM', 'FKMI-K_14&Fuzzifier_2.0', 'WKNNII-K_14&DIS_HEOM', 'FKMI-K_14&Fuzzifier_1.75', 'sKNNII-K_18&DIS_HVDM', 'FKMI-K_19&Fuzzifier_1.25', 'ICMeMI-', 'ITMMI-']
+        MDH Method: CMeMI- - Count: 11
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_Median': 1}
+            NRMSE_Median Range: [0.181738, 0.0, 0.181738]
+            Range: [0.0, 0.0, 0.181738]
+        MDH Method: CMMI- - Count: 15
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_MAX': 4, 'NRMSE_Median': 1}
+            NRMSE_Median Range: [0.1889, 0.0, 0.1889]
+            Range: [0.0, 0.0, 0.191848]
+        MDH Method: CTMMI- - Count: 14
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_Median': 2, 'NRMSE_MAX': 2}
+            NRMSE_Median Range: [0.187114, 0.0, 0.189003]
+            Range: [0.0, 0.0, 0.190607]
+        MDH Method: sWKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: ICTMMI- - Count: 1
+            MDH Method: ICTMMI- - Metrics: {'NRMSE_Median': 1}
+            NRMSE_Median Range: [0.187114, 0.187114, 0.187114]
+            Range: [0.187114, 0.187114, 0.187114]
+        MDH Method: FKMI-K_16&Fuzzifier_2.0 - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.75 - Count: 1
+        MDH Method: IMeMI- - Count: 2
+            MDH Method: IMeMI- - Metrics: {'NRMSE_Median': 2}
+            NRMSE_Median Range: [0.181825, 0.186573, 0.191321]
+            Range: [0.181825, 0.186573, 0.191321]
+        MDH Method: MeMI- - Count: 1
+        MDH Method: FIII- - Count: 1
+        MDH Method: sKNNII-K_13&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_13&Fuzzifier_1.0 - Count: 1
+        MDH Method: KMI-K_19&Fuzzifier_1.0 - Count: 1
+        MDH Method: IMMI- - Count: 3
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.183588, 0.188194, 0.188812]
+            Range: [0.183588, 0.188194, 0.188812]
+        MDH Method: MMI- - Count: 3
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.183588, 0.188194, 0.188812]
+            Range: [0.183588, 0.188194, 0.188812]
+        MDH Method: TMMI- - Count: 2
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 2}
+            NRMSE_Median Range: [0.183728, 0.185972, 0.188216]
+            Range: [0.183728, 0.185972, 0.188216]
+        MDH Method: WKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_11&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_1.75 - Count: 1
+        MDH Method: ICMMI- - Count: 4
+            MDH Method: ICMMI- - Metrics: {'NRMSE_MAX': 3, 'NRMSE_Median': 1}
+            NRMSE_Median Range: [0.1889, 0.186728, 0.1889]
+            Range: [0.182262, 0.186728, 0.190601]
+        MDH Method: WKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.25 - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HVDM - Count: 3
+            MDH Method: WKNNII-K_18&DIS_HVDM - Metrics: {'NRMSE_Median': 2, 'NRMSE_MAX': 1}
+            NRMSE_Median Range: [0.179291, 0.180017, 0.180017]
+            Range: [0.179291, 0.180017, 0.192016]
+        MDH Method: sWKNNII-K_13&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_14&DIS_HVDM - Count: 1
+        MDH Method: KNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_12&Fuzzifier_1.75 - Count: 1
+        MDH Method: sKNNI-K_19&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 1
+        MDH Method: sKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_2.0 - Count: 1
+        MDH Method: WKNNII-K_14&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_1.75 - Count: 1
+        MDH Method: sKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.25 - Count: 1
+        MDH Method: ICMeMI- - Count: 1
+        MDH Method: ITMMI- - Count: 1
+    Missing Mechanism: MCAR-MONOTONE
+    Top-10 Best MDH Methods: {'MeMI-': 3, 'FIII-': 3, 'ICMMI-': 3, 'IMeMI-': 4, 'TMMI-': 7, 'MMI-': 11, 'CMeMI-': 12, 'CTMMI-': 12, 'IMMI-': 14, 'CMMI-': 15}
+    MDH Methods: (14) ['CMeMI-', 'CMMI-', 'CTMMI-', 'TMMI-', 'IMMI-', 'MMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'ICMMI-', 'ITMMI-', 'FKMI-K_18&Fuzzifier_2.0', 'WKNNII-K_18&DIS_HEOM', 'ICMeMI-']
+        MDH Method: CMeMI- - Count: 12
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_Median': 2}
+            NRMSE_Median Range: [0.172565, 0.0, 0.174933]
+            Range: [0.0, 0.0, 0.174933]
+        MDH Method: CMMI- - Count: 15
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_Median': 3, 'NRMSE_MAX': 2}
+            NRMSE_Median Range: [0.171519, 0.0, 0.176803]
+            Range: [0.0, 0.0, 0.234514]
+        MDH Method: CTMMI- - Count: 12
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 10, 'NRMSE_Median': 1, 'NRMSE_MAX': 1}
+            NRMSE_Median Range: [0.17266, 0.0, 0.17266]
+            Range: [0.0, 0.0, 0.229865]
+        MDH Method: TMMI- - Count: 7
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 2, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.17587, 0.231685, 0.183367]
+            Range: [0.17587, 0.231685, 0.248657]
+        MDH Method: IMMI- - Count: 14
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.171493, 0.206188, 0.18337]
+            Range: [0.171493, 0.206188, 0.248687]
+        MDH Method: MMI- - Count: 11
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 4, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.171493, 0.231678, 0.18337]
+            Range: [0.171493, 0.231678, 0.248687]
+        MDH Method: IMeMI- - Count: 4
+            MDH Method: IMeMI- - Metrics: {'NRMSE_Median': 2, 'NRMSE_MAX': 2}
+            NRMSE_Median Range: [0.175227, 0.20707, 0.183832]
+            Range: [0.175227, 0.20707, 0.251915]
+        MDH Method: MeMI- - Count: 3
+            MDH Method: MeMI- - Metrics: {'NRMSE_Median': 1, 'NRMSE_MAX': 2}
+            NRMSE_Median Range: [0.183832, 0.230307, 0.183832]
+            Range: [0.183832, 0.230307, 0.251915]
+        MDH Method: FIII- - Count: 3
+            MDH Method: FIII- - Metrics: {'NRMSE_Median': 1, 'NRMSE_MAX': 2}
+            NRMSE_Median Range: [0.183832, 0.230307, 0.183832]
+            Range: [0.183832, 0.230307, 0.251915]
+        MDH Method: ICMMI- - Count: 3
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 2, 'NRMSE_MAX': 1}
+            NRMSE_Median Range: [0.172535, 0.176803, 0.176803]
+            Range: [0.172535, 0.176803, 0.229723]
+        MDH Method: ITMMI- - Count: 2
+        MDH Method: FKMI-K_18&Fuzzifier_2.0 - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: ICMeMI- - Count: 2
+Missing Rate: 0.5
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MMI-': 16, 'MICE-Me_PMM': 19, 'MICE-Me_CART': 20, 'MIDASpy-Variation_F': 20, 'MISSRANGER-SPLITRULE_F': 22, 'MISSRANGER-SPLITRULE_T': 26, 'IMMI-': 28, 'CTMMI-': 76, 'CMeMI-': 78, 'CMMI-': 87}
+    MDH Methods: (26) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'IMMI-', 'MMI-', 'TMMI-', 'ITMMI-', 'FKMI-K_12&Fuzzifier_1.75', 'FKMI-K_17&Fuzzifier_1.5', 'FKMI-K_20&Fuzzifier_1.25', 'sKNNII-K_20&DIS_HEOM', 'ICTMMI-', 'ICMMI-', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_PMM', 'MICE-Me_CART', 'MICE-Me_RF', 'MIDASpy-Variation_F', 'ANNI-', 'ICMeMI-', 'MIDASpy-Variation_T', 'FKMI-K_15&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 78
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 16, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.092228, 0.0, 0.618246]
+            Range: [0.0, 0.0, 0.655091]
+        MDH Method: CMMI- - Count: 87
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 19, 'NRMSE_MAX': 19}
+            NRMSE_Median Range: [0.064926, 0.0, 0.618246]
+            Range: [0.0, 0.0, 0.645138]
+        MDH Method: CTMMI- - Count: 76
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 14, 'NRMSE_Median': 14}
+            NRMSE_Median Range: [0.064873, 0.0, 0.618246]
+            Range: [0.0, 0.0, 0.645138]
+        MDH Method: IMeMI- - Count: 15
+        MDH Method: MeMI- - Count: 8
+        MDH Method: FIII- - Count: 7
+        MDH Method: IMMI- - Count: 28
+            MDH Method: IMMI- - Metrics: {'NRMSE_MAX': 16, 'NRMSE_Median': 11, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.037243, 0.207155, 0.265248]
+            Range: [0.037243, 0.207155, 0.60404]
+        MDH Method: MMI- - Count: 16
+            MDH Method: MMI- - Metrics: {'NRMSE_MAX': 9, 'NRMSE_Median': 6, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.099532, 0.206797, 0.208713]
+            Range: [0.099532, 0.206797, 0.2367]
+        MDH Method: TMMI- - Count: 13
+        MDH Method: ITMMI- - Count: 11
+        MDH Method: FKMI-K_12&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.25 - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: ICTMMI- - Count: 6
+        MDH Method: ICMMI- - Count: 9
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 26
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 15, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.0307, 0.051922, 0.587205]
+            Range: [0.018009, 0.051922, 0.587205]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 22
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 10, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.022066, 0.120878, 0.589838]
+            Range: [0.019424, 0.120878, 0.663515]
+        MDH Method: MICE-Me_PMM - Count: 19
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 8, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.019048, 0.133944, 0.614512]
+            Range: [0.019048, 0.133944, 0.622457]
+        MDH Method: MICE-Me_CART - Count: 20
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_Median': 10, 'NRMSE_MIN': 1, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.024562, 0.14672, 0.605046]
+            Range: [0.020576, 0.14672, 0.652611]
+        MDH Method: MICE-Me_RF - Count: 13
+        MDH Method: MIDASpy-Variation_F - Count: 20
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 13, 'NRMSE_Median': 6, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.053201, 0.532828, 0.607558]
+            Range: [0.053201, 0.532828, 0.652708]
+        MDH Method: ANNI- - Count: 11
+        MDH Method: ICMeMI- - Count: 5
+        MDH Method: MIDASpy-Variation_T - Count: 9
+        MDH Method: FKMI-K_15&Fuzzifier_1.5 - Count: 1
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MMI-': 12, 'MIDASpy-Variation_F': 14, 'MICE-Me_CART': 17, 'MICE-Me_PMM': 20, 'MISSRANGER-SPLITRULE_F': 23, 'IMMI-': 26, 'MISSRANGER-SPLITRULE_T': 33, 'CTMMI-': 78, 'CMeMI-': 89, 'CMMI-': 91}
+    MDH Methods: (37) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMeMI-', 'IMMI-', 'ICMMI-', 'MMI-', 'TMMI-', 'KMI-K_19&Fuzzifier_1.0', 'sWKNNII-K_19&DIS_HEOM', 'FKMI-K_19&Fuzzifier_1.75', 'sKNNII-K_17&DIS_HVDM', 'WKNNII-K_17&DIS_HVDM', 'KMI-K_18&Fuzzifier_1.0', 'sKNNI-K_17&DIS_HVDM', 'FKMI-K_13&Fuzzifier_1.75', 'sKNNII-K_20&DIS_HVDM', 'WKNNI-K_17&DIS_HEOM', 'FKMI-K_17&Fuzzifier_1.75', 'IMeMI-', 'MeMI-', 'FIII-', 'ITMMI-', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_CART', 'MIDASpy-Variation_F', 'MICE-Me_RF', 'ANNI-', 'MICE-Me_SAMPLE', 'MIDASpy-Variation_T', 'FKMI-K_5&Fuzzifier_1.75', 'FKMI-K_5&Fuzzifier_2.0', 'FKMI-K_4&Fuzzifier_2.0', 'ICTMMI-', 'FKMI-K_18&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 89
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 19, 'NRMSE_MAX': 21}
+            NRMSE_Median Range: [0.061519, 0.0, 0.627674]
+            Range: [0.0, 0.0, 0.669851]
+        MDH Method: CMMI- - Count: 91
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 22, 'NRMSE_MAX': 20}
+            NRMSE_Median Range: [0.081975, 0.0, 0.627674]
+            Range: [0.0, 0.0, 0.660511]
+        MDH Method: CTMMI- - Count: 78
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 15, 'NRMSE_MAX': 15}
+            NRMSE_Median Range: [0.091287, 0.0, 0.627674]
+            Range: [0.0, 0.0, 0.660511]
+        MDH Method: ICMeMI- - Count: 9
+        MDH Method: IMMI- - Count: 26
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 13, 'NRMSE_MAX': 13}
+            NRMSE_Median Range: [0.026394, 0.208541, 0.287318]
+            Range: [0.026394, 0.208541, 0.682209]
+        MDH Method: ICMMI- - Count: 10
+        MDH Method: MMI- - Count: 12
+            MDH Method: MMI- - Metrics: {'NRMSE_MAX': 6, 'NRMSE_Median': 6}
+            NRMSE_Median Range: [0.026394, 0.177866, 0.205288]
+            Range: [0.026394, 0.177866, 0.246843]
+        MDH Method: TMMI- - Count: 12
+        MDH Method: KMI-K_19&Fuzzifier_1.0 - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.75 - Count: 1
+        MDH Method: sKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: KMI-K_18&Fuzzifier_1.0 - Count: 1
+        MDH Method: sKNNI-K_17&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_1.75 - Count: 1
+        MDH Method: sKNNII-K_20&DIS_HVDM - Count: 1
+        MDH Method: WKNNI-K_17&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 1
+        MDH Method: IMeMI- - Count: 11
+        MDH Method: MeMI- - Count: 2
+        MDH Method: FIII- - Count: 4
+        MDH Method: ITMMI- - Count: 7
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 33
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 16, 'NRMSE_MAX': 14}
+            NRMSE_Median Range: [0.018422, 0.10513, 0.137017]
+            Range: [0.013235, 0.10513, 0.673368]
+        MDH Method: MICE-Me_PMM - Count: 20
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 5, 'NRMSE_Median': 9, 'NRMSE_MAX': 6}
+            NRMSE_Median Range: [0.021492, 0.063882, 0.624392]
+            Range: [0.016638, 0.063882, 0.667806]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 23
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 2, 'NRMSE_MAX': 10, 'NRMSE_Median': 11}
+            NRMSE_Median Range: [0.023239, 0.124549, 0.140072]
+            Range: [0.023239, 0.124549, 0.636923]
+        MDH Method: MICE-Me_CART - Count: 17
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.027086, 0.152043, 0.617452]
+            Range: [0.027086, 0.152043, 0.677425]
+        MDH Method: MIDASpy-Variation_F - Count: 14
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MIN': 1, 'NRMSE_MAX': 9, 'NRMSE_Median': 4}
+            NRMSE_Median Range: [0.053129, 0.428474, 0.620793]
+            Range: [0.021151, 0.428474, 0.675906]
+        MDH Method: MICE-Me_RF - Count: 11
+        MDH Method: ANNI- - Count: 9
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MIDASpy-Variation_T - Count: 7
+        MDH Method: FKMI-K_5&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_5&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_4&Fuzzifier_2.0 - Count: 1
+        MDH Method: ICTMMI- - Count: 3
+        MDH Method: FKMI-K_18&Fuzzifier_1.5 - Count: 1
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'TMMI-': 13, 'MICE-Me_RF': 14, 'MICE-Me_PMM': 16, 'MIDASpy-Variation_F': 18, 'MISSRANGER-SPLITRULE_F': 20, 'IMMI-': 21, 'MISSRANGER-SPLITRULE_T': 29, 'CTMMI-': 84, 'CMMI-': 86, 'CMeMI-': 91}
+    MDH Methods: (41) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMMI-', 'ICTMMI-', 'ITMMI-', 'TMMI-', 'IMMI-', 'FKMI-K_20&Fuzzifier_2.0', 'sKNNII-K_16&DIS_HVDM', 'KMI-K_20&Fuzzifier_1.0', 'MMI-', 'WKNNII-K_20&DIS_HEOM', 'sWKNNII-K_20&DIS_HEOM', 'FKMI-K_20&Fuzzifier_1.5', 'ICMeMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'sKNNII-K_18&DIS_HVDM', 'FKMI-K_17&Fuzzifier_1.5', 'WKNNII-K_18&DIS_HVDM', 'sWKNNII-K_19&DIS_HVDM', 'WKNNI-K_16&DIS_HEOM', 'KNNII-K_19&DIS_HVDM', 'FKMI-K_17&Fuzzifier_1.75', 'FKMI-K_17&Fuzzifier_2.0', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_RF', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MICE-Me_CART', 'ANNI-', 'MICE-Me_SAMPLE', 'MIDASpy-Variation_T', 'FKMI-K_19&Fuzzifier_2.0', 'FKMI-K_2&Fuzzifier_1.5', 'FKMI-K_2&Fuzzifier_1.75', 'FKMI-K_16&Fuzzifier_2.0', 'FKMI-K_16&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 91
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 23, 'NRMSE_Median': 18}
+            NRMSE_Median Range: [0.059044, 0.0, 0.6146]
+            Range: [0.0, 0.0, 0.691435]
+        MDH Method: CMMI- - Count: 86
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 20, 'NRMSE_MAX': 17}
+            NRMSE_Median Range: [0.06984, 0.0, 0.6146]
+            Range: [0.0, 0.0, 0.65783]
+        MDH Method: CTMMI- - Count: 84
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 22, 'NRMSE_MAX': 13}
+            NRMSE_Median Range: [0.049092, 0.0, 0.6146]
+            Range: [0.0, 0.0, 0.65783]
+        MDH Method: ICMMI- - Count: 11
+        MDH Method: ICTMMI- - Count: 4
+        MDH Method: ITMMI- - Count: 10
+        MDH Method: TMMI- - Count: 13
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 6, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.077242, 0.211497, 0.213437]
+            Range: [0.077242, 0.211497, 0.287688]
+        MDH Method: IMMI- - Count: 21
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 9, 'NRMSE_MAX': 11, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.025472, 0.211371, 0.213457]
+            Range: [0.025472, 0.211371, 0.609608]
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 1
+        MDH Method: sKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: KMI-K_20&Fuzzifier_1.0 - Count: 1
+        MDH Method: MMI- - Count: 9
+        MDH Method: WKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.5 - Count: 1
+        MDH Method: ICMeMI- - Count: 10
+        MDH Method: IMeMI- - Count: 10
+        MDH Method: MeMI- - Count: 2
+        MDH Method: FIII- - Count: 2
+        MDH Method: sKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.5 - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: WKNNI-K_16&DIS_HEOM - Count: 1
+        MDH Method: KNNII-K_19&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_2.0 - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 29
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 16, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.025172, 0.062183, 0.586998]
+            Range: [0.018706, 0.062183, 0.615671]
+        MDH Method: MICE-Me_RF - Count: 14
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 6, 'NRMSE_MAX': 6}
+            NRMSE_Median Range: [0.048082, 0.119396, 0.322337]
+            Range: [0.019941, 0.119396, 0.580108]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 20
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MIN': 1, 'NRMSE_Median': 10, 'NRMSE_MAX': 9}
+            NRMSE_Median Range: [0.033131, 0.148198, 0.573724]
+            Range: [0.033131, 0.148198, 0.689235]
+        MDH Method: MICE-Me_PMM - Count: 16
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_Median': 9, 'NRMSE_MIN': 3, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.02596, 0.053291, 0.609988]
+            Range: [0.019688, 0.053291, 0.665798]
+        MDH Method: MIDASpy-Variation_F - Count: 18
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 13, 'NRMSE_Median': 5}
+            NRMSE_Median Range: [0.054416, 0.420712, 0.600751]
+            Range: [0.054416, 0.420712, 0.677425]
+        MDH Method: MICE-Me_CART - Count: 13
+        MDH Method: ANNI- - Count: 12
+        MDH Method: MICE-Me_SAMPLE - Count: 2
+        MDH Method: MIDASpy-Variation_T - Count: 8
+        MDH Method: FKMI-K_19&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_2&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_2&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_16&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_16&Fuzzifier_1.5 - Count: 1
+Missing Rate: 0.6
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MISSRANGER-SPLITRULE_F': 13, 'MICE-Me_CART': 14, 'MICE-Me_PMM': 22, 'TMMI-': 23, 'MMI-': 25, 'MISSRANGER-SPLITRULE_T': 26, 'IMMI-': 35, 'CTMMI-': 80, 'CMeMI-': 83, 'CMMI-': 89}
+    MDH Methods: (33) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'ICMMI-', 'sWKNNII-K_15&DIS_HVDM', 'FKMI-K_15&Fuzzifier_2.0', 'FKMI-K_15&Fuzzifier_1.75', 'KMI-K_18&Fuzzifier_1.0', 'FKMI-K_18&Fuzzifier_2.0', 'sKNNII-K_13&DIS_HEOM', 'sKNNII-K_15&DIS_HVDM', 'sKNNII-K_18&DIS_HEOM', 'sWKNNII-K_18&DIS_HEOM', 'IMeMI-', 'MeMI-', 'FIII-', 'ICMeMI-', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MICE-Me_CART', 'ITMMI-', 'MICE-Me_RF', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MIDASpy-Variation_T', 'ANNI-', 'FKMI-K_9&Fuzzifier_1.5', 'ICTMMI-', 'FKMI-K_7&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 83
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 17, 'NRMSE_Median': 18}
+            NRMSE_Median Range: [0.062909, 0.0, 0.680609]
+            Range: [0.0, 0.0, 0.707737]
+        MDH Method: CMMI- - Count: 89
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 21, 'NRMSE_Median': 20}
+            NRMSE_Median Range: [0.101909, 0.0, 0.680609]
+            Range: [0.0, 0.0, 0.707737]
+        MDH Method: CTMMI- - Count: 80
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 15, 'NRMSE_Median': 17}
+            NRMSE_Median Range: [0.052602, 0.0, 0.680609]
+            Range: [0.0, 0.0, 0.707737]
+        MDH Method: IMMI- - Count: 35
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 17, 'NRMSE_MAX': 16, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.033239, 0.224165, 0.230715]
+            Range: [0.033239, 0.224165, 0.71751]
+        MDH Method: MMI- - Count: 25
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 12, 'NRMSE_MAX': 11, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.033239, 0.224165, 0.230715]
+            Range: [0.033239, 0.224165, 0.265717]
+        MDH Method: TMMI- - Count: 23
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 10, 'NRMSE_MAX': 12, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.106009, 0.224222, 0.230846]
+            Range: [0.090974, 0.224222, 0.265808]
+        MDH Method: ICMMI- - Count: 9
+        MDH Method: sWKNNII-K_15&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_15&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_15&Fuzzifier_1.75 - Count: 1
+        MDH Method: KMI-K_18&Fuzzifier_1.0 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_2.0 - Count: 1
+        MDH Method: sKNNII-K_13&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_15&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_18&DIS_HEOM - Count: 1
+        MDH Method: IMeMI- - Count: 12
+        MDH Method: MeMI- - Count: 4
+        MDH Method: FIII- - Count: 4
+        MDH Method: ICMeMI- - Count: 6
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 26
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 6, 'NRMSE_Median': 12, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.027285, 0.076595, 0.652435]
+            Range: [0.017847, 0.076595, 0.677834]
+        MDH Method: MICE-Me_PMM - Count: 22
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 12, 'NRMSE_MAX': 6}
+            NRMSE_Median Range: [0.027062, 0.076052, 0.685699]
+            Range: [0.021124, 0.076052, 0.696918]
+        MDH Method: MICE-Me_CART - Count: 14
+            MDH Method: MICE-Me_CART - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 5, 'NRMSE_MAX': 7}
+            NRMSE_Median Range: [0.028455, 0.175995, 0.683424]
+            Range: [0.028455, 0.175995, 0.710971]
+        MDH Method: ITMMI- - Count: 7
+        MDH Method: MICE-Me_RF - Count: 10
+        MDH Method: MIDASpy-Variation_F - Count: 11
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 13
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MAX': 6, 'NRMSE_Median': 6, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.028604, 0.077927, 0.077927]
+            Range: [0.021618, 0.077927, 0.671855]
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MIDASpy-Variation_T - Count: 7
+        MDH Method: ANNI- - Count: 11
+        MDH Method: FKMI-K_9&Fuzzifier_1.5 - Count: 1
+        MDH Method: ICTMMI- - Count: 1
+        MDH Method: FKMI-K_7&Fuzzifier_1.5 - Count: 1
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'IMeMI-': 15, 'MIDASpy-Variation_F': 15, 'TMMI-': 18, 'MICE-Me_PMM': 18, 'MISSRANGER-SPLITRULE_T': 19, 'MMI-': 21, 'IMMI-': 35, 'CTMMI-': 82, 'CMeMI-': 84, 'CMMI-': 93}
+    MDH Methods: (25) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ITMMI-', 'TMMI-', 'IMMI-', 'MMI-', 'FKMI-K_17&Fuzzifier_2.0', 'ICTMMI-', 'ICMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'ICMeMI-', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_CART', 'MICE-Me_RF', 'MIDASpy-Variation_F', 'MICE-Me_SAMPLE', 'ANNI-', 'MISSRANGER-SPLITRULE_F', 'MIDASpy-Variation_T', 'FKMI-K_13&Fuzzifier_1.5', 'FKMI-K_6&Fuzzifier_2.0']
+        MDH Method: CMeMI- - Count: 84
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 17, 'NRMSE_Median': 17}
+            NRMSE_Median Range: [0.045977, 0.0, 0.678126]
+            Range: [0.0, 0.0, 0.723422]
+        MDH Method: CMMI- - Count: 93
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 23, 'NRMSE_Median': 22}
+            NRMSE_Median Range: [0.054483, 0.0, 0.678126]
+            Range: [0.0, 0.0, 0.723422]
+        MDH Method: CTMMI- - Count: 82
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 16, 'NRMSE_MAX': 18}
+            NRMSE_Median Range: [0.083247, 0.0, 0.668182]
+            Range: [0.0, 0.0, 0.718086]
+        MDH Method: ITMMI- - Count: 9
+        MDH Method: TMMI- - Count: 18
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 9, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.107929, 0.2322, 0.235929]
+            Range: [0.107929, 0.2322, 0.27759]
+        MDH Method: IMMI- - Count: 35
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 14, 'NRMSE_MAX': 19, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.032971, 0.232127, 0.290565]
+            Range: [0.032971, 0.232127, 0.692625]
+        MDH Method: MMI- - Count: 21
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 10, 'NRMSE_MAX': 10, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.032971, 0.164736, 0.235784]
+            Range: [0.032971, 0.164736, 0.273126]
+        MDH Method: FKMI-K_17&Fuzzifier_2.0 - Count: 1
+        MDH Method: ICTMMI- - Count: 5
+        MDH Method: ICMMI- - Count: 14
+        MDH Method: IMeMI- - Count: 15
+            MDH Method: IMeMI- - Metrics: {'NRMSE_MAX': 9, 'NRMSE_Median': 6}
+            NRMSE_Median Range: [0.033049, 0.238882, 0.290565]
+            Range: [0.033049, 0.238882, 0.692625]
+        MDH Method: MeMI- - Count: 5
+        MDH Method: FIII- - Count: 5
+        MDH Method: ICMeMI- - Count: 7
+        MDH Method: MICE-Me_PMM - Count: 18
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 10, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.026735, 0.068418, 0.155708]
+            Range: [0.019904, 0.068418, 0.703319]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 19
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 11, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.026347, 0.074176, 0.649742]
+            Range: [0.020487, 0.074176, 0.685498]
+        MDH Method: MICE-Me_CART - Count: 12
+        MDH Method: MICE-Me_RF - Count: 13
+        MDH Method: MIDASpy-Variation_F - Count: 15
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 10, 'NRMSE_MIN': 1, 'NRMSE_Median': 4}
+            NRMSE_Median Range: [0.064457, 0.33384, 0.671371]
+            Range: [0.023211, 0.33384, 0.729045]
+        MDH Method: MICE-Me_SAMPLE - Count: 2
+        MDH Method: ANNI- - Count: 9
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 9
+        MDH Method: MIDASpy-Variation_T - Count: 11
+        MDH Method: FKMI-K_13&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_6&Fuzzifier_2.0 - Count: 1
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_RF': 16, 'MISSRANGER-SPLITRULE_F': 16, 'MIDASpy-Variation_F': 17, 'TMMI-': 18, 'MMI-': 18, 'MISSRANGER-SPLITRULE_T': 20, 'IMMI-': 29, 'CTMMI-': 82, 'CMMI-': 90, 'CMeMI-': 92}
+    MDH Methods: (29) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'WKNNII-K_19&DIS_HEOM', 'WKNNI-K_18&DIS_HVDM', 'WKNNII-K_17&DIS_HVDM', 'WKNNII-K_18&DIS_HVDM', 'sKNNII-K_18&DIS_HVDM', 'FKMI-K_18&Fuzzifier_1.5', 'ICMMI-', 'ICMeMI-', 'ICTMMI-', 'ITMMI-', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MICE-Me_RF', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_CART', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T', 'FKMI-K_8&Fuzzifier_1.75', 'ANNI-', 'FKMI-K_16&Fuzzifier_2.0']
+        MDH Method: CMeMI- - Count: 92
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 51, 'NRMSE_MAX': 21, 'NRMSE_Median': 20}
+            NRMSE_Median Range: [0.036719, 0.0, 0.670559]
+            Range: [0.0, 0.0, 0.74665]
+        MDH Method: CMMI- - Count: 90
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 18, 'NRMSE_MAX': 23}
+            NRMSE_Median Range: [0.036719, 0.0, 0.670559]
+            Range: [0.0, 0.0, 0.715874]
+        MDH Method: CTMMI- - Count: 82
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 19, 'NRMSE_MAX': 15}
+            NRMSE_Median Range: [0.087466, 0.0, 0.670559]
+            Range: [0.0, 0.0, 0.715874]
+        MDH Method: IMMI- - Count: 29
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 14, 'NRMSE_MAX': 15}
+            NRMSE_Median Range: [0.034236, 0.233372, 0.452718]
+            Range: [0.034236, 0.233372, 0.696303]
+        MDH Method: MMI- - Count: 18
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.034236, 0.233367, 0.233372]
+            Range: [0.034236, 0.233367, 0.268935]
+        MDH Method: TMMI- - Count: 18
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 10, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.153955, 0.232548, 0.233466]
+            Range: [0.118269, 0.232548, 0.269947]
+        MDH Method: IMeMI- - Count: 13
+        MDH Method: MeMI- - Count: 2
+        MDH Method: FIII- - Count: 3
+        MDH Method: WKNNII-K_19&DIS_HEOM - Count: 1
+        MDH Method: WKNNI-K_18&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_17&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_18&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.5 - Count: 1
+        MDH Method: ICMMI- - Count: 10
+        MDH Method: ICMeMI- - Count: 11
+        MDH Method: ICTMMI- - Count: 6
+        MDH Method: ITMMI- - Count: 8
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 20
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 12, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.043167, 0.084239, 0.647511]
+            Range: [0.043167, 0.084239, 0.647511]
+        MDH Method: MICE-Me_PMM - Count: 13
+        MDH Method: MICE-Me_RF - Count: 16
+            MDH Method: MICE-Me_RF - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 8, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.03121, 0.079386, 0.648844]
+            Range: [0.021347, 0.079386, 0.707107]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 16
+            MDH Method: MISSRANGER-SPLITRULE_F - Metrics: {'NRMSE_MAX': 8, 'NRMSE_Median': 8}
+            NRMSE_Median Range: [0.029982, 0.157587, 0.64692]
+            Range: [0.029982, 0.157587, 0.711187]
+        MDH Method: MICE-Me_CART - Count: 13
+        MDH Method: MIDASpy-Variation_F - Count: 17
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 14, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.034266, 0.605257, 0.657035]
+            Range: [0.034266, 0.605257, 0.74216]
+        MDH Method: MIDASpy-Variation_T - Count: 10
+        MDH Method: FKMI-K_8&Fuzzifier_1.75 - Count: 1
+        MDH Method: ANNI- - Count: 9
+        MDH Method: FKMI-K_16&Fuzzifier_2.0 - Count: 1
+Missing Rate: 0.7
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'ANNI-': 13, 'MICE-Me_PMM': 13, 'MISSRANGER-SPLITRULE_T': 16, 'TMMI-': 17, 'IMeMI-': 18, 'MMI-': 21, 'IMMI-': 32, 'CMeMI-': 85, 'CTMMI-': 92, 'CMMI-': 97}
+    MDH Methods: (28) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'ITMMI-', 'ICTMMI-', 'WKNNII-K_16&DIS_HVDM', 'KNNII-K_16&DIS_HVDM', 'sWKNNII-K_16&DIS_HEOM', 'FKMI-K_16&Fuzzifier_1.25', 'KMI-K_16&Fuzzifier_1.0', 'ICMMI-', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_RF', 'MICE-Me_CART', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_F', 'MIDASpy-Variation_T', 'ICMeMI-', 'ANNI-', 'FKMI-K_1&Fuzzifier_1.5', 'FKMI-K_1&Fuzzifier_1.75']
+        MDH Method: CMeMI- - Count: 85
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 17, 'NRMSE_Median': 18}
+            NRMSE_Median Range: [0.063101, 0.0, 0.747846]
+            Range: [0.0, 0.0, 0.775256]
+        MDH Method: CMMI- - Count: 97
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_MAX': 24, 'NRMSE_Median': 24}
+            NRMSE_Median Range: [0.088582, 0.082199, 0.730871]
+            Range: [0.0, 0.082199, 0.775256]
+        MDH Method: CTMMI- - Count: 92
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 24, 'NRMSE_MAX': 19}
+            NRMSE_Median Range: [0.055666, 0.0, 0.730871]
+            Range: [0.0, 0.0, 0.775256]
+        MDH Method: IMMI- - Count: 32
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 13, 'NRMSE_MAX': 18, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.033752, 0.243575, 0.252447]
+            Range: [0.033752, 0.243575, 0.764791]
+        MDH Method: MMI- - Count: 21
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 11, 'NRMSE_MAX': 9, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.033752, 0.186308, 0.252447]
+            Range: [0.033752, 0.186308, 0.287632]
+        MDH Method: TMMI- - Count: 17
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 9, 'NRMSE_MAX': 7, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.085334, 0.2409, 0.25249]
+            Range: [0.085334, 0.2409, 0.276594]
+        MDH Method: IMeMI- - Count: 18
+            MDH Method: IMeMI- - Metrics: {'NRMSE_Median': 5, 'NRMSE_MAX': 13}
+            NRMSE_Median Range: [0.033809, 0.280405, 0.298398]
+            Range: [0.033809, 0.280405, 0.764791]
+        MDH Method: MeMI- - Count: 8
+        MDH Method: FIII- - Count: 7
+        MDH Method: ITMMI- - Count: 11
+        MDH Method: ICTMMI- - Count: 9
+        MDH Method: WKNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: KNNII-K_16&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_16&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_16&Fuzzifier_1.25 - Count: 1
+        MDH Method: KMI-K_16&Fuzzifier_1.0 - Count: 1
+        MDH Method: ICMMI- - Count: 11
+        MDH Method: MICE-Me_PMM - Count: 13
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 6, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.033016, 0.070026, 0.098587]
+            Range: [0.023462, 0.070026, 0.764834]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 16
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 9, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.033819, 0.06874, 0.125504]
+            Range: [0.02295, 0.06874, 0.523771]
+        MDH Method: MICE-Me_RF - Count: 9
+        MDH Method: MICE-Me_CART - Count: 9
+        MDH Method: MIDASpy-Variation_F - Count: 12
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 8
+        MDH Method: MIDASpy-Variation_T - Count: 5
+        MDH Method: ICMeMI- - Count: 4
+        MDH Method: ANNI- - Count: 13
+            MDH Method: ANNI- - Metrics: {'NRMSE_MAX': 6, 'NRMSE_Median': 5, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.036058, 0.16844, 0.436967]
+            Range: [0.036058, 0.16844, 0.714475]
+        MDH Method: FKMI-K_1&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 1
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 13, 'ICMMI-': 13, 'MISSRANGER-SPLITRULE_T': 17, 'MICE-Me_PMM': 17, 'TMMI-': 19, 'MMI-': 27, 'IMMI-': 32, 'CMeMI-': 87, 'CTMMI-': 96, 'CMMI-': 99}
+    MDH Methods: (32) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'ITMMI-', 'ICTMMI-', 'ICMMI-', 'sWKNNI-K_1&DIS_HEOM', 'sWKNNII-K_1&DIS_HEOM', 'KMI-K_1&Fuzzifier_1.0', 'FKMI-K_1&Fuzzifier_1.5', 'FKMI-K_1&Fuzzifier_2.0', 'WKNNII-K_1&DIS_HEOM', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MICE-Me_RF', 'MICE-Me_CART', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'ICMeMI-', 'MIDASpy-Variation_T', 'FKMI-K_15&Fuzzifier_1.75', 'FKMI-K_7&Fuzzifier_2.0', 'ANNI-', 'FKMI-K_7&Fuzzifier_1.5', 'FKMI-K_11&Fuzzifier_1.75']
+        MDH Method: CMeMI- - Count: 87
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 20, 'NRMSE_Median': 17}
+            NRMSE_Median Range: [0.056651, 0.0, 0.74495]
+            Range: [0.0, 0.0, 0.779697]
+        MDH Method: CMMI- - Count: 99
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 27, 'NRMSE_MAX': 23}
+            NRMSE_Median Range: [0.108568, 0.108568, 0.738197]
+            Range: [0.0, 0.108568, 0.779697]
+        MDH Method: CTMMI- - Count: 96
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 22, 'NRMSE_Median': 24}
+            NRMSE_Median Range: [0.08499, 0.012344, 0.738197]
+            Range: [0.0, 0.012344, 0.775832]
+        MDH Method: IMMI- - Count: 32
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 15, 'NRMSE_MAX': 17}
+            NRMSE_Median Range: [0.034841, 0.242868, 0.254248]
+            Range: [0.034841, 0.242868, 0.756523]
+        MDH Method: MMI- - Count: 27
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 14, 'NRMSE_MAX': 13}
+            NRMSE_Median Range: [0.034841, 0.188082, 0.254248]
+            Range: [0.034841, 0.188082, 0.289814]
+        MDH Method: TMMI- - Count: 19
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.086112, 0.248352, 0.254285]
+            Range: [0.086112, 0.248352, 0.280494]
+        MDH Method: IMeMI- - Count: 10
+        MDH Method: MeMI- - Count: 4
+        MDH Method: FIII- - Count: 4
+        MDH Method: ITMMI- - Count: 4
+        MDH Method: ICTMMI- - Count: 6
+        MDH Method: ICMMI- - Count: 13
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 9, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.108568, 0.245021, 0.434441]
+            Range: [0.108568, 0.245021, 0.434441]
+        MDH Method: sWKNNI-K_1&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_1&Fuzzifier_1.0 - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 1
+        MDH Method: WKNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 17
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 8, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.048421, 0.106867, 0.701764]
+            Range: [0.026762, 0.106867, 0.737551]
+        MDH Method: MICE-Me_PMM - Count: 17
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 3, 'NRMSE_Median': 8, 'NRMSE_MAX': 6}
+            NRMSE_Median Range: [0.031959, 0.101934, 0.698663]
+            Range: [0.023206, 0.101934, 0.761446]
+        MDH Method: MICE-Me_RF - Count: 9
+        MDH Method: MICE-Me_CART - Count: 8
+        MDH Method: MIDASpy-Variation_F - Count: 13
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 8, 'NRMSE_Median': 5}
+            NRMSE_Median Range: [0.036059, 0.397195, 0.734531]
+            Range: [0.036059, 0.397195, 0.762577]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 11
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: ICMeMI- - Count: 5
+        MDH Method: MIDASpy-Variation_T - Count: 3
+        MDH Method: FKMI-K_15&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_7&Fuzzifier_2.0 - Count: 2
+        MDH Method: ANNI- - Count: 8
+        MDH Method: FKMI-K_7&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_11&Fuzzifier_1.75 - Count: 1
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MIDASpy-Variation_F': 14, 'MISSRANGER-SPLITRULE_T': 15, 'TMMI-': 15, 'MICE-Me_PMM': 16, 'IMeMI-': 18, 'MMI-': 23, 'IMMI-': 38, 'CTMMI-': 80, 'CMeMI-': 89, 'CMMI-': 93}
+    MDH Methods: (39) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMeMI-', 'IMMI-', 'MMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'TMMI-', 'WKNNII-K_1&DIS_HEOM', 'KMI-K_1&Fuzzifier_1.0', 'WKNNI-K_1&DIS_HEOM', 'KNNII-K_1&DIS_HEOM', 'FKMI-K_1&Fuzzifier_1.75', 'sWKNNI-K_1&DIS_HEOM', 'FKMI-K_1&Fuzzifier_1.25', 'sWKNNII-K_1&DIS_HEOM', 'FKMI-K_2&Fuzzifier_1.5', 'sWKNNII-K_2&DIS_HEOM', 'ITMMI-', 'ICMMI-', 'MICE-Me_PMM', 'FKMI-K_12&Fuzzifier_1.75', 'FKMI-K_18&Fuzzifier_1.75', 'MICE-Me_RF', 'MICE-Me_CART', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'MICE-Me_SAMPLE', 'MIDASpy-Variation_T', 'ICTMMI-', 'FKMI-K_18&Fuzzifier_1.5', 'FKMI-K_3&Fuzzifier_1.5', 'ANNI-', 'FKMI-K_8&Fuzzifier_2.0', 'FKMI-K_8&Fuzzifier_1.75', 'FKMI-K_17&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 89
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 20, 'NRMSE_MAX': 19}
+            NRMSE_Median Range: [0.039661, 0.0, 0.711635]
+            Range: [0.0, 0.0, 0.810196]
+        MDH Method: CMMI- - Count: 93
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 20, 'NRMSE_MAX': 24}
+            NRMSE_Median Range: [0.039661, 0.0, 0.711635]
+            Range: [0.0, 0.0, 0.809571]
+        MDH Method: CTMMI- - Count: 80
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_MAX': 16, 'NRMSE_Median': 16}
+            NRMSE_Median Range: [0.038908, 0.0, 0.711635]
+            Range: [0.0, 0.0, 0.765161]
+        MDH Method: ICMeMI- - Count: 11
+        MDH Method: IMMI- - Count: 38
+            MDH Method: IMMI- - Metrics: {'NRMSE_MAX': 21, 'NRMSE_Median': 17}
+            NRMSE_Median Range: [0.035879, 0.24854, 0.461213]
+            Range: [0.035879, 0.24854, 0.808347]
+        MDH Method: MMI- - Count: 23
+            MDH Method: MMI- - Metrics: {'NRMSE_MAX': 11, 'NRMSE_Median': 12}
+            NRMSE_Median Range: [0.035879, 0.243368, 0.252434]
+            Range: [0.035879, 0.243368, 0.303468]
+        MDH Method: IMeMI- - Count: 18
+            MDH Method: IMeMI- - Metrics: {'NRMSE_MAX': 11, 'NRMSE_Median': 7}
+            NRMSE_Median Range: [0.035962, 0.373, 0.486299]
+            Range: [0.035962, 0.373, 0.808347]
+        MDH Method: MeMI- - Count: 5
+        MDH Method: FIII- - Count: 4
+        MDH Method: TMMI- - Count: 15
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 6, 'NRMSE_MAX': 8, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.0838, 0.243436, 0.252568]
+            Range: [0.0838, 0.243436, 0.303522]
+        MDH Method: WKNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_1&Fuzzifier_1.0 - Count: 2
+        MDH Method: WKNNI-K_1&DIS_HEOM - Count: 1
+        MDH Method: KNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 1
+        MDH Method: sWKNNI-K_1&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.25 - Count: 1
+        MDH Method: sWKNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_2&Fuzzifier_1.5 - Count: 1
+        MDH Method: sWKNNII-K_2&DIS_HEOM - Count: 1
+        MDH Method: ITMMI- - Count: 8
+        MDH Method: ICMMI- - Count: 7
+        MDH Method: MICE-Me_PMM - Count: 16
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 9, 'NRMSE_MAX': 3}
+            NRMSE_Median Range: [0.038191, 0.084603, 0.729068]
+            Range: [0.022779, 0.084603, 0.788796]
+        MDH Method: FKMI-K_12&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 2
+        MDH Method: MICE-Me_RF - Count: 8
+        MDH Method: MICE-Me_CART - Count: 8
+        MDH Method: MIDASpy-Variation_F - Count: 14
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MAX': 11, 'NRMSE_Median': 3}
+            NRMSE_Median Range: [0.4828, 0.609969, 0.726448]
+            Range: [0.125462, 0.609969, 0.804953]
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 15
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MIN': 2, 'NRMSE_Median': 9, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.039549, 0.103785, 0.684505]
+            Range: [0.022357, 0.103785, 0.796954]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 8
+        MDH Method: MICE-Me_SAMPLE - Count: 2
+        MDH Method: MIDASpy-Variation_T - Count: 8
+        MDH Method: ICTMMI- - Count: 7
+        MDH Method: FKMI-K_18&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_3&Fuzzifier_1.5 - Count: 1
+        MDH Method: ANNI- - Count: 8
+        MDH Method: FKMI-K_8&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_8&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.5 - Count: 1
+Missing Rate: 0.8
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'MICE-Me_PMM': 12, 'ITMMI-': 14, 'ICMMI-': 15, 'IMeMI-': 18, 'TMMI-': 21, 'MMI-': 32, 'IMMI-': 44, 'CMeMI-': 80, 'CTMMI-': 90, 'CMMI-': 100}
+    MDH Methods: (30) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'sKNNII-K_1&DIS_HVDM', 'ITMMI-', 'WKNNII-K_20&DIS_HEOM', 'KMI-K_20&Fuzzifier_1.0', 'FKMI-K_20&Fuzzifier_1.5', 'FKMI-K_1&Fuzzifier_1.75', 'sWKNNI-K_1&DIS_HVDM', 'IMeMI-', 'MeMI-', 'FIII-', 'MICE-Me_PMM', 'MICE-Me_CART', 'MICE-Me_RF', 'MIDASpy-Variation_F', 'MIDASpy-Variation_T', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_F', 'ICMeMI-', 'ICTMMI-', 'FKMI-K_9&Fuzzifier_1.75', 'FKMI-K_11&Fuzzifier_1.75', 'ANNI-']
+        MDH Method: CMeMI- - Count: 80
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 17, 'NRMSE_Median': 13}
+            NRMSE_Median Range: [0.064754, 0.0, 0.797676]
+            Range: [0.0, 0.0, 0.823836]
+        MDH Method: CMMI- - Count: 100
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 24, 'NRMSE_MAX': 27}
+            NRMSE_Median Range: [0.092293, 0.119319, 0.797676]
+            Range: [0.0, 0.119319, 0.823836]
+        MDH Method: CTMMI- - Count: 90
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_MAX': 21, 'NRMSE_Median': 20}
+            NRMSE_Median Range: [0.091667, 0.0, 0.797676]
+            Range: [0.0, 0.0, 0.823836]
+        MDH Method: ICMMI- - Count: 15
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.120788, 0.260519, 0.468424]
+            Range: [0.120788, 0.260519, 0.468424]
+        MDH Method: IMMI- - Count: 44
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 20, 'NRMSE_MAX': 23, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.037361, 0.26023, 0.354547]
+            Range: [0.037361, 0.26023, 0.800943]
+        MDH Method: MMI- - Count: 32
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 16, 'NRMSE_MAX': 15, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.037361, 0.257814, 0.273124]
+            Range: [0.037361, 0.257814, 0.307244]
+        MDH Method: TMMI- - Count: 21
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 12, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.09386, 0.260237, 0.269546]
+            Range: [0.09386, 0.260237, 0.307346]
+        MDH Method: sKNNII-K_1&DIS_HVDM - Count: 1
+        MDH Method: ITMMI- - Count: 14
+            MDH Method: ITMMI- - Metrics: {'NRMSE_MAX': 8, 'NRMSE_MIN': 1, 'NRMSE_Median': 5}
+            NRMSE_Median Range: [0.121216, 0.309294, 0.354547]
+            Range: [0.059133, 0.309294, 0.800943]
+        MDH Method: WKNNII-K_20&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_20&Fuzzifier_1.0 - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 1
+        MDH Method: sWKNNI-K_1&DIS_HVDM - Count: 1
+        MDH Method: IMeMI- - Count: 18
+            MDH Method: IMeMI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 10, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.037448, 0.334991, 0.354547]
+            Range: [0.037448, 0.334991, 0.800943]
+        MDH Method: MeMI- - Count: 4
+        MDH Method: FIII- - Count: 3
+        MDH Method: MICE-Me_PMM - Count: 12
+            MDH Method: MICE-Me_PMM - Metrics: {'NRMSE_Median': 7, 'NRMSE_MIN': 4, 'NRMSE_MAX': 1}
+            NRMSE_Median Range: [0.042944, 0.118414, 0.748081]
+            Range: [0.032087, 0.118414, 0.816497]
+        MDH Method: MICE-Me_CART - Count: 8
+        MDH Method: MICE-Me_RF - Count: 10
+        MDH Method: MIDASpy-Variation_F - Count: 7
+        MDH Method: MIDASpy-Variation_T - Count: 4
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 10
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 6
+        MDH Method: ICMeMI- - Count: 5
+        MDH Method: ICTMMI- - Count: 4
+        MDH Method: FKMI-K_9&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_11&Fuzzifier_1.75 - Count: 1
+        MDH Method: ANNI- - Count: 8
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'ITMMI-': 11, 'MIDASpy-Variation_T': 12, 'MIDASpy-Variation_F': 14, 'IMeMI-': 14, 'TMMI-': 21, 'MMI-': 30, 'IMMI-': 44, 'CTMMI-': 80, 'CMeMI-': 87, 'CMMI-': 98}
+    MDH Methods: (31) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'IMMI-', 'MMI-', 'TMMI-', 'ITMMI-', 'sKNNII-K_1&DIS_HEOM', 'FKMI-K_1&Fuzzifier_1.25', 'WKNNII-K_1&DIS_HEOM', 'WKNNI-K_1&DIS_HEOM', 'sKNNII-K_1&DIS_HVDM', 'sWKNNII-K_1&DIS_HVDM', 'sWKNNI-K_1&DIS_HVDM', 'WKNNII-K_1&DIS_HVDM', 'MICE-Me_RF', 'MIDASpy-Variation_T', 'MICE-Me_PMM', 'MIDASpy-Variation_F', 'MICE-Me_CART', 'ICMeMI-', 'MICE-Me_SAMPLE', 'MISSRANGER-SPLITRULE_F', 'MISSRANGER-SPLITRULE_T', 'ICTMMI-', 'FKMI-K_1&Fuzzifier_1.75', 'ANNI-']
+        MDH Method: CMeMI- - Count: 87
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 51, 'NRMSE_MAX': 19, 'NRMSE_Median': 17}
+            NRMSE_Median Range: [0.061003, 0.0, 0.797653]
+            Range: [0.0, 0.0, 0.829259]
+        MDH Method: CMMI- - Count: 98
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 23, 'NRMSE_MAX': 26}
+            NRMSE_Median Range: [0.064639, 0.077777, 0.791673]
+            Range: [0.0, 0.077777, 0.829259]
+        MDH Method: CTMMI- - Count: 80
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 48, 'NRMSE_Median': 18, 'NRMSE_MAX': 14}
+            NRMSE_Median Range: [0.10087, 0.0, 0.791673]
+            Range: [0.0, 0.0, 0.829259]
+        MDH Method: ICMMI- - Count: 11
+        MDH Method: IMeMI- - Count: 14
+            MDH Method: IMeMI- - Metrics: {'NRMSE_MAX': 10, 'NRMSE_Median': 3, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.040927, 0.305744, 0.339683]
+            Range: [0.040927, 0.305744, 0.779813]
+        MDH Method: MeMI- - Count: 5
+        MDH Method: FIII- - Count: 3
+        MDH Method: IMMI- - Count: 44
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 23, 'NRMSE_MAX': 19, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.03993, 0.25676, 0.339683]
+            Range: [0.03993, 0.25676, 0.779813]
+        MDH Method: MMI- - Count: 30
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 18, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.03993, 0.25676, 0.271161]
+            Range: [0.03993, 0.25676, 0.309513]
+        MDH Method: TMMI- - Count: 21
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 10, 'NRMSE_MAX': 8, 'NRMSE_MIN': 3}
+            NRMSE_Median Range: [0.092311, 0.260939, 0.271259]
+            Range: [0.057146, 0.260939, 0.307491]
+        MDH Method: ITMMI- - Count: 11
+            MDH Method: ITMMI- - Metrics: {'NRMSE_MAX': 5, 'NRMSE_MIN': 2, 'NRMSE_Median': 4}
+            NRMSE_Median Range: [0.125564, 0.281923, 0.339683]
+            Range: [0.057137, 0.281923, 0.753371]
+        MDH Method: sKNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.25 - Count: 1
+        MDH Method: WKNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: WKNNI-K_1&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_1&DIS_HVDM - Count: 2
+        MDH Method: sWKNNII-K_1&DIS_HVDM - Count: 3
+        MDH Method: sWKNNI-K_1&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_1&DIS_HVDM - Count: 2
+        MDH Method: MICE-Me_RF - Count: 6
+        MDH Method: MIDASpy-Variation_T - Count: 12
+            MDH Method: MIDASpy-Variation_T - Metrics: {'NRMSE_MAX': 6, 'NRMSE_Median': 5, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.081451, 0.58268, 0.748267]
+            Range: [0.081451, 0.58268, 0.844261]
+        MDH Method: MICE-Me_PMM - Count: 7
+        MDH Method: MIDASpy-Variation_F - Count: 14
+            MDH Method: MIDASpy-Variation_F - Metrics: {'NRMSE_MIN': 2, 'NRMSE_MAX': 6, 'NRMSE_Median': 6}
+            NRMSE_Median Range: [0.040037, 0.46379, 0.7869]
+            Range: [0.03374, 0.46379, 0.845068]
+        MDH Method: MICE-Me_CART - Count: 5
+        MDH Method: ICMeMI- - Count: 10
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 10
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 8
+        MDH Method: ICTMMI- - Count: 3
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 2
+        MDH Method: ANNI- - Count: 10
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'MISSRANGER-SPLITRULE_T': 10, 'ICMMI-': 11, 'IMeMI-': 15, 'ANNI-': 15, 'TMMI-': 17, 'MMI-': 23, 'IMMI-': 35, 'CMeMI-': 93, 'CTMMI-': 94, 'CMMI-': 100}
+    MDH Methods: (37) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'IMMI-', 'MMI-', 'ICMMI-', 'FKMI-K_1&Fuzzifier_1.5', 'FKMI-K_1&Fuzzifier_1.25', 'FKMI-K_1&Fuzzifier_2.0', 'sKNNII-K_1&DIS_HVDM', 'WKNNII-K_1&DIS_HVDM', 'sKNNI-K_1&DIS_HEOM', 'WKNNI-K_1&DIS_HVDM', 'sWKNNI-K_1&DIS_HVDM', 'sKNNI-K_1&DIS_HVDM', 'WKNNII-K_1&DIS_HEOM', 'KNNII-K_1&DIS_HVDM', 'TMMI-', 'FKMI-K_1&Fuzzifier_1.75', 'FKMI-K_19&Fuzzifier_1.5', 'ITMMI-', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_T', 'MISSRANGER-SPLITRULE_F', 'ANNI-', 'MICE-Me_RF', 'MICE-Me_CART', 'ICMeMI-', 'ICTMMI-', 'MICE-Me_PMM', 'MIDASpy-Variation_T', 'FKMI-K_13&Fuzzifier_2.0', 'FKMI-K_9&Fuzzifier_1.75', 'FKMI-K_9&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 93
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 51, 'NRMSE_MAX': 25, 'NRMSE_Median': 17}
+            NRMSE_Median Range: [0.060989, 0.0, 0.791796]
+            Range: [0.0, 0.0, 0.850493]
+        MDH Method: CMMI- - Count: 100
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 25, 'NRMSE_MAX': 26}
+            NRMSE_Median Range: [0.040879, 0.105338, 0.791796]
+            Range: [0.0, 0.105338, 0.850493]
+        MDH Method: CTMMI- - Count: 94
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 23, 'NRMSE_MAX': 21}
+            NRMSE_Median Range: [0.04, 0.0, 0.776317]
+            Range: [0.0, 0.0, 0.850493]
+        MDH Method: IMeMI- - Count: 15
+            MDH Method: IMeMI- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 6, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.039572, 0.271936, 0.515608]
+            Range: [0.033076, 0.271936, 0.83831]
+        MDH Method: MeMI- - Count: 5
+        MDH Method: FIII- - Count: 4
+        MDH Method: IMMI- - Count: 35
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 15, 'NRMSE_MAX': 19, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.039516, 0.259327, 0.515608]
+            Range: [0.039516, 0.259327, 0.83831]
+        MDH Method: MMI- - Count: 23
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 12, 'NRMSE_MAX': 11}
+            NRMSE_Median Range: [0.039516, 0.183079, 0.271385]
+            Range: [0.039516, 0.183079, 0.321843]
+        MDH Method: ICMMI- - Count: 11
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 6, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.099432, 0.264243, 0.273003]
+            Range: [0.099432, 0.264243, 0.288612]
+        MDH Method: FKMI-K_1&Fuzzifier_1.5 - Count: 3
+        MDH Method: FKMI-K_1&Fuzzifier_1.25 - Count: 2
+        MDH Method: FKMI-K_1&Fuzzifier_2.0 - Count: 4
+        MDH Method: sKNNII-K_1&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_1&DIS_HVDM - Count: 3
+        MDH Method: sKNNI-K_1&DIS_HEOM - Count: 2
+        MDH Method: WKNNI-K_1&DIS_HVDM - Count: 2
+        MDH Method: sWKNNI-K_1&DIS_HVDM - Count: 1
+        MDH Method: sKNNI-K_1&DIS_HVDM - Count: 2
+        MDH Method: WKNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: KNNII-K_1&DIS_HVDM - Count: 1
+        MDH Method: TMMI- - Count: 17
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.125121, 0.193893, 0.263336]
+            Range: [0.125121, 0.193893, 0.321838]
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 2
+        MDH Method: FKMI-K_19&Fuzzifier_1.5 - Count: 1
+        MDH Method: ITMMI- - Count: 9
+        MDH Method: MIDASpy-Variation_F - Count: 9
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 10
+            MDH Method: MISSRANGER-SPLITRULE_T - Metrics: {'NRMSE_MAX': 6, 'NRMSE_Median': 4}
+            NRMSE_Median Range: [0.063015, 0.231226, 0.73868]
+            Range: [0.063015, 0.231226, 0.809735]
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 5
+        MDH Method: ANNI- - Count: 15
+            MDH Method: ANNI- - Metrics: {'NRMSE_MIN': 4, 'NRMSE_Median': 7, 'NRMSE_MAX': 4}
+            NRMSE_Median Range: [0.026492, 0.132336, 0.452119]
+            Range: [0.015487, 0.132336, 0.808779]
+        MDH Method: MICE-Me_RF - Count: 5
+        MDH Method: MICE-Me_CART - Count: 2
+        MDH Method: ICMeMI- - Count: 9
+        MDH Method: ICTMMI- - Count: 6
+        MDH Method: MICE-Me_PMM - Count: 3
+        MDH Method: MIDASpy-Variation_T - Count: 6
+        MDH Method: FKMI-K_13&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_9&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_9&Fuzzifier_1.5 - Count: 1
+Missing Rate: 0.9
+    Missing Mechanism: MCAR-GENERAL
+    Top-10 Best MDH Methods: {'ANNI-': 12, 'ITMMI-': 13, 'ICMMI-': 14, 'TMMI-': 18, 'IMeMI-': 25, 'MMI-': 26, 'IMMI-': 39, 'CTMMI-': 87, 'CMeMI-': 92, 'CMMI-': 105}
+    MDH Methods: (40) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMMI-', 'IMMI-', 'MMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'ICTMMI-', 'sKNNII-K_1&DIS_HVDM', 'sWKNNII-K_2&DIS_HEOM', 'WKNNII-K_1&DIS_HVDM', 'sWKNNII-K_1&DIS_HVDM', 'KNNII-K_1&DIS_HVDM', 'TMMI-', 'sWKNNII-K_1&DIS_HEOM', 'FKMI-K_1&Fuzzifier_1.75', 'ITMMI-', 'sWKNNI-K_1&DIS_HVDM', 'KNNI-K_1&DIS_HVDM', 'FKMI-K_9&Fuzzifier_1.75', 'FKMI-K_9&Fuzzifier_2.0', 'FKMI-K_14&Fuzzifier_1.5', 'MICE-Me_RF', 'FKMI-K_3&Fuzzifier_1.5', 'ICMeMI-', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MIDASpy-Variation_T', 'MIDASpy-Variation_F', 'MICE-Me_CART', 'ANNI-', 'FKMI-K_12&Fuzzifier_2.0', 'FKMI-K_16&Fuzzifier_1.75', 'FKMI-K_3&Fuzzifier_2.0', 'MISSRANGER-SPLITRULE_F', 'FKMI-K_20&Fuzzifier_2.0', 'FKMI-K_8&Fuzzifier_2.0', 'FKMI-K_17&Fuzzifier_1.75']
+        MDH Method: CMeMI- - Count: 92
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 25, 'NRMSE_Median': 17}
+            NRMSE_Median Range: [0.043799, 0.0, 0.847548]
+            Range: [0.0, 0.0, 0.881574]
+        MDH Method: CMMI- - Count: 105
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 25, 'NRMSE_MAX': 31}
+            NRMSE_Median Range: [0.046204, 0.102722, 0.847548]
+            Range: [0.0, 0.102722, 0.881574]
+        MDH Method: CTMMI- - Count: 87
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_MAX': 19, 'NRMSE_Median': 19}
+            NRMSE_Median Range: [0.046204, 0.0, 0.847548]
+            Range: [0.0, 0.0, 0.881574]
+        MDH Method: ICMMI- - Count: 14
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 9, 'NRMSE_MAX': 5}
+            NRMSE_Median Range: [0.102722, 0.272895, 0.497501]
+            Range: [0.102722, 0.272895, 0.497501]
+        MDH Method: IMMI- - Count: 39
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 18, 'NRMSE_MAX': 19, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.039483, 0.275575, 0.538069]
+            Range: [0.032839, 0.275575, 0.858188]
+        MDH Method: MMI- - Count: 26
+            MDH Method: MMI- - Metrics: {'NRMSE_MAX': 12, 'NRMSE_Median': 12, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.039483, 0.200657, 0.29461]
+            Range: [0.032839, 0.200657, 0.32643]
+        MDH Method: IMeMI- - Count: 25
+            MDH Method: IMeMI- - Metrics: {'NRMSE_Median': 14, 'NRMSE_MAX': 9, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.039572, 0.278129, 0.538069]
+            Range: [0.032841, 0.278129, 0.904218]
+        MDH Method: MeMI- - Count: 9
+        MDH Method: FIII- - Count: 5
+        MDH Method: ICTMMI- - Count: 3
+        MDH Method: sKNNII-K_1&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_2&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_1&DIS_HVDM - Count: 3
+        MDH Method: sWKNNII-K_1&DIS_HVDM - Count: 2
+        MDH Method: KNNII-K_1&DIS_HVDM - Count: 1
+        MDH Method: TMMI- - Count: 18
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.044665, 0.24602, 0.275716]
+            Range: [0.044665, 0.24602, 0.326344]
+        MDH Method: sWKNNII-K_1&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 1
+        MDH Method: ITMMI- - Count: 13
+            MDH Method: ITMMI- - Metrics: {'NRMSE_Median': 5, 'NRMSE_MAX': 8}
+            NRMSE_Median Range: [0.130814, 0.371347, 0.538069]
+            Range: [0.130814, 0.371347, 0.858188]
+        MDH Method: sWKNNI-K_1&DIS_HVDM - Count: 1
+        MDH Method: KNNI-K_1&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_9&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_9&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_14&Fuzzifier_1.5 - Count: 1
+        MDH Method: MICE-Me_RF - Count: 3
+        MDH Method: FKMI-K_3&Fuzzifier_1.5 - Count: 1
+        MDH Method: ICMeMI- - Count: 11
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 4
+        MDH Method: MICE-Me_PMM - Count: 2
+        MDH Method: MIDASpy-Variation_T - Count: 7
+        MDH Method: MIDASpy-Variation_F - Count: 4
+        MDH Method: MICE-Me_CART - Count: 2
+        MDH Method: ANNI- - Count: 12
+            MDH Method: ANNI- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 3, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.05808, 0.161052, 0.337787]
+            Range: [0.05808, 0.161052, 0.903656]
+        MDH Method: FKMI-K_12&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_16&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_3&Fuzzifier_2.0 - Count: 1
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 1
+        MDH Method: FKMI-K_20&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_8&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_17&Fuzzifier_1.75 - Count: 1
+    Missing Mechanism: MAR-GENERAL
+    Top-10 Best MDH Methods: {'MeMI-': 10, 'ICMMI-': 17, 'ITMMI-': 18, 'IMeMI-': 19, 'TMMI-': 21, 'MMI-': 30, 'IMMI-': 44, 'CMeMI-': 80, 'CTMMI-': 87, 'CMMI-': 103}
+    MDH Methods: (47) ['CMeMI-', 'CMMI-', 'CTMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'ICMMI-', 'IMeMI-', 'MeMI-', 'FIII-', 'ITMMI-', 'FKMI-K_4&Fuzzifier_1.75', 'WKNNII-K_2&DIS_HVDM', 'sKNNII-K_2&DIS_HVDM', 'sWKNNII-K_7&DIS_HVDM', 'FKMI-K_2&Fuzzifier_1.75', 'WKNNII-K_2&DIS_HEOM', 'sWKNNII-K_12&DIS_HEOM', 'KMI-K_10&Fuzzifier_1.0', 'sWKNNI-K_12&DIS_HEOM', 'WKNNII-K_7&DIS_HVDM', 'sKNNII-K_7&DIS_HVDM', 'WKNNI-K_4&DIS_HEOM', 'FKMI-K_3&Fuzzifier_1.5', 'WKNNII-K_3&DIS_HEOM', 'sKNNII-K_1&DIS_HVDM', 'sWKNNII-K_12&DIS_HVDM', 'sWKNNII-K_9&DIS_HVDM', 'sKNNI-K_12&DIS_HVDM', 'FKMI-K_12&Fuzzifier_1.75', 'FKMI-K_12&Fuzzifier_2.0', 'FKMI-K_9&Fuzzifier_2.0', 'MIDASpy-Variation_F', 'ANNI-', 'MICE-Me_RF', 'FKMI-K_6&Fuzzifier_1.5', 'MICE-Me_SAMPLE', 'MICE-Me_CART', 'MISSRANGER-SPLITRULE_T', 'MICE-Me_PMM', 'MISSRANGER-SPLITRULE_F', 'ICTMMI-', 'ICMeMI-', 'MIDASpy-Variation_T', 'FKMI-K_13&Fuzzifier_1.75', 'FKMI-K_13&Fuzzifier_1.5', 'FKMI-K_11&Fuzzifier_2.0']
+        MDH Method: CMeMI- - Count: 80
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 15, 'NRMSE_Median': 15}
+            NRMSE_Median Range: [0.060617, 0.0, 0.852109]
+            Range: [0.0, 0.0, 0.875856]
+        MDH Method: CMMI- - Count: 103
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_MAX': 25, 'NRMSE_Median': 28}
+            NRMSE_Median Range: [0.060617, 0.091902, 0.852109]
+            Range: [0.0, 0.091902, 0.875856]
+        MDH Method: CTMMI- - Count: 87
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_MAX': 17, 'NRMSE_Median': 21}
+            NRMSE_Median Range: [0.060617, 0.0, 0.852109]
+            Range: [0.0, 0.0, 0.875856]
+        MDH Method: IMMI- - Count: 44
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 21, 'NRMSE_MAX': 23}
+            NRMSE_Median Range: [0.043812, 0.284845, 0.538069]
+            Range: [0.043812, 0.284845, 0.871923]
+        MDH Method: MMI- - Count: 30
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 18, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.043812, 0.20269, 0.316387]
+            Range: [0.043812, 0.20269, 0.331152]
+        MDH Method: TMMI- - Count: 21
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 9, 'NRMSE_MAX': 12}
+            NRMSE_Median Range: [0.0443, 0.213783, 0.284967]
+            Range: [0.0443, 0.213783, 0.340873]
+        MDH Method: ICMMI- - Count: 17
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 8, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.099291, 0.276359, 0.330875]
+            Range: [0.02837, 0.276359, 0.347454]
+        MDH Method: IMeMI- - Count: 19
+            MDH Method: IMeMI- - Metrics: {'NRMSE_MAX': 10, 'NRMSE_Median': 6, 'NRMSE_MIN': 3}
+            NRMSE_Median Range: [0.040501, 0.297499, 0.538069]
+            Range: [0.035617, 0.297499, 0.871923]
+        MDH Method: MeMI- - Count: 10
+            MDH Method: MeMI- - Metrics: {'NRMSE_MAX': 3, 'NRMSE_Median': 4, 'NRMSE_MIN': 3}
+            NRMSE_Median Range: [0.040501, 0.147371, 0.280314]
+            Range: [0.035617, 0.147371, 0.394085]
+        MDH Method: FIII- - Count: 3
+        MDH Method: ITMMI- - Count: 18
+            MDH Method: ITMMI- - Metrics: {'NRMSE_Median': 8, 'NRMSE_MAX': 10}
+            NRMSE_Median Range: [0.040501, 0.307212, 0.538069]
+            Range: [0.040501, 0.307212, 0.871923]
+        MDH Method: FKMI-K_4&Fuzzifier_1.75 - Count: 1
+        MDH Method: WKNNII-K_2&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_2&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_7&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_2&Fuzzifier_1.75 - Count: 1
+        MDH Method: WKNNII-K_2&DIS_HEOM - Count: 1
+        MDH Method: sWKNNII-K_12&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_10&Fuzzifier_1.0 - Count: 1
+        MDH Method: sWKNNI-K_12&DIS_HEOM - Count: 1
+        MDH Method: WKNNII-K_7&DIS_HVDM - Count: 1
+        MDH Method: sKNNII-K_7&DIS_HVDM - Count: 1
+        MDH Method: WKNNI-K_4&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_3&Fuzzifier_1.5 - Count: 1
+        MDH Method: WKNNII-K_3&DIS_HEOM - Count: 1
+        MDH Method: sKNNII-K_1&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_12&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_9&DIS_HVDM - Count: 1
+        MDH Method: sKNNI-K_12&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_12&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_12&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_9&Fuzzifier_2.0 - Count: 1
+        MDH Method: MIDASpy-Variation_F - Count: 8
+        MDH Method: ANNI- - Count: 10
+        MDH Method: MICE-Me_RF - Count: 2
+        MDH Method: FKMI-K_6&Fuzzifier_1.5 - Count: 1
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: MICE-Me_CART - Count: 2
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 5
+        MDH Method: MICE-Me_PMM - Count: 3
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 6
+        MDH Method: ICTMMI- - Count: 1
+        MDH Method: ICMeMI- - Count: 3
+        MDH Method: MIDASpy-Variation_T - Count: 6
+        MDH Method: FKMI-K_13&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_1.5 - Count: 1
+        MDH Method: FKMI-K_11&Fuzzifier_2.0 - Count: 1
+    Missing Mechanism: MNAR-GENERAL
+    Top-10 Best MDH Methods: {'ANNI-': 10, 'ITMMI-': 14, 'IMeMI-': 17, 'ICMMI-': 17, 'MMI-': 32, 'TMMI-': 34, 'IMMI-': 48, 'CMeMI-': 85, 'CTMMI-': 89, 'CMMI-': 102}
+    MDH Methods: (41) ['CMeMI-', 'CMMI-', 'CTMMI-', 'ICMMI-', 'IMMI-', 'MMI-', 'TMMI-', 'WKNNII-K_3&DIS_HVDM', 'WKNNII-K_9&DIS_HEOM', 'sKNNII-K_9&DIS_HVDM', 'sWKNNII-K_6&DIS_HVDM', 'FKMI-K_4&Fuzzifier_1.25', 'sWKNNII-K_9&DIS_HEOM', 'KMI-K_9&Fuzzifier_1.0', 'sWKNNII-K_8&DIS_HVDM', 'FKMI-K_1&Fuzzifier_1.25', 'FKMI-K_1&Fuzzifier_1.5', 'sKNNI-K_12&DIS_HVDM', 'FKMI-K_6&Fuzzifier_1.5', 'sWKNNII-K_9&DIS_HVDM', 'WKNNII-K_8&DIS_HEOM', 'FKMI-K_4&Fuzzifier_1.5', 'sKNNII-K_8&DIS_HEOM', 'IMeMI-', 'MeMI-', 'FIII-', 'ITMMI-', 'FKMI-K_18&Fuzzifier_1.75', 'MIDASpy-Variation_F', 'MISSRANGER-SPLITRULE_T', 'ANNI-', 'ICTMMI-', 'MIDASpy-Variation_T', 'MICE-Me_SAMPLE', 'ICMeMI-', 'MISSRANGER-SPLITRULE_F', 'FKMI-K_2&Fuzzifier_1.75', 'FKMI-K_1&Fuzzifier_1.75', 'MICE-Me_PMM', 'FKMI-K_13&Fuzzifier_2.0', 'FKMI-K_19&Fuzzifier_1.5']
+        MDH Method: CMeMI- - Count: 85
+            MDH Method: CMeMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_MAX': 18, 'NRMSE_Median': 18}
+            NRMSE_Median Range: [0.04359, 0.0, 0.840675]
+            Range: [0.0, 0.0, 0.916739]
+        MDH Method: CMMI- - Count: 102
+            MDH Method: CMMI- - Metrics: {'NRMSE_MIN': 50, 'NRMSE_Median': 28, 'NRMSE_MAX': 24}
+            NRMSE_Median Range: [0.046109, 0.109508, 0.840675]
+            Range: [0.0, 0.109508, 0.916739]
+        MDH Method: CTMMI- - Count: 89
+            MDH Method: CTMMI- - Metrics: {'NRMSE_MIN': 49, 'NRMSE_Median': 21, 'NRMSE_MAX': 19}
+            NRMSE_Median Range: [0.061287, 0.0, 0.840675]
+            Range: [0.0, 0.0, 0.916739]
+        MDH Method: ICMMI- - Count: 17
+            MDH Method: ICMMI- - Metrics: {'NRMSE_Median': 10, 'NRMSE_MAX': 6, 'NRMSE_MIN': 1}
+            NRMSE_Median Range: [0.117051, 0.226572, 0.490187]
+            Range: [0.101965, 0.226572, 0.625774]
+        MDH Method: IMMI- - Count: 48
+            MDH Method: IMMI- - Metrics: {'NRMSE_Median': 22, 'NRMSE_MAX': 24, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.040008, 0.279073, 0.31277]
+            Range: [0.040008, 0.279073, 0.900337]
+        MDH Method: MMI- - Count: 32
+            MDH Method: MMI- - Metrics: {'NRMSE_Median': 18, 'NRMSE_MAX': 14}
+            NRMSE_Median Range: [0.040008, 0.269468, 0.31277]
+            Range: [0.040008, 0.269468, 0.412607]
+        MDH Method: TMMI- - Count: 34
+            MDH Method: TMMI- - Metrics: {'NRMSE_Median': 18, 'NRMSE_MAX': 13, 'NRMSE_MIN': 3}
+            NRMSE_Median Range: [0.095082, 0.278622, 0.31277]
+            Range: [0.036611, 0.278622, 0.412607]
+        MDH Method: WKNNII-K_3&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_9&DIS_HEOM - Count: 2
+        MDH Method: sKNNII-K_9&DIS_HVDM - Count: 1
+        MDH Method: sWKNNII-K_6&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_4&Fuzzifier_1.25 - Count: 1
+        MDH Method: sWKNNII-K_9&DIS_HEOM - Count: 1
+        MDH Method: KMI-K_9&Fuzzifier_1.0 - Count: 1
+        MDH Method: sWKNNII-K_8&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.25 - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.5 - Count: 1
+        MDH Method: sKNNI-K_12&DIS_HVDM - Count: 1
+        MDH Method: FKMI-K_6&Fuzzifier_1.5 - Count: 1
+        MDH Method: sWKNNII-K_9&DIS_HVDM - Count: 1
+        MDH Method: WKNNII-K_8&DIS_HEOM - Count: 1
+        MDH Method: FKMI-K_4&Fuzzifier_1.5 - Count: 1
+        MDH Method: sKNNII-K_8&DIS_HEOM - Count: 1
+        MDH Method: IMeMI- - Count: 17
+            MDH Method: IMeMI- - Metrics: {'NRMSE_MAX': 12, 'NRMSE_Median': 3, 'NRMSE_MIN': 2}
+            NRMSE_Median Range: [0.040078, 0.350022, 0.148407]
+            Range: [0.040078, 0.350022, 0.900337]
+        MDH Method: MeMI- - Count: 4
+        MDH Method: FIII- - Count: 2
+        MDH Method: ITMMI- - Count: 14
+            MDH Method: ITMMI- - Metrics: {'NRMSE_MAX': 9, 'NRMSE_MIN': 3, 'NRMSE_Median': 2}
+            NRMSE_Median Range: [0.128951, 0.303399, 0.148202]
+            Range: [0.036605, 0.303399, 0.900337]
+        MDH Method: FKMI-K_18&Fuzzifier_1.75 - Count: 1
+        MDH Method: MIDASpy-Variation_F - Count: 8
+        MDH Method: MISSRANGER-SPLITRULE_T - Count: 4
+        MDH Method: ANNI- - Count: 10
+            MDH Method: ANNI- - Metrics: {'NRMSE_Median': 7, 'NRMSE_MIN': 2, 'NRMSE_MAX': 1}
+            NRMSE_Median Range: [0.036291, 0.119818, 0.516781]
+            Range: [0.018146, 0.119818, 0.817019]
+        MDH Method: ICTMMI- - Count: 3
+        MDH Method: MIDASpy-Variation_T - Count: 2
+        MDH Method: MICE-Me_SAMPLE - Count: 1
+        MDH Method: ICMeMI- - Count: 5
+        MDH Method: MISSRANGER-SPLITRULE_F - Count: 4
+        MDH Method: FKMI-K_2&Fuzzifier_1.75 - Count: 1
+        MDH Method: FKMI-K_1&Fuzzifier_1.75 - Count: 1
+        MDH Method: MICE-Me_PMM - Count: 1
+        MDH Method: FKMI-K_13&Fuzzifier_2.0 - Count: 1
+        MDH Method: FKMI-K_19&Fuzzifier_1.5 - Count: 1
