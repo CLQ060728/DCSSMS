@@ -291,7 +291,7 @@ def test(args):
     linear_classifier = LinearModel(args.embedding_type, in_feature_size, args.num_layers, out_sizes, num_classes,
                                     projection_size=512).to(device)
     best_model_dict = T.load(args.linear_model_dir, map_location=device)
-    linear_classifier.load_state_dict(best_model_dict['linear_classifier_state_dict'])
+    linear_classifier.load_state_dict(best_model_dict['linear_evaluator_state_dict'])
 
     run_test_epoch(test_loader, linear_classifier, metrics_test, device)
     epoch_metrics_dict = metrics_test.compute()
@@ -312,7 +312,7 @@ def save_best_model(args, output_file_name, epoch, linear_classifier, optimizer)
     output_full_path = os.path.join(args.output_dir, output_file_name)
     T.save({
         'epoch': epoch,
-        'linear_classifier_state_dict': linear_classifier.state_dict(),
+        'linear_evaluator_state_dict': linear_classifier.state_dict(),
         'optimizer_state_dict': optimizer.state_dict()
     }, output_full_path)
 
