@@ -274,9 +274,10 @@ def train(args, sampler_name, X_train, y_train, X_test, y_test, num_classes,
 
 
 def test(args):
-    X_test, y_test, num_classes = prepare_real_test_dataset(args.data_dir, args.threshold)
+    X_test, y_test, num_classes = prepare_test_dataset(args.data_dir)
     device = (f'cuda:{args.gpu_id}' if T.cuda.is_available() else 'cpu')
     print(f"Computation device: {device}\n")
+    num_classes = 69
     print(f"num_classes: {num_classes}")
     metrics_test = MetricCollection({"bacc": MulticlassAccuracy(num_classes=num_classes),
                                      "f1": MulticlassF1Score(num_classes=num_classes),
