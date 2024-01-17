@@ -57,7 +57,7 @@ To fine-tune the DCSSMS embedding network according to the linear evaluation pro
   - 2 missRanger (i.e., missRanger with argument splitrule = "extratrees" and without it, default values for all other arguments. https://github.com/mayer79/missRanger). To use missRanger R package in python, at first, install rpy2 python package.
   - 1 Furia-related (Fuzzy Unordered Rule Induction Algorithm) imputation method FIII. To use Furia-related methods, i.e., FIII and Furia-selector for linear evaluation experiments, at first, install openJDK 11, python-javabridge and python-weka-wrapper3. Copy "./FURIA/fuzzyUnorderedRuleInduction.jar" file into "PYTHON_INSTALLATION_PATH/Lib/site-packages/weka/lib/". https://weka.sourceforge.io/doc.packages/fuzzyUnorderedRuleInduction/weka/classifiers/rules/FURIA.html.
   - 1 ANN-related (Artificial Neural Network) imputation method ANNI.
-- 20 Re-balancing Algorithms
+- 20 Re-balancing Algorithms <br/>
   For the 20 class re-balancing algorithms, we adopt the implementations from the imbalanced-learn package, https://imbalanced-learn.org/stable/. We use the default values of the arguments of the 20 re-balancing methods as shown in the imbalanced-learn library.
 
 # Requirements
