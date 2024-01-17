@@ -11,6 +11,7 @@ The structure of the directories:
 	- **"./ExpResults/MDHMS/"**, details about all the MDH method selection experiments.
 	- **"./ExpResults/MDHMS/MSD^raw", we make our self-supervised training dataset, i.e., MSD^raw, publicly accessible. This dataset can also provide insights to select the $442$ investigated MDH methods under different MDH circumstances.**
 - **"./Supplementary_Material/"**, appendixes file including the details about the 56 real-world imbalanced classification datasets.
+- **"./FURIA/"**, the jar file for Furia-related methods, i.e., FIII and Furia-selector.
 
 # DCSSMS Embedding Training
 To train the DCSSMS embedding network, follow the steps as shown below:
