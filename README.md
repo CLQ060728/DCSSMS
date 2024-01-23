@@ -1,6 +1,7 @@
 # Deep Contrastive Self-Supervised Method Selection Framework (DCSSMS) Of Missing Data Handling For Imbalanced Classification Analyses
 The official repository for the Deep Contrastive Self-Supervised missing data handling Method Selection (DCSSMS) framework.
 The structure of the directories:
+
 - **"./DATA/"**, all the dataset files for self-supervised training and linear evaluation training.
 	- **"./DATA/Linear_Evaluation/"**, dataset files for linear evaluation fine-tuning.
 	- **"./DATA/Self-supervised_Training/"**, dataset files for DCSSMS embedding training.
@@ -18,7 +19,9 @@ To train the DCSSMS embedding network, follow the steps as shown below:
 1. clone the DCSSMS GitHub repository.
 1. in CLI, change current path to **"DCSSMS/"**.
 1. use the following python script to start training:<br/>
+````bash
    python ./Framework/MainBYOL.py --gpu_id \[0\] --data_dir "./DATA/Self-supervised_Training/" --init_lr \[0.030280\] --max_lr \[1.287572\] --batch_size \[512\] --num_layers \[3\] --out_sizes \[256 512 1024\] --output_dir \[_"specify your own directory"_\] --use_momentum \[True/False\] \[> _"specify your own log file path"_ 2>&1 &\]
+````
    - "--gpu_id", specify the gpu id.
    - "--data_dir", specify the directory of the embedding training dataset.
    - "--init_lr", specify the initial learning rate for the OneCycle learning rate scheduler.
