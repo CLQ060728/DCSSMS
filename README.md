@@ -62,6 +62,7 @@ To fine-tune the DCSSMS embedding network according to the linear evaluation pro
   For the 20 class re-balancing algorithms, we adopt the implementations from the imbalanced-learn package, https://imbalanced-learn.org/stable/. We use the default values of the arguments of the 20 re-balancing methods as shown in the imbalanced-learn library.
 
 # MDH Method Selection Website For Each Of The 56 Real-world Imbalanced Classification Datasets
+  We are developing a website to facilitate the usage of our DCSSMS method selection framework, in which, we utilize our pre-trained embedding network to generate method selection embeddings. We adopt cosine similarity to compare the embedding of query method selection example with the embeddings of the learned method selection instances to recommend the reasonable MDH methods for the querying MDH scenarios (i.e., MDH under specified imbalanced classification analysis).
   Coming Soon ...
 
 # Requirements
