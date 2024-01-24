@@ -1,24 +1,43 @@
 # Deep Contrastive Self-Supervised Method Selection Framework (DCSSMS) Of Missing Data Handling For Imbalanced Classification Analyses
 The official repository for the Deep Contrastive Self-Supervised missing data handling Method Selection (DCSSMS) framework.
 The structure of the directories:
-- **"./DATA/"**, all the dataset files for self-supervised training and linear evaluation training.
-	- **"./DATA/Linear_Evaluation/"**, dataset files for linear evaluation fine-tuning.
-	- **"./DATA/Self-supervised_Training/"**, dataset files for DCSSMS embedding training.
-- **"./Framework/"**, all the source code files for the DCSSMS framework training and fine-tuning.
-- **"./Embedding/"**, the best pre-trained DCSSMS embedding network.
-- **"./ExpResults/"**, more experimental results
-    - **"./ExpResults/Linear_Evaluation_Ablation/"**, details about all the linear evaluation experiments, including ablation studies.
-	- **"./ExpResults/MDHMS/"**, details about all the MDH method selection experiments.
+````bash
+.
+├── DATA				----> all the dataset files for self-supervised training and linear evaluation training.
+│   ├── Linear_Evaluation 		----> dataset files for linear evaluation fine-tuning.
+│   └── Self-supervised_Training	----> dataset files for DCSSMS embedding training.
+│       └── README.md
+├── Embedding				----> the best pre-trained DCSSMS embedding network.
+│   └── README.md
+├── ExpResults				----> more experimental results
+│   ├── Linear_Evaluation_Ablation	----> details about all the linear evaluation experiments, including ablation studies.
+│   └── MDHMS				----> details about all the MDH method selection experiments.
+├── FURIA				----> the jar file for Furia-related methods, i.e., FIII and Furia-selector.
+├── Framework					---->  all the source code files for the DCSSMS framework training and fine-tuning.
+├── LICENSE
+├── README.md
+└── Supplementary_Material	----> appendixes file including details about the 56 real-world imbalanced classification datasets.
+    └── Appendix.pdf
+````
+- ! Missing **"./ExpResults/"**, more experimental results
 	- **"./ExpResults/MDHMS/MSD^raw", we make our self-supervised training dataset, i.e., MSD^raw, publicly accessible. This dataset can also provide insights to select the $442$ investigated MDH methods under different imbalanced classification circumstances.**
-- **"./Supplementary_Material/"**, appendixes file including details about the 56 real-world imbalanced classification datasets.
-- **"./FURIA/"**, the jar file for Furia-related methods, i.e., FIII and Furia-selector.
 
 # DCSSMS Embedding Training
 To train the DCSSMS embedding network, follow the steps as shown below:
 1. clone the DCSSMS GitHub repository.
 1. in CLI, change current path to **"DCSSMS/"**.
 1. use the following python script to start training:<br/>
-   python ./Framework/MainBYOL.py --gpu_id \[0\] --data_dir "./DATA/Self-supervised_Training/" --init_lr \[0.030280\] --max_lr \[1.287572\] --batch_size \[512\] --num_layers \[3\] --out_sizes \[256 512 1024\] --output_dir \[_"specify your own directory"_\] --use_momentum \[True/False\] \[> _"specify your own log file path"_ 2>&1 &\]
+```bash
+ python ./Framework/MainBYOL.py  --gpu_id \[0\] \\
+				 --data_dir "./DATA/Self-supervised_Training/" \\
+				 --init_lr \[0.030280\]	\\
+				 --max_lr \[1.287572\]	\\
+				 --batch_size \[512\]	\\
+				 --num_layers \[3\]	\\
+				 --out_sizes \[256 512 1024\] \\
+				 --output_dir \[_"specify your own directory"_\] \\
+				 --use_momentum \[True/False\] \[> _"specify your own log file path"_ 2>&1 &\]
+```
    - "--gpu_id", specify the gpu id.
    - "--data_dir", specify the directory of the embedding training dataset.
    - "--init_lr", specify the initial learning rate for the OneCycle learning rate scheduler.
@@ -66,19 +85,4 @@ To fine-tune the DCSSMS embedding network according to the linear evaluation pro
   Coming Soon ...
 
 # Requirements
-   - python >= 3.10
-   - pytorch >= 2.0
-   - scikit-learn >= 1.3.1
-   - imbalanced-learn >= 0.11
-   - torchmetrics >= 1.0.3
-   - pandas >= 2.1.1
-   - numpy >= 1.26.0
-   - scipy >= 1.11.3
-   - matplotlib >= 3.7.1
-   - tqdm >= 4.65.0
-   - rpy2 >= 3.5.15
-   - mice R package >= 3.16.0
-   - MIDASpy >= 1.3.1
-   - openJDK 11
-   - python-javabridge >= 4.0.3
-   - python-weka-wrapper3 >= 0.2.14
+```$ pip install -r requirements.txt```
